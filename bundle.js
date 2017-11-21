@@ -527,6 +527,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__blocks_standard_button_big_standard_button_big_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__blocks_standard_button_big_standard_button_big_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blocks_standard_button_small_standard_button_small_styl__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blocks_standard_button_small_standard_button_small_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__blocks_standard_button_small_standard_button_small_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_css_ripple_effect_dist_ripple_min_css__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_css_ripple_effect_dist_ripple_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__node_modules_css_ripple_effect_dist_ripple_min_css__);
+
 
 
 
@@ -570,7 +573,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".standard-button-big {\n  padding: 0;\n  width: 118px;\n  height: 32px;\n  border-radius: 3px;\n  font-size: 12px;\n  background-color: #fff;\n  text-transform: uppercase;\n}\n.standard-button-big_red {\n  color: #e34a26;\n  box-shadow: 0 3px 0 0 #e75735;\n  border: 1px solid #e75735;\n}\n.standard-button-big_blue {\n  color: #44ae9f;\n  box-shadow: 0 3px 0 0 #4eb7a8;\n  border: 1px solid #4eb7a8;\n}\n.standard-button-big:hover {\n  border: none;\n  color: #fff;\n}\n.standard-button-big_red:hover {\n  background-color: #e75735;\n  box-shadow: 0 3px 0 0 #bf3e1f;\n}\n.standard-button-big_blue:hover {\n  background-color: #4eb7a8;\n  box-shadow: 0 3px 0 0 #28a290;\n}\n", ""]);
+exports.push([module.i, ".standard-button-big {\n  outline: none;\n  padding: 0;\n  width: 118px;\n  height: 32px;\n  border-radius: 3px;\n  font-size: 12px;\n  background-color: #fff;\n  text-transform: uppercase;\n}\n.standard-button-big_red {\n  color: #e34a26;\n  box-shadow: 0 3px 0 0 #e75735;\n  border: 1px solid #e75735;\n}\n.standard-button-big_blue {\n  color: #44ae9f;\n  box-shadow: 0 3px 0 0 #4eb7a8;\n  border: 1px solid #4eb7a8;\n}\n.standard-button-big:hover,\n.standard-button-big:active {\n  border: none;\n  color: #fff;\n}\n.standard-button-big_red:hover {\n  background-color: #e75735;\n  box-shadow: 0 3px 0 0 #bf3e1f;\n}\n.standard-button-big_blue:hover {\n  background-color: #4eb7a8;\n  box-shadow: 0 3px 0 0 #28a290;\n}\n.standard-button-big_red:active {\n  transform: translateY(3px);\n  background-color: #e75735;\n  box-shadow: none;\n}\n.standard-button-big_blue:active {\n  transform: translateY(3px);\n  background-color: #4eb7a8;\n  box-shadow: none;\n}\n", ""]);
 
 // exports
 
@@ -710,7 +713,52 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".standard-button-small {\n  padding: 0;\n  width: 78px;\n  height: 22px;\n  border-radius: 3px;\n  font-size: 10px;\n  background-color: #fff;\n  text-transform: uppercase;\n}\n.standard-button-small_red {\n  color: #e34a26;\n  box-shadow: 0 2px 0 0 #e75735;\n  border: 1px solid #e75735;\n}\n.standard-button-small_blue {\n  color: #44ae9f;\n  box-shadow: 0 2px 0 0 #4eb7a8;\n  border: 1px solid #4eb7a8;\n}\n.standard-button-small:hover {\n  border: none;\n  color: #fff;\n}\n.standard-button-small_red:hover {\n  background-color: #e75735;\n  box-shadow: 0 2px 0 0 #bf3e1f;\n}\n.standard-button-small_blue:hover {\n  background-color: #4eb7a8;\n  box-shadow: 0 2px 0 0 #28a290;\n}\n", ""]);
+exports.push([module.i, ".standard-button-small {\n  outline: none;\n  padding: 0;\n  width: 78px;\n  height: 22px;\n  border-radius: 3px;\n  font-size: 10px;\n  background-color: #fff;\n  text-transform: uppercase;\n}\n.standard-button-small_red {\n  color: #e34a26;\n  box-shadow: 0 2px 0 0 #e75735;\n  border: 1px solid #e75735;\n}\n.standard-button-small_blue {\n  color: #44ae9f;\n  box-shadow: 0 2px 0 0 #4eb7a8;\n  border: 1px solid #4eb7a8;\n}\n.standard-button-small:hover,\n.standard-button-small:active {\n  border: none;\n  color: #fff;\n}\n.standard-button-small_red:hover {\n  background-color: #e75735;\n  box-shadow: 0 2px 0 0 #bf3e1f;\n}\n.standard-button-small_blue:hover {\n  background-color: #4eb7a8;\n  box-shadow: 0 2px 0 0 #28a290;\n}\n.standard-button-small_red:active {\n  transform: translateY(2px);\n  background-color: #e75735;\n  box-shadow: none;\n}\n.standard-button-small_blue:active {\n  transform: translateY(2px);\n  background-color: #4eb7a8;\n  box-shadow: none;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(9);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../css-loader/index.js!./ripple.min.css", function() {
+			var newContent = require("!!../../css-loader/index.js!./ripple.min.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".ripple{position:relative;overflow:hidden}.ripple:after{content:\"\";display:block;position:absolute;width:100%;height:100%;top:0;left:0;pointer-events:none;background-image:radial-gradient(circle,#000 10%,transparent 10.01%);background-repeat:no-repeat;background-position:50%;transform:scale(10,10);opacity:0;transition:transform .5s,opacity 1s}.ripple:active:after{transform:scale(0,0);opacity:.2;transition:0s}", ""]);
 
 // exports
 
