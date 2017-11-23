@@ -202,7 +202,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(5);
+var	fixUrls = __webpack_require__(9);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -523,16 +523,25 @@ function updateLink (link, options, obj) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__blocks_main_container_main_container_styl__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__blocks_main_container_main_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__blocks_main_container_main_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blocks_standard_buttons_standard_buttons_styl__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blocks_standard_buttons_standard_buttons_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__blocks_standard_buttons_standard_buttons_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blocks_standard_button_big_standard_button_big_styl__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blocks_standard_button_big_standard_button_big_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__blocks_standard_button_big_standard_button_big_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blocks_standard_button_small_standard_button_small_styl__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blocks_standard_button_small_standard_button_small_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__blocks_standard_button_small_standard_button_small_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__node_modules_css_ripple_effect_dist_ripple_min_css__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__node_modules_css_ripple_effect_dist_ripple_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__node_modules_css_ripple_effect_dist_ripple_min_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_Lato_Black_fonts_css__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_Lato_Black_fonts_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__fonts_Lato_Black_fonts_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blocks_main_container_main_container_styl__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blocks_main_container_main_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__blocks_main_container_main_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blocks_standard_buttons_standard_buttons_styl__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blocks_standard_buttons_standard_buttons_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__blocks_standard_buttons_standard_buttons_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blocks_standard_button_big_standard_button_big_styl__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__blocks_standard_button_big_standard_button_big_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__blocks_standard_button_big_standard_button_big_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__blocks_standard_button_small_standard_button_small_styl__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__blocks_standard_button_small_standard_button_small_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__blocks_standard_button_small_standard_button_small_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__blocks_arrow_button_arrow_button_styl__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__blocks_arrow_button_arrow_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__blocks_arrow_button_arrow_button_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__blocks_arrow_buttons_arrow_buttons_styl__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__blocks_arrow_buttons_arrow_buttons_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__blocks_arrow_buttons_arrow_buttons_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__node_modules_css_ripple_effect_dist_ripple_min_css__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__node_modules_css_ripple_effect_dist_ripple_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__node_modules_css_ripple_effect_dist_ripple_min_css__);
+
+
+
 
 
 
@@ -560,8 +569,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./main-container.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./main-container.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!./fonts.css", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!./fonts.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -579,13 +588,37 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".main-container {\n  width: 594px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.main-container__title {\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n}\n", ""]);
+exports.push([module.i, "/** Generated by FG **/\n@font-face {\n\tfont-family: 'Conv_Lato-Black';\n\tsrc: url(" + __webpack_require__(5) + ");\n\tsrc: local('\\263A'), url(" + __webpack_require__(6) + ") format('woff'), url(" + __webpack_require__(7) + ") format('truetype'), url(" + __webpack_require__(8) + ") format('svg');\n\tfont-weight: normal;\n\tfont-style: normal;\n}\n\n", ""]);
 
 // exports
 
 
 /***/ }),
 /* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/Lato-Black.eot";
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/Lato-Black.woff";
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/Lato-Black.ttf";
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fonts/Lato-Black.svg";
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports) {
 
 
@@ -680,96 +713,6 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(7);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-buttons.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-buttons.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".standard-buttons {\n  width: 465px;\n  margin-left: 65px;\n  margin-right: 64px;\n}\n.standard-buttons__row {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  margin-bottom: 20px;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(9);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-button-big.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-button-big.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".standard-button-big {\n  outline: none;\n  padding: 0;\n  width: 118px;\n  height: 32px;\n  border-radius: 3px;\n  font-size: 12px;\n  background-color: #fff;\n  text-transform: uppercase;\n}\n.standard-button-big_red {\n  color: #e34a26;\n  box-shadow: 0 3px 0 0 #e75735;\n  border: 1px solid #e75735;\n}\n.standard-button-big_blue {\n  color: #44ae9f;\n  box-shadow: 0 3px 0 0 #4eb7a8;\n  border: 1px solid #4eb7a8;\n}\n.standard-button-big:hover,\n.standard-button-big:active {\n  border: none;\n  color: #fff;\n  cursor: pointer;\n}\n.standard-button-big_red:hover {\n  background-color: #e75735;\n  box-shadow: 0 3px 0 0 #bf3e1f;\n}\n.standard-button-big_blue:hover {\n  background-color: #4eb7a8;\n  box-shadow: 0 3px 0 0 #28a290;\n}\n.standard-button-big_red:active {\n  transform: translateY(3px);\n  background-color: #e75735;\n  box-shadow: none;\n}\n.standard-button-big_blue:active {\n  transform: translateY(3px);\n  background-color: #4eb7a8;\n  box-shadow: none;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -790,8 +733,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-button-small.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-button-small.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./main-container.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./main-container.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -809,7 +752,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".standard-button-small {\n  outline: none;\n  padding: 0;\n  width: 78px;\n  height: 22px;\n  border-radius: 3px;\n  font-size: 10px;\n  background-color: #fff;\n  text-transform: uppercase;\n}\n.standard-button-small_red {\n  color: #e34a26;\n  box-shadow: 0 2px 0 0 #e75735;\n  border: 1px solid #e75735;\n}\n.standard-button-small_blue {\n  color: #44ae9f;\n  box-shadow: 0 2px 0 0 #4eb7a8;\n  border: 1px solid #4eb7a8;\n}\n.standard-button-small:hover,\n.standard-button-small:active {\n  border: none;\n  color: #fff;\n  cursor: pointer;\n}\n.standard-button-small_red:hover {\n  background-color: #e75735;\n  box-shadow: 0 2px 0 0 #bf3e1f;\n}\n.standard-button-small_blue:hover {\n  background-color: #4eb7a8;\n  box-shadow: 0 2px 0 0 #28a290;\n}\n.standard-button-small_red:active {\n  transform: translateY(2px);\n  background-color: #e75735;\n  box-shadow: none;\n}\n.standard-button-small_blue:active {\n  transform: translateY(2px);\n  background-color: #4eb7a8;\n  box-shadow: none;\n}\n", ""]);
+exports.push([module.i, ".main-container {\n  width: 594px;\n  margin-left: 46px;\n  padding-top: 58px;\n}\n.main-container__title {\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Conv_Lato-Black\";\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n", ""]);
 
 // exports
 
@@ -835,6 +778,231 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-buttons.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-buttons.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".standard-buttons {\n  width: 465px;\n  margin-left: 65px;\n  margin-right: 64px;\n}\n.standard-buttons__title {\n  margin-bottom: 20px;\n}\n.standard-buttons__row {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  margin-bottom: 20px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(15);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-button-big.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-button-big.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".standard-button-big {\n  outline: none;\n  padding: 0;\n  width: 118px;\n  height: 32px;\n  border-radius: 3px;\n  font-size: 12px;\n  background-color: #fff;\n  text-transform: uppercase;\n  font-family: \"Conv_Lato-Black\";\n  letter-spacing: 0.5px;\n}\n.standard-button-big_red {\n  color: #e34a26;\n  box-shadow: 0 3px 0 0 #e75735;\n  border: 1px solid #e75735;\n}\n.standard-button-big_blue {\n  color: #44ae9f;\n  box-shadow: 0 3px 0 0 #4eb7a8;\n  border: 1px solid #4eb7a8;\n}\n.standard-button-big:hover,\n.standard-button-big:active {\n  border: none;\n  color: #fff;\n  cursor: pointer;\n}\n.standard-button-big_red:hover {\n  background-color: #e75735;\n  box-shadow: 0 3px 0 0 #bf3e1f;\n}\n.standard-button-big_blue:hover {\n  background-color: #4eb7a8;\n  box-shadow: 0 3px 0 0 #28a290;\n}\n.standard-button-big_red:active {\n  transform: translateY(3px);\n  background-color: #e75735;\n  box-shadow: none;\n}\n.standard-button-big_blue:active {\n  transform: translateY(3px);\n  background-color: #4eb7a8;\n  box-shadow: none;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(17);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-button-small.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-button-small.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".standard-button-small {\n  outline: none;\n  padding: 0;\n  width: 78px;\n  height: 22px;\n  border-radius: 3px;\n  font-size: 10px;\n  background-color: #fff;\n  text-transform: uppercase;\n  font-family: \"Conv_Lato-Black\";\n  letter-spacing: 0.5px;\n}\n.standard-button-small_red {\n  color: #e34a26;\n  box-shadow: 0 2px 0 0 #e75735;\n  border: 1px solid #e75735;\n}\n.standard-button-small_blue {\n  color: #44ae9f;\n  box-shadow: 0 2px 0 0 #4eb7a8;\n  border: 1px solid #4eb7a8;\n}\n.standard-button-small:hover,\n.standard-button-small:active {\n  border: none;\n  color: #fff;\n  cursor: pointer;\n}\n.standard-button-small_red:hover {\n  background-color: #e75735;\n  box-shadow: 0 2px 0 0 #bf3e1f;\n}\n.standard-button-small_blue:hover {\n  background-color: #4eb7a8;\n  box-shadow: 0 2px 0 0 #28a290;\n}\n.standard-button-small_red:active {\n  transform: translateY(2px);\n  background-color: #e75735;\n  box-shadow: none;\n}\n.standard-button-small_blue:active {\n  transform: translateY(2px);\n  background-color: #4eb7a8;\n  box-shadow: none;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(19);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-button.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-button.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".arrow-button {\n  outline: none;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 3px solid #4eb7a8;\n  background-color: #fff;\n}\n.arrow-button::after {\n  content: \"\";\n  display: inline-block;\n  position: relative;\n  top: 2px;\n  width: 13px;\n  height: 13px;\n  border-top: 4px solid #4eb7a8;\n  border-right: 4px solid #4eb7a8;\n}\n.arrow-button_right::after {\n  transform: rotate(45deg);\n  right: 4px;\n}\n.arrow-button_left::after {\n  transform: rotate(-135deg);\n  left: 2px;\n}\n.arrow-button:hover {\n  background-color: #4eb7a8;\n}\n.arrow-button:hover::after {\n  border-color: #fff;\n  background-color: #4eb7a8;\n}\n.arrow-button:disabled {\n  background-color: #e5e5e5;\n}\n.arrow-button:disabled::after {\n  border-color: #fff;\n  background-color: #e5e5e5;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(21);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-buttons.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-buttons.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".arrow-buttons {\n  margin-left: 85px;\n  margin-right: 88px;\n  width: 420px;\n}\n.arrow-buttons__content {\n  display: flex;\n  justify-content: space-between;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(23);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
 		module.hot.accept("!!../../css-loader/index.js!./ripple.min.css", function() {
 			var newContent = require("!!../../css-loader/index.js!./ripple.min.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
@@ -846,7 +1014,7 @@ if(false) {
 }
 
 /***/ }),
-/* 13 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
