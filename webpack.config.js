@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -52,7 +53,10 @@ module.exports = {
             }
         ]
     },
-    plugins: [        
+    plugins: [
+        new webpack.ProvidePlugin ({
+            $: 'jquery'
+        }),       
         new HtmlWebpackPlugin({
             template: 'src/blocks/index.pug'
         })
