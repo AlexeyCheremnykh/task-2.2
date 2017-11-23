@@ -1,3 +1,2 @@
-mixin standard_button_small()
-    button.standard-button-small.ripple.standard-button-small_red button
-    button.standard-button-small.ripple.standard-button-small_blue button
+mixin standard_button_small(color, content)
+    button(class = "standard-button-small ripple standard-button-small_" + color) #{content}   
