@@ -5,18 +5,9 @@ include ../standard-button-small/standard-button-small.pug
     //это легально? (h2)
     h2.standard-buttons__title.main-container__title Standard buttons
     .standard-buttons__content
-        .standard-buttons__row
-            +standard_button_small("blue", "button")
-            +standard_button_big("blue", "button") 
-            +standard_button_big("red", "button") 
-            +standard_button_small("red", "button")
-        .standard-buttons__row
-            +standard_button_small("blue", "button")
-            +standard_button_big("blue", "button") 
-            +standard_button_big("red", "button") 
-            +standard_button_small("red", "button")
-        .standard-buttons__row
-            +standard_button_small("blue", "button")
-            +standard_button_big("blue", "button") 
-            +standard_button_big("red", "button") 
-            +standard_button_small("red", "button")
+        - for(i = 0; i < 3; i++)
+            .standard-buttons__row
+                +standard_button_small("blue", "button")
+                +standard_button_big("blue", "button") 
+                +standard_button_big("red", "button") 
+                +standard_button_small("red", "button")

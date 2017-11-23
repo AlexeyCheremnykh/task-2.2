@@ -1,0 +1,8 @@
+include ../arrow-button/arrow-button.pug
+
+.arrow-buttons
+    h2.arrow-buttons__title.main-container__title Arrow buttons
+    .arrow-buttons__content
+        - for (i = 0; i < 3; i++)
+            +arrow_button("left")
+            +arrow_button("right")
