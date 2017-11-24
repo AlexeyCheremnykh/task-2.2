@@ -2,8 +2,10 @@ include ../percentage/percentage.pug
 include ../pie-chart/pie-chart.pug
 
 .percentages-pie-chart
-    +percentage(0)
-    +percentage(38)
-    +percentage(62)
-    +percentage(89)
-    +pie_chart()
+    h2.percentages-pie-chart__title.main-container__title Percentages / Pie Chart
+    .percentages-pie-chart__content
+        +percentage(0)
+        +percentage(38)
+        +percentage(62)
+        +percentage(89)
+        +pie_chart()
