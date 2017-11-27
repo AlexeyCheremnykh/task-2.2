@@ -10,7 +10,6 @@ import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css
 import "../node_modules/css-ripple-effect/dist/ripple.min.css";
 import "jquery-circle-progress";
 
-
 import "./blocks/main-container/main-container.styl";
 import "./blocks/standard-buttons/standard-buttons.styl";
 import "./blocks/standard-button/standard-button.styl";
@@ -26,3 +25,5 @@ import "./blocks/slider/slider.styl";
 import "./blocks/slider/slider.js";
 import "./blocks/stages/stages.styl";
 import "./blocks/stages/stages.js"
+import "./blocks/toggle/toggle.styl"
+import "./blocks/toggle/toggle.js"

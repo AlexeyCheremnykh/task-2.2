@@ -1,0 +1,46 @@
+.toggle
+    position: relative
+    width: 59px
+    height: 24px        
+    border-radius: 12px
+
+    &::after
+        position: absolute
+        content: ""
+        display: block
+        width: 18px
+        height: 18px
+        border-radius: 50%
+        background-color: #ffffff            
+        
+    &::before
+        position: absolute            
+        display: block
+        color: #ffffff
+        font-family: "Conv_Lato-Black"
+        font-size: 12px
+        
+    &-off
+        background-color: #e5e5e5
+            
+        &::after
+            top: 3px
+            left: 3px
+            
+        &::before
+            content: "OFF"
+            left: 26px
+            top: 4px
+        
+    &-on
+        background-color: #4eb7a8
+            
+        &::after
+            top: 3px
+            right: 3px
+            
+        &::before
+            content: "ON"
+            right: 29px
+            top: 4px
+

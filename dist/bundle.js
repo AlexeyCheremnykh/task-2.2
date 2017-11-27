@@ -28023,6 +28023,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_stages_stages_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__blocks_stages_stages_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_stages_stages_js__ = __webpack_require__(231);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_stages_stages_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24__blocks_stages_stages_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_toggle_toggle_styl__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_toggle_toggle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_25__blocks_toggle_toggle_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_js__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_js__);
+
 
 
 
@@ -42589,7 +42594,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  background-color: #e5e5e5;\n  border: none !important;\n  width: 260px;\n  border-radius: 3px;\n}\n.slider__handle.ui-slider-handle {\n  outline: none;\n  border: none;\n  top: -7px;\n  width: 19px;\n  height: 19px;\n  border-radius: 50%;\n}\n.slider_type-a .slider__handle.ui-slider-handle {\n  background-color: #e75735;\n}\n.slider_type-a .ui-slider-tip {\n  visibility: visible;\n  opacity: 1;\n  top: -32px;\n  left: 9px;\n  width: 35px;\n  height: 24px;\n  background-color: #e75735;\n  border-radius: 5px;\n  border: none;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 13px;\n  color: #fff;\n  text-align: center;\n  line-height: 24px;\n}\n.slider_type-a .ui-slider-tip:after {\n  content: \"\";\n  display: block;\n  width: 0;\n  height: 0;\n  top: 24px;\n  left: 18px;\n  border-style: solid;\n  border-width: 4px 5px 0 5px;\n  border-color: #e75735 transparent transparent transparent;\n}\n.slider_type-a .ui-slider-tip:before {\n  border: none;\n}\n.slider_type-a .slider__handle:hover .ui-slider-tip,\n.slider_type-a .slider__handle:focus .ui-slider-tip {\n  top: -32px;\n}\n.slider_type-b .slider__handle.ui-slider-handle {\n  background-color: #4eb7a8;\n}\n.slider_type-b .ui-slider-line {\n  display: none;\n}\n.slider_type-b .ui-slider-pip {\n  font-size: 11px;\n  color: #d1d1d1;\n  font-family: \"Conv_Lato-Black\";\n}\n", ""]);
+exports.push([module.i, ".slider {\n  position: relative;\n  height: 4px;\n  background-color: #e5e5e5;\n  border: none !important;\n  width: 260px;\n  border-radius: 3px;\n}\n.slider__handle.ui-slider-handle {\n  outline: none;\n  border: none;\n  top: -7px;\n  width: 19px;\n  height: 19px;\n  border-radius: 50%;\n}\n.slider_type-a .slider__handle.ui-slider-handle {\n  background-color: #e75735;\n}\n.slider_type-a .ui-slider-tip {\n  visibility: visible;\n  opacity: 1;\n  top: -32px;\n  left: 9px;\n  width: 35px;\n  height: 24px;\n  background-color: #e75735;\n  border-radius: 5px;\n  border: none;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 13px;\n  color: #fff;\n  text-align: center;\n  line-height: 24px;\n}\n.slider_type-a .ui-slider-tip:after {\n  content: \"\";\n  display: block;\n  width: 0;\n  height: 0;\n  top: 24px;\n  left: 18px;\n  border-style: solid;\n  border-width: 4px 5px 0 5px;\n  border-color: #e75735 transparent transparent transparent;\n}\n.slider_type-a .ui-slider-tip:before {\n  border: none;\n}\n.slider_type-a .slider__handle:hover .ui-slider-tip,\n.slider_type-a .slider__handle:focus .ui-slider-tip {\n  top: -32px;\n}\n.slider_type-b .slider__handle.ui-slider-handle {\n  background-color: #4eb7a8;\n}\n.slider_type-b .ui-slider-line {\n  display: none;\n}\n.slider_type-b .ui-slider-pip {\n  font-size: 11px;\n  color: #d1d1d1;\n  font-family: \"Conv_Lato-Black\";\n}\n", ""]);
 
 // exports
 
@@ -42663,7 +42668,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".stages {\n  clear: both;\n  width: 570px;\n  height: 5px;\n  border: none !important;\n  background-color: #e5e5e5;\n/*.ui-slider-pip \n        background: red\n        width: 12px\n        height: 12px*/\n}\n.stages .ui-slider-handle {\n  height: 29px;\n  width: 29px;\n  border: none;\n  outline: none;\n  border-radius: 50%;\n  background-color: #e75735;\n  top: -13px;\n}\n", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -42673,21 +42678,73 @@ exports.push([module.i, ".stages {\n  clear: both;\n  width: 570px;\n  height: 5
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
-    $(".stages").slider({
-        range: "min",
-        min: 1,
-        max: 5,        
-        create: function () {
-            $(".stages__handle").text($(this).slider("value"));
-        },
-        slide: function (event, ui) {
-            $(".stages__handle").text(ui.value);
-            ui.handle.offsetLeft = ui.handle.offsetLeft - 100;
-            $(".ui-slider-range", this).css("background", "#e75735");            
-        }
-    })
-    .slider("pips");
+    $(".stages").smartWizard({
+        //
+    });
 });
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6)))
+
+/***/ }),
+/* 232 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(233);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(4)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./toggle.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./toggle.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 233 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".toggle {\n  position: relative;\n  width: 59px;\n  height: 24px;\n  border-radius: 12px;\n}\n.toggle::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 18px;\n  height: 18px;\n  border-radius: 50%;\n  background-color: #fff;\n}\n.toggle::before {\n  position: absolute;\n  display: block;\n  color: #fff;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 12px;\n}\n.toggle-off {\n  background-color: #e5e5e5;\n}\n.toggle-off::after {\n  top: 3px;\n  left: 3px;\n}\n.toggle-off::before {\n  content: \"OFF\";\n  left: 26px;\n  top: 4px;\n}\n.toggle-on {\n  background-color: #4eb7a8;\n}\n.toggle-on::after {\n  top: 3px;\n  right: 3px;\n}\n.toggle-on::before {\n  content: \"ON\";\n  right: 29px;\n  top: 4px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 234 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function(){
+    $(".toggle").click(function() {
+        if ($(this).hasClass("toggle-on")) {            
+            $(this).addClass("toggle-off").removeClass("toggle-on");
+            return
+        }
+        if ($(this).hasClass("toggle-off")) {           
+            $(this).addClass("toggle-on").removeClass("toggle-off");
+            return
+        }        
+    })
+})
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6)))
 
 /***/ })
