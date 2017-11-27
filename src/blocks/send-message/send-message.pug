@@ -1,0 +1,7 @@
+include ../standard-button/standard-button.pug
+mixin send_message()
+    form.send-message
+        input(type="text" name="name" placeholder="Your Name" class="send-message__input send-message__name" required)
+        input(type="email" name="email" placeholder="Your Email" class="send-message__input send-message__email" required)
+        textarea(placeholder="Your Message" class="send-message__input send-message__message")
+        +standard_button("big", "blue", "submit")

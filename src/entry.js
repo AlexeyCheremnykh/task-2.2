@@ -1,5 +1,6 @@
 import "./fonts/Lato Black/fonts.css";
 import "./fonts/Lato Light/fonts.css";
+import "../node_modules/source-sans-pro/source-sans-pro.css";
 
 import "jquery";
 import "chart.js";
@@ -29,3 +30,5 @@ import "./blocks/toggle/toggle.styl";
 import "./blocks/toggle/toggle.js";
 import "./blocks/tick-box/tick-box.styl";
 import "./blocks/tick-box/tick-box.js";
+import "./blocks/form-elements/form-elements.styl";
+import "./blocks/send-message/send-message.styl";

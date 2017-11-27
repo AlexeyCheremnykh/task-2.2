@@ -1,0 +1,12 @@
+include ../send-message/send-message.pug
+
+.form-elements 
+    h2.form-elements__title.main-container__title Form Elements
+    .form-elements__content
+        .send-message-container
+            +send_message()
+        .toggles-tick-boxes-container
+            include ../toggles-container/toggles-container.pug
+            include ../tick-box-container/tick-box-container.pug
+            
+    
