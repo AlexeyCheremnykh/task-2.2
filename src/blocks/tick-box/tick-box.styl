@@ -1,0 +1,34 @@
+.tick-box
+    position: relative
+    width: 23px
+    height: 23px        
+    border-radius: 50%
+
+    &::after
+        position: absolute
+        content: ""
+        display: block
+        width: 9px
+        height: 4px
+        transform: rotate(-45deg)    
+        
+    &_unchecked
+        background-color: #e5e5e5
+            
+        &::after
+            top: 7px
+            right: 6px
+            border-left: 2px solid #cecece
+            border-bottom: 2px solid #cecece
+
+    &_checked
+        background-color: #4eb7a8
+            
+        &::after
+            top: 7px
+            right: 6px
+            border-left: 2px solid #ffffff
+            border-bottom: 2px solid #ffffff
+            
+        
+

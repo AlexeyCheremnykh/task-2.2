@@ -24,6 +24,8 @@ import "./blocks/sliders/sliders.styl";
 import "./blocks/slider/slider.styl";
 import "./blocks/slider/slider.js";
 import "./blocks/stages/stages.styl";
-import "./blocks/stages/stages.js"
-import "./blocks/toggle/toggle.styl"
-import "./blocks/toggle/toggle.js"
+import "./blocks/stages/stages.js";
+import "./blocks/toggle/toggle.styl";
+import "./blocks/toggle/toggle.js";
+import "./blocks/tick-box/tick-box.styl";
+import "./blocks/tick-box/tick-box.js";

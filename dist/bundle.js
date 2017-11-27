@@ -28027,6 +28027,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_toggle_toggle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_25__blocks_toggle_toggle_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_js__ = __webpack_require__(234);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_tick_box_tick_box_styl__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_tick_box_tick_box_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_27__blocks_tick_box_tick_box_styl__);
+
 
 
 
@@ -42724,7 +42727,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".toggle {\n  position: relative;\n  width: 59px;\n  height: 24px;\n  border-radius: 12px;\n}\n.toggle::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 18px;\n  height: 18px;\n  border-radius: 50%;\n  background-color: #fff;\n}\n.toggle::before {\n  position: absolute;\n  display: block;\n  color: #fff;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 12px;\n}\n.toggle-off {\n  background-color: #e5e5e5;\n}\n.toggle-off::after {\n  top: 3px;\n  left: 3px;\n}\n.toggle-off::before {\n  content: \"OFF\";\n  left: 26px;\n  top: 4px;\n}\n.toggle-on {\n  background-color: #4eb7a8;\n}\n.toggle-on::after {\n  top: 3px;\n  right: 3px;\n}\n.toggle-on::before {\n  content: \"ON\";\n  right: 29px;\n  top: 4px;\n}\n", ""]);
+exports.push([module.i, ".toggle {\n  position: relative;\n  width: 59px;\n  height: 24px;\n  border-radius: 12px;\n}\n.toggle::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 18px;\n  height: 18px;\n  border-radius: 50%;\n  background-color: #fff;\n}\n.toggle::before {\n  position: absolute;\n  display: block;\n  color: #fff;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 12px;\n}\n.toggle_off {\n  background-color: #e5e5e5;\n}\n.toggle_off::after {\n  top: 3px;\n  left: 3px;\n}\n.toggle_off::before {\n  content: \"OFF\";\n  left: 26px;\n  top: 4px;\n}\n.toggle_on {\n  background-color: #4eb7a8;\n}\n.toggle_on::after {\n  top: 3px;\n  right: 3px;\n}\n.toggle_on::before {\n  content: \"ON\";\n  right: 29px;\n  top: 4px;\n}\n", ""]);
 
 // exports
 
@@ -42735,17 +42738,62 @@ exports.push([module.i, ".toggle {\n  position: relative;\n  width: 59px;\n  hei
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function(){
     $(".toggle").click(function() {
-        if ($(this).hasClass("toggle-on")) {            
-            $(this).addClass("toggle-off").removeClass("toggle-on");
+        if ($(this).hasClass("toggle_on")) {            
+            $(this).addClass("toggle_off").removeClass("toggle_on");
             return
         }
-        if ($(this).hasClass("toggle-off")) {           
-            $(this).addClass("toggle-on").removeClass("toggle-off");
+        if ($(this).hasClass("toggle_off")) {           
+            $(this).addClass("toggle_on").removeClass("toggle_off");
             return
         }        
     })
 })
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6)))
+
+/***/ }),
+/* 235 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(236);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(4)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./tick-box.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./tick-box.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 236 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".tick-box {\n  position: relative;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n}\n.tick-box::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 9px;\n  height: 5px;\n  transform: rotate(-45deg);\n}\n.tick-box_unchecked {\n  background-color: #e5e5e5;\n}\n.tick-box_unchecked::after {\n  top: 3px;\n  left: 3px;\n  border-left: 3px solid #cecece;\n  border-bottom: 3px solid #cecece;\n}\n.tick-box_checked {\n  background-color: #4eb7a8;\n}\n.tick-box_checked::after {\n  top: 3px;\n  right: 3px;\n  border-left: 3px solid #fff;\n  border-bottom: 3px solid #fff;\n}\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);
