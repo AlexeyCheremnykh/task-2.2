@@ -10,18 +10,20 @@ import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.js"
 import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css"
 import "../node_modules/css-ripple-effect/dist/ripple.min.css";
 import "jquery-circle-progress";
+import "../node_modules/jquery-steps/build/jquery.steps.min.js";
 
 import "./blocks/main-container/main-container.styl";
-import "./blocks/standard-buttons/standard-buttons.styl";
+import "./blocks/standard-buttons-container/standard-buttons-container.styl";
 import "./blocks/standard-button/standard-button.styl";
-import "./blocks/arrow-buttons/arrow-buttons.styl";
+import "./blocks/arrow-buttons-container/arrow-buttons-container.styl";
+import "./blocks/arrow-buttons-container/arrow-buttons-container.js";
 import "./blocks/arrow-button/arrow-button.styl";
-import "./blocks/percentages-pie-chart/percentages-pie-chart.styl";
+import "./blocks/percentages-pie-chart-container/percentages-pie-chart-container.styl";
 import "./blocks/percentage/percentage.styl";
 import "./blocks/percentage/percentage.js";
 import "./blocks/pie-chart/pie-chart.js";
 import "./blocks/pie-chart/pie-chart.styl";
-import "./blocks/sliders/sliders.styl";
+import "./blocks/sliders-container/sliders-container.styl";
 import "./blocks/slider/slider.styl";
 import "./blocks/slider/slider.js";
 import "./blocks/stages/stages.styl";
