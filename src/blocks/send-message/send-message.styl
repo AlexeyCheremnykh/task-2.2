@@ -1,5 +1,7 @@
 .send-message
-    &__input
+    width: 288px
+
+    &__data
         box-sizing: border-box
         background-color: #e5e5e5
         outline: none
@@ -13,8 +15,8 @@
         font-style: normal
         font-stretch: normal
     
-    &__name,
-    &__email
+    &__name-field,
+    &__email-field
         padding-bottom: 3px
         width: 208px
         height: 28px
@@ -25,9 +27,42 @@
         width: 288px
         height: 88px
         resize: none
-        margin-bottom: 10px        
+        margin-bottom: 6px        
 
     .standard-button
         float: right
+        background-color: #4eb7a8
+        box-shadow: 0 3px 0 0 #28a290
+        color: #ffffff
+
+    &__validation-message        
+        opacity: 0        
+        position: relative
+        float: right
+        width: 72px
+        height: 28px
+        border-radius: 4px
+        font-family: "Conv_Lato-Black"
+        color: #ffffff
+        font-size: 10px
+        text-align: center
+        line-height: 28px
+        background-color: #4eb7a8
+
+        &::before
+            content: ""
+            display: block
+            position: absolute
+            left: -4px
+            top: 10px           
+            border-style: solid
+            border-width: 4px 4px 4px 0
+            border-color: transparent #4eb7a8 transparent transparent
+
+        &_error            
+            background-color: #e75735            
+
+            &::before
+                border-right-color: #e75735 
 
    // &__name::after
