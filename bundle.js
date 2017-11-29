@@ -4704,7 +4704,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(137);
+var	fixUrls = __webpack_require__(136);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -27969,85 +27969,85 @@ module.exports = __webpack_require__.p + "img/ui-icons_444444_256x240.png";
 
 /***/ }),
 /* 129 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(130);
-(function webpackMissingModule() { throw new Error("Cannot find module \"run\""); }());
-(function webpackMissingModule() { throw new Error("Cannot find module \"build\""); }());
-
-
-/***/ }),
-/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_Lato_Black_fonts_css__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_Lato_Black_fonts_css__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fonts_Lato_Black_fonts_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__fonts_Lato_Black_fonts_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fonts_Lato_Light_fonts_css__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fonts_Lato_Light_fonts_css__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fonts_Lato_Light_fonts_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__fonts_Lato_Light_fonts_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_source_sans_pro_source_sans_pro_css__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_source_sans_pro_source_sans_pro_css__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_source_sans_pro_source_sans_pro_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__node_modules_source_sans_pro_source_sans_pro_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_chart_js__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_chart_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_js__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_css__ = __webpack_require__(256);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_js__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__node_modules_css_ripple_effect_dist_ripple_min_css__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__node_modules_css_ripple_effect_dist_ripple_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__node_modules_css_ripple_effect_dist_ripple_min_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_jquery_circle_progress__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_jquery_circle_progress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_jquery_circle_progress__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node_modules_jquery_steps_build_jquery_steps_min_js__ = __webpack_require__(269);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node_modules_jquery_steps_build_jquery_steps_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__node_modules_jquery_steps_build_jquery_steps_min_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__blocks_main_container_main_container_styl__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__blocks_main_container_main_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__blocks_main_container_main_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_standard_buttons_standard_buttons_styl__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_standard_buttons_standard_buttons_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__blocks_standard_buttons_standard_buttons_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__blocks_standard_button_standard_button_styl__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__blocks_standard_button_standard_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__blocks_standard_button_standard_button_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_arrow_buttons_arrow_buttons_styl__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_arrow_buttons_arrow_buttons_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__blocks_arrow_buttons_arrow_buttons_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_arrow_button_arrow_button_styl__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_arrow_button_arrow_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__blocks_arrow_button_arrow_button_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_percentages_pie_chart_percentages_pie_chart_styl__ = __webpack_require__(280);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_percentages_pie_chart_percentages_pie_chart_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__blocks_percentages_pie_chart_percentages_pie_chart_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_percentage_percentage_styl__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_percentage_percentage_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__blocks_percentage_percentage_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_percentage_percentage_js__ = __webpack_require__(284);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_percentage_percentage_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__blocks_percentage_percentage_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_pie_chart_pie_chart_js__ = __webpack_require__(285);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_pie_chart_pie_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__blocks_pie_chart_pie_chart_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_pie_chart_pie_chart_styl__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_pie_chart_pie_chart_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__blocks_pie_chart_pie_chart_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_sliders_sliders_styl__ = __webpack_require__(288);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_sliders_sliders_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__blocks_sliders_sliders_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_slider_slider_styl__ = __webpack_require__(290);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_slider_slider_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__blocks_slider_slider_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_slider_slider_js__ = __webpack_require__(292);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_slider_slider_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24__blocks_slider_slider_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_stages_stages_styl__ = __webpack_require__(293);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_stages_stages_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_25__blocks_stages_stages_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_stages_stages_js__ = __webpack_require__(295);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_stages_stages_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_26__blocks_stages_stages_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_toggle_toggle_styl__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_toggle_toggle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_27__blocks_toggle_toggle_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_js__ = __webpack_require__(298);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_tick_box_tick_box_styl__ = __webpack_require__(299);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_tick_box_tick_box_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29__blocks_tick_box_tick_box_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_tick_box_tick_box_js__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_tick_box_tick_box_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_30__blocks_tick_box_tick_box_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_form_elements_form_elements_styl__ = __webpack_require__(302);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_form_elements_form_elements_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_31__blocks_form_elements_form_elements_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_send_message_send_message_styl__ = __webpack_require__(304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_send_message_send_message_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_32__blocks_send_message_send_message_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery_validation__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_jquery_validation___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_jquery_validation__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_chart_js__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_chart_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_js__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_css__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__scripts_jquery_ui_1_12_1_custom_jquery_ui_min_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_js__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__node_modules_css_ripple_effect_dist_ripple_min_css__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__node_modules_css_ripple_effect_dist_ripple_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__node_modules_css_ripple_effect_dist_ripple_min_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_jquery_circle_progress__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_jquery_circle_progress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_jquery_circle_progress__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__node_modules_jquery_steps_build_jquery_steps_min_js__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__node_modules_jquery_steps_build_jquery_steps_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__node_modules_jquery_steps_build_jquery_steps_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_main_container_main_container_styl__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_main_container_main_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__blocks_main_container_main_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__blocks_standard_buttons_container_standard_buttons_container_styl__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__blocks_standard_buttons_container_standard_buttons_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__blocks_standard_buttons_container_standard_buttons_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_standard_button_standard_button_styl__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_standard_button_standard_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__blocks_standard_button_standard_button_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_arrow_buttons_container_arrow_buttons_container_styl__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_arrow_buttons_container_arrow_buttons_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__blocks_arrow_buttons_container_arrow_buttons_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_arrow_buttons_container_arrow_buttons_container_js__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_arrow_buttons_container_arrow_buttons_container_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__blocks_arrow_buttons_container_arrow_buttons_container_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_arrow_button_arrow_button_styl__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_arrow_button_arrow_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__blocks_arrow_button_arrow_button_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_percentages_pie_chart_container_percentages_pie_chart_container_styl__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_percentages_pie_chart_container_percentages_pie_chart_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__blocks_percentages_pie_chart_container_percentages_pie_chart_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_percentage_percentage_styl__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_percentage_percentage_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__blocks_percentage_percentage_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_percentage_percentage_js__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_percentage_percentage_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__blocks_percentage_percentage_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_pie_chart_pie_chart_js__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_pie_chart_pie_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__blocks_pie_chart_pie_chart_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_pie_chart_pie_chart_styl__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_pie_chart_pie_chart_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__blocks_pie_chart_pie_chart_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_sliders_container_sliders_container_styl__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_sliders_container_sliders_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24__blocks_sliders_container_sliders_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_slider_slider_styl__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_slider_slider_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_25__blocks_slider_slider_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_slider_slider_js__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_slider_slider_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_26__blocks_slider_slider_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_stages_stages_styl__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_stages_stages_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_27__blocks_stages_stages_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_stages_stages_js__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_stages_stages_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_28__blocks_stages_stages_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_styl__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_toggle_toggle_js__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_toggle_toggle_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_30__blocks_toggle_toggle_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_tick_box_tick_box_styl__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_tick_box_tick_box_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_31__blocks_tick_box_tick_box_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_tick_box_tick_box_js__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_tick_box_tick_box_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_32__blocks_tick_box_tick_box_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_form_elements_container_form_elements_container_styl__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_form_elements_container_form_elements_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_33__blocks_form_elements_container_form_elements_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_send_message_send_message_styl__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_send_message_send_message_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_34__blocks_send_message_send_message_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_send_message_send_message_js__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_send_message_send_message_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_35__blocks_send_message_send_message_js__);
+
+
+
 
 
 
@@ -28086,13 +28086,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(132);
+var content = __webpack_require__(131);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -28117,7 +28117,7 @@ if(false) {
 }
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -28125,37 +28125,37 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "/** Generated by FG **/\n@font-face {\n\tfont-family: 'Conv_Lato-Black';\n\tsrc: url(" + __webpack_require__(133) + ");\n\tsrc: local('\\263A'), url(" + __webpack_require__(134) + ") format('woff'), url(" + __webpack_require__(135) + ") format('truetype'), url(" + __webpack_require__(136) + ") format('svg');\n\tfont-weight: normal;\n\tfont-style: normal;\n}\n\n", ""]);
+exports.push([module.i, "/** Generated by FG **/\n@font-face {\n\tfont-family: 'Conv_Lato-Black';\n\tsrc: url(" + __webpack_require__(132) + ");\n\tsrc: local('\\263A'), url(" + __webpack_require__(133) + ") format('woff'), url(" + __webpack_require__(134) + ") format('truetype'), url(" + __webpack_require__(135) + ") format('svg');\n\tfont-weight: normal;\n\tfont-style: normal;\n}\n\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/Lato-Black.eot";
 
 /***/ }),
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/Lato-Black.woff";
 
 /***/ }),
-/* 135 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/Lato-Black.ttf";
 
 /***/ }),
-/* 136 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/Lato-Black.svg";
 
 /***/ }),
-/* 137 */
+/* 136 */
 /***/ (function(module, exports) {
 
 
@@ -28250,13 +28250,13 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(139);
+var content = __webpack_require__(138);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -28281,7 +28281,7 @@ if(false) {
 }
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -28289,43 +28289,43 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "/** Generated by FG **/\n@font-face {\n\tfont-family: 'Conv_Lato-Light';\n\tsrc: url(" + __webpack_require__(140) + ");\n\tsrc: local('\\263A'), url(" + __webpack_require__(141) + ") format('woff'), url(" + __webpack_require__(142) + ") format('truetype'), url(" + __webpack_require__(143) + ") format('svg');\n\tfont-weight: normal;\n\tfont-style: normal;\n}\n\n", ""]);
+exports.push([module.i, "/** Generated by FG **/\n@font-face {\n\tfont-family: 'Conv_Lato-Light';\n\tsrc: url(" + __webpack_require__(139) + ");\n\tsrc: local('\\263A'), url(" + __webpack_require__(140) + ") format('woff'), url(" + __webpack_require__(141) + ") format('truetype'), url(" + __webpack_require__(142) + ") format('svg');\n\tfont-weight: normal;\n\tfont-style: normal;\n}\n\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/Lato-Light.eot";
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/Lato-Light.woff";
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/Lato-Light.ttf";
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/Lato-Light.svg";
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(145);
+var content = __webpack_require__(144);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -28350,7 +28350,7 @@ if(false) {
 }
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -28358,370 +28358,1979 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 200;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(146) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(147) + ") format('woff2'),\r\n         url(" + __webpack_require__(148) + ") format('woff'),\r\n         url(" + __webpack_require__(149) + ") format('opentype'),\r\n         url(" + __webpack_require__(150) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 200;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(151) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(152) + ") format('woff2'),\r\n         url(" + __webpack_require__(153) + ") format('woff'),\r\n         url(" + __webpack_require__(154) + ") format('opentype'),\r\n         url(" + __webpack_require__(155) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 300;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(156) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(157) + ") format('woff2'),\r\n         url(" + __webpack_require__(158) + ") format('woff'),\r\n         url(" + __webpack_require__(159) + ") format('opentype'),\r\n         url(" + __webpack_require__(160) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 300;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(161) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(162) + ") format('woff2'),\r\n         url(" + __webpack_require__(163) + ") format('woff'),\r\n         url(" + __webpack_require__(164) + ") format('opentype'),\r\n         url(" + __webpack_require__(165) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 400;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(166) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(167) + ") format('woff2'),\r\n         url(" + __webpack_require__(168) + ") format('woff'),\r\n         url(" + __webpack_require__(169) + ") format('opentype'),\r\n         url(" + __webpack_require__(170) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 400;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(171) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(172) + ") format('woff2'),\r\n         url(" + __webpack_require__(173) + ") format('woff'),\r\n         url(" + __webpack_require__(174) + ") format('opentype'),\r\n         url(" + __webpack_require__(175) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 600;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(176) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(177) + ") format('woff2'),\r\n         url(" + __webpack_require__(178) + ") format('woff'),\r\n         url(" + __webpack_require__(179) + ") format('opentype'),\r\n         url(" + __webpack_require__(180) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 600;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(181) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(182) + ") format('woff2'),\r\n         url(" + __webpack_require__(183) + ") format('woff'),\r\n         url(" + __webpack_require__(184) + ") format('opentype'),\r\n         url(" + __webpack_require__(185) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 700;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(186) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(187) + ") format('woff2'),\r\n         url(" + __webpack_require__(188) + ") format('woff'),\r\n         url(" + __webpack_require__(189) + ") format('opentype'),\r\n         url(" + __webpack_require__(190) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 700;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(191) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(192) + ") format('woff2'),\r\n         url(" + __webpack_require__(193) + ") format('woff'),\r\n         url(" + __webpack_require__(194) + ") format('opentype'),\r\n         url(" + __webpack_require__(195) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 900;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(196) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(197) + ") format('woff2'),\r\n         url(" + __webpack_require__(198) + ") format('woff'),\r\n         url(" + __webpack_require__(199) + ") format('opentype'),\r\n         url(" + __webpack_require__(200) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 900;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(201) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(202) + ") format('woff2'),\r\n         url(" + __webpack_require__(203) + ") format('woff'),\r\n         url(" + __webpack_require__(204) + ") format('opentype'),\r\n         url(" + __webpack_require__(205) + ") format('truetype');\r\n}\r\n", ""]);
+exports.push([module.i, "@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 200;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(145) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(146) + ") format('woff2'),\r\n         url(" + __webpack_require__(147) + ") format('woff'),\r\n         url(" + __webpack_require__(148) + ") format('opentype'),\r\n         url(" + __webpack_require__(149) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 200;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(150) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(151) + ") format('woff2'),\r\n         url(" + __webpack_require__(152) + ") format('woff'),\r\n         url(" + __webpack_require__(153) + ") format('opentype'),\r\n         url(" + __webpack_require__(154) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 300;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(155) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(156) + ") format('woff2'),\r\n         url(" + __webpack_require__(157) + ") format('woff'),\r\n         url(" + __webpack_require__(158) + ") format('opentype'),\r\n         url(" + __webpack_require__(159) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 300;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(160) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(161) + ") format('woff2'),\r\n         url(" + __webpack_require__(162) + ") format('woff'),\r\n         url(" + __webpack_require__(163) + ") format('opentype'),\r\n         url(" + __webpack_require__(164) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 400;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(165) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(166) + ") format('woff2'),\r\n         url(" + __webpack_require__(167) + ") format('woff'),\r\n         url(" + __webpack_require__(168) + ") format('opentype'),\r\n         url(" + __webpack_require__(169) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 400;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(170) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(171) + ") format('woff2'),\r\n         url(" + __webpack_require__(172) + ") format('woff'),\r\n         url(" + __webpack_require__(173) + ") format('opentype'),\r\n         url(" + __webpack_require__(174) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 600;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(175) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(176) + ") format('woff2'),\r\n         url(" + __webpack_require__(177) + ") format('woff'),\r\n         url(" + __webpack_require__(178) + ") format('opentype'),\r\n         url(" + __webpack_require__(179) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 600;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(180) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(181) + ") format('woff2'),\r\n         url(" + __webpack_require__(182) + ") format('woff'),\r\n         url(" + __webpack_require__(183) + ") format('opentype'),\r\n         url(" + __webpack_require__(184) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 700;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(185) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(186) + ") format('woff2'),\r\n         url(" + __webpack_require__(187) + ") format('woff'),\r\n         url(" + __webpack_require__(188) + ") format('opentype'),\r\n         url(" + __webpack_require__(189) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 700;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(190) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(191) + ") format('woff2'),\r\n         url(" + __webpack_require__(192) + ") format('woff'),\r\n         url(" + __webpack_require__(193) + ") format('opentype'),\r\n         url(" + __webpack_require__(194) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 900;\r\n    font-style: normal;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(195) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(196) + ") format('woff2'),\r\n         url(" + __webpack_require__(197) + ") format('woff'),\r\n         url(" + __webpack_require__(198) + ") format('opentype'),\r\n         url(" + __webpack_require__(199) + ") format('truetype');\r\n}\r\n\r\n@font-face{\r\n    font-family: 'Source Sans Pro';\r\n    font-weight: 900;\r\n    font-style: italic;\r\n    font-stretch: normal;\r\n    src: url(" + __webpack_require__(200) + ") format('embedded-opentype'),\r\n         url(" + __webpack_require__(201) + ") format('woff2'),\r\n         url(" + __webpack_require__(202) + ") format('woff'),\r\n         url(" + __webpack_require__(203) + ") format('opentype'),\r\n         url(" + __webpack_require__(204) + ") format('truetype');\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLight.eot";
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLight.ttf.woff2";
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLight.otf.woff";
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLight.otf";
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLight.ttf";
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLightIt.eot";
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLightIt.ttf.woff2";
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLightIt.otf.woff";
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLightIt.otf";
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-ExtraLightIt.ttf";
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Light.eot";
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Light.ttf.woff2";
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Light.otf.woff";
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Light.otf";
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Light.ttf";
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-LightIt.eot";
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-LightIt.ttf.woff2";
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-LightIt.otf.woff";
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-LightIt.otf";
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-LightIt.ttf";
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Regular.eot";
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Regular.ttf.woff2";
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Regular.otf.woff";
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Regular.otf";
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Regular.ttf";
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-It.eot";
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-It.ttf.woff2";
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-It.otf.woff";
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-It.otf";
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-It.ttf";
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Semibold.eot";
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Semibold.ttf.woff2";
 
 /***/ }),
-/* 178 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Semibold.otf.woff";
 
 /***/ }),
-/* 179 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Semibold.otf";
 
 /***/ }),
-/* 180 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Semibold.ttf";
 
 /***/ }),
-/* 181 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiboldIt.eot";
 
 /***/ }),
-/* 182 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiboldIt.ttf.woff2";
 
 /***/ }),
-/* 183 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiboldIt.otf.woff";
 
 /***/ }),
-/* 184 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiboldIt.otf";
 
 /***/ }),
-/* 185 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiboldIt.ttf";
 
 /***/ }),
-/* 186 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Bold.eot";
 
 /***/ }),
-/* 187 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Bold.ttf.woff2";
 
 /***/ }),
-/* 188 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Bold.otf.woff";
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Bold.otf";
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Bold.ttf";
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BoldIt.eot";
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BoldIt.ttf.woff2";
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BoldIt.otf.woff";
 
 /***/ }),
-/* 194 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BoldIt.otf";
 
 /***/ }),
-/* 195 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BoldIt.ttf";
 
 /***/ }),
-/* 196 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Black.eot";
 
 /***/ }),
-/* 197 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Black.ttf.woff2";
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Black.otf.woff";
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Black.otf";
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-Black.ttf";
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BlackIt.eot";
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BlackIt.ttf.woff2";
 
 /***/ }),
-/* 203 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BlackIt.otf.woff";
 
 /***/ }),
-/* 204 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BlackIt.otf";
 
 /***/ }),
-/* 205 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fonts/SourceSansPro-BlackIt.ttf";
+
+/***/ }),
+/* 205 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * jQuery Validation Plugin v1.17.0
+ *
+ * https://jqueryvalidation.org/
+ *
+ * Copyright (c) 2017 Jörn Zaefferer
+ * Released under the MIT license
+ */
+(function( factory ) {
+	if ( true ) {
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(5)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else if (typeof module === "object" && module.exports) {
+		module.exports = factory( require( "jquery" ) );
+	} else {
+		factory( jQuery );
+	}
+}(function( $ ) {
+
+$.extend( $.fn, {
+
+	// https://jqueryvalidation.org/validate/
+	validate: function( options ) {
+
+		// If nothing is selected, return nothing; can't chain anyway
+		if ( !this.length ) {
+			if ( options && options.debug && window.console ) {
+				console.warn( "Nothing selected, can't validate, returning nothing." );
+			}
+			return;
+		}
+
+		// Check if a validator for this form was already created
+		var validator = $.data( this[ 0 ], "validator" );
+		if ( validator ) {
+			return validator;
+		}
+
+		// Add novalidate tag if HTML5.
+		this.attr( "novalidate", "novalidate" );
+
+		validator = new $.validator( options, this[ 0 ] );
+		$.data( this[ 0 ], "validator", validator );
+
+		if ( validator.settings.onsubmit ) {
+
+			this.on( "click.validate", ":submit", function( event ) {
+
+				// Track the used submit button to properly handle scripted
+				// submits later.
+				validator.submitButton = event.currentTarget;
+
+				// Allow suppressing validation by adding a cancel class to the submit button
+				if ( $( this ).hasClass( "cancel" ) ) {
+					validator.cancelSubmit = true;
+				}
+
+				// Allow suppressing validation by adding the html5 formnovalidate attribute to the submit button
+				if ( $( this ).attr( "formnovalidate" ) !== undefined ) {
+					validator.cancelSubmit = true;
+				}
+			} );
+
+			// Validate the form on submit
+			this.on( "submit.validate", function( event ) {
+				if ( validator.settings.debug ) {
+
+					// Prevent form submit to be able to see console output
+					event.preventDefault();
+				}
+				function handle() {
+					var hidden, result;
+
+					// Insert a hidden input as a replacement for the missing submit button
+					// The hidden input is inserted in two cases:
+					//   - A user defined a `submitHandler`
+					//   - There was a pending request due to `remote` method and `stopRequest()`
+					//     was called to submit the form in case it's valid
+					if ( validator.submitButton && ( validator.settings.submitHandler || validator.formSubmitted ) ) {
+						hidden = $( "<input type='hidden'/>" )
+							.attr( "name", validator.submitButton.name )
+							.val( $( validator.submitButton ).val() )
+							.appendTo( validator.currentForm );
+					}
+
+					if ( validator.settings.submitHandler ) {
+						result = validator.settings.submitHandler.call( validator, validator.currentForm, event );
+						if ( hidden ) {
+
+							// And clean up afterwards; thanks to no-block-scope, hidden can be referenced
+							hidden.remove();
+						}
+						if ( result !== undefined ) {
+							return result;
+						}
+						return false;
+					}
+					return true;
+				}
+
+				// Prevent submit for invalid forms or custom submit handlers
+				if ( validator.cancelSubmit ) {
+					validator.cancelSubmit = false;
+					return handle();
+				}
+				if ( validator.form() ) {
+					if ( validator.pendingRequest ) {
+						validator.formSubmitted = true;
+						return false;
+					}
+					return handle();
+				} else {
+					validator.focusInvalid();
+					return false;
+				}
+			} );
+		}
+
+		return validator;
+	},
+
+	// https://jqueryvalidation.org/valid/
+	valid: function() {
+		var valid, validator, errorList;
+
+		if ( $( this[ 0 ] ).is( "form" ) ) {
+			valid = this.validate().form();
+		} else {
+			errorList = [];
+			valid = true;
+			validator = $( this[ 0 ].form ).validate();
+			this.each( function() {
+				valid = validator.element( this ) && valid;
+				if ( !valid ) {
+					errorList = errorList.concat( validator.errorList );
+				}
+			} );
+			validator.errorList = errorList;
+		}
+		return valid;
+	},
+
+	// https://jqueryvalidation.org/rules/
+	rules: function( command, argument ) {
+		var element = this[ 0 ],
+			settings, staticRules, existingRules, data, param, filtered;
+
+		// If nothing is selected, return empty object; can't chain anyway
+		if ( element == null ) {
+			return;
+		}
+
+		if ( !element.form && element.hasAttribute( "contenteditable" ) ) {
+			element.form = this.closest( "form" )[ 0 ];
+			element.name = this.attr( "name" );
+		}
+
+		if ( element.form == null ) {
+			return;
+		}
+
+		if ( command ) {
+			settings = $.data( element.form, "validator" ).settings;
+			staticRules = settings.rules;
+			existingRules = $.validator.staticRules( element );
+			switch ( command ) {
+			case "add":
+				$.extend( existingRules, $.validator.normalizeRule( argument ) );
+
+				// Remove messages from rules, but allow them to be set separately
+				delete existingRules.messages;
+				staticRules[ element.name ] = existingRules;
+				if ( argument.messages ) {
+					settings.messages[ element.name ] = $.extend( settings.messages[ element.name ], argument.messages );
+				}
+				break;
+			case "remove":
+				if ( !argument ) {
+					delete staticRules[ element.name ];
+					return existingRules;
+				}
+				filtered = {};
+				$.each( argument.split( /\s/ ), function( index, method ) {
+					filtered[ method ] = existingRules[ method ];
+					delete existingRules[ method ];
+				} );
+				return filtered;
+			}
+		}
+
+		data = $.validator.normalizeRules(
+		$.extend(
+			{},
+			$.validator.classRules( element ),
+			$.validator.attributeRules( element ),
+			$.validator.dataRules( element ),
+			$.validator.staticRules( element )
+		), element );
+
+		// Make sure required is at front
+		if ( data.required ) {
+			param = data.required;
+			delete data.required;
+			data = $.extend( { required: param }, data );
+		}
+
+		// Make sure remote is at back
+		if ( data.remote ) {
+			param = data.remote;
+			delete data.remote;
+			data = $.extend( data, { remote: param } );
+		}
+
+		return data;
+	}
+} );
+
+// Custom selectors
+$.extend( $.expr.pseudos || $.expr[ ":" ], {		// '|| $.expr[ ":" ]' here enables backwards compatibility to jQuery 1.7. Can be removed when dropping jQ 1.7.x support
+
+	// https://jqueryvalidation.org/blank-selector/
+	blank: function( a ) {
+		return !$.trim( "" + $( a ).val() );
+	},
+
+	// https://jqueryvalidation.org/filled-selector/
+	filled: function( a ) {
+		var val = $( a ).val();
+		return val !== null && !!$.trim( "" + val );
+	},
+
+	// https://jqueryvalidation.org/unchecked-selector/
+	unchecked: function( a ) {
+		return !$( a ).prop( "checked" );
+	}
+} );
+
+// Constructor for validator
+$.validator = function( options, form ) {
+	this.settings = $.extend( true, {}, $.validator.defaults, options );
+	this.currentForm = form;
+	this.init();
+};
+
+// https://jqueryvalidation.org/jQuery.validator.format/
+$.validator.format = function( source, params ) {
+	if ( arguments.length === 1 ) {
+		return function() {
+			var args = $.makeArray( arguments );
+			args.unshift( source );
+			return $.validator.format.apply( this, args );
+		};
+	}
+	if ( params === undefined ) {
+		return source;
+	}
+	if ( arguments.length > 2 && params.constructor !== Array  ) {
+		params = $.makeArray( arguments ).slice( 1 );
+	}
+	if ( params.constructor !== Array ) {
+		params = [ params ];
+	}
+	$.each( params, function( i, n ) {
+		source = source.replace( new RegExp( "\\{" + i + "\\}", "g" ), function() {
+			return n;
+		} );
+	} );
+	return source;
+};
+
+$.extend( $.validator, {
+
+	defaults: {
+		messages: {},
+		groups: {},
+		rules: {},
+		errorClass: "error",
+		pendingClass: "pending",
+		validClass: "valid",
+		errorElement: "label",
+		focusCleanup: false,
+		focusInvalid: true,
+		errorContainer: $( [] ),
+		errorLabelContainer: $( [] ),
+		onsubmit: true,
+		ignore: ":hidden",
+		ignoreTitle: false,
+		onfocusin: function( element ) {
+			this.lastActive = element;
+
+			// Hide error label and remove error class on focus if enabled
+			if ( this.settings.focusCleanup ) {
+				if ( this.settings.unhighlight ) {
+					this.settings.unhighlight.call( this, element, this.settings.errorClass, this.settings.validClass );
+				}
+				this.hideThese( this.errorsFor( element ) );
+			}
+		},
+		onfocusout: function( element ) {
+			if ( !this.checkable( element ) && ( element.name in this.submitted || !this.optional( element ) ) ) {
+				this.element( element );
+			}
+		},
+		onkeyup: function( element, event ) {
+
+			// Avoid revalidate the field when pressing one of the following keys
+			// Shift       => 16
+			// Ctrl        => 17
+			// Alt         => 18
+			// Caps lock   => 20
+			// End         => 35
+			// Home        => 36
+			// Left arrow  => 37
+			// Up arrow    => 38
+			// Right arrow => 39
+			// Down arrow  => 40
+			// Insert      => 45
+			// Num lock    => 144
+			// AltGr key   => 225
+			var excludedKeys = [
+				16, 17, 18, 20, 35, 36, 37,
+				38, 39, 40, 45, 144, 225
+			];
+
+			if ( event.which === 9 && this.elementValue( element ) === "" || $.inArray( event.keyCode, excludedKeys ) !== -1 ) {
+				return;
+			} else if ( element.name in this.submitted || element.name in this.invalid ) {
+				this.element( element );
+			}
+		},
+		onclick: function( element ) {
+
+			// Click on selects, radiobuttons and checkboxes
+			if ( element.name in this.submitted ) {
+				this.element( element );
+
+			// Or option elements, check parent select in that case
+			} else if ( element.parentNode.name in this.submitted ) {
+				this.element( element.parentNode );
+			}
+		},
+		highlight: function( element, errorClass, validClass ) {
+			if ( element.type === "radio" ) {
+				this.findByName( element.name ).addClass( errorClass ).removeClass( validClass );
+			} else {
+				$( element ).addClass( errorClass ).removeClass( validClass );
+			}
+		},
+		unhighlight: function( element, errorClass, validClass ) {
+			if ( element.type === "radio" ) {
+				this.findByName( element.name ).removeClass( errorClass ).addClass( validClass );
+			} else {
+				$( element ).removeClass( errorClass ).addClass( validClass );
+			}
+		}
+	},
+
+	// https://jqueryvalidation.org/jQuery.validator.setDefaults/
+	setDefaults: function( settings ) {
+		$.extend( $.validator.defaults, settings );
+	},
+
+	messages: {
+		required: "This field is required.",
+		remote: "Please fix this field.",
+		email: "Please enter a valid email address.",
+		url: "Please enter a valid URL.",
+		date: "Please enter a valid date.",
+		dateISO: "Please enter a valid date (ISO).",
+		number: "Please enter a valid number.",
+		digits: "Please enter only digits.",
+		equalTo: "Please enter the same value again.",
+		maxlength: $.validator.format( "Please enter no more than {0} characters." ),
+		minlength: $.validator.format( "Please enter at least {0} characters." ),
+		rangelength: $.validator.format( "Please enter a value between {0} and {1} characters long." ),
+		range: $.validator.format( "Please enter a value between {0} and {1}." ),
+		max: $.validator.format( "Please enter a value less than or equal to {0}." ),
+		min: $.validator.format( "Please enter a value greater than or equal to {0}." ),
+		step: $.validator.format( "Please enter a multiple of {0}." )
+	},
+
+	autoCreateRanges: false,
+
+	prototype: {
+
+		init: function() {
+			this.labelContainer = $( this.settings.errorLabelContainer );
+			this.errorContext = this.labelContainer.length && this.labelContainer || $( this.currentForm );
+			this.containers = $( this.settings.errorContainer ).add( this.settings.errorLabelContainer );
+			this.submitted = {};
+			this.valueCache = {};
+			this.pendingRequest = 0;
+			this.pending = {};
+			this.invalid = {};
+			this.reset();
+
+			var groups = ( this.groups = {} ),
+				rules;
+			$.each( this.settings.groups, function( key, value ) {
+				if ( typeof value === "string" ) {
+					value = value.split( /\s/ );
+				}
+				$.each( value, function( index, name ) {
+					groups[ name ] = key;
+				} );
+			} );
+			rules = this.settings.rules;
+			$.each( rules, function( key, value ) {
+				rules[ key ] = $.validator.normalizeRule( value );
+			} );
+
+			function delegate( event ) {
+
+				// Set form expando on contenteditable
+				if ( !this.form && this.hasAttribute( "contenteditable" ) ) {
+					this.form = $( this ).closest( "form" )[ 0 ];
+					this.name = $( this ).attr( "name" );
+				}
+
+				var validator = $.data( this.form, "validator" ),
+					eventType = "on" + event.type.replace( /^validate/, "" ),
+					settings = validator.settings;
+				if ( settings[ eventType ] && !$( this ).is( settings.ignore ) ) {
+					settings[ eventType ].call( validator, this, event );
+				}
+			}
+
+			$( this.currentForm )
+				.on( "focusin.validate focusout.validate keyup.validate",
+					":text, [type='password'], [type='file'], select, textarea, [type='number'], [type='search'], " +
+					"[type='tel'], [type='url'], [type='email'], [type='datetime'], [type='date'], [type='month'], " +
+					"[type='week'], [type='time'], [type='datetime-local'], [type='range'], [type='color'], " +
+					"[type='radio'], [type='checkbox'], [contenteditable], [type='button']", delegate )
+
+				// Support: Chrome, oldIE
+				// "select" is provided as event.target when clicking a option
+				.on( "click.validate", "select, option, [type='radio'], [type='checkbox']", delegate );
+
+			if ( this.settings.invalidHandler ) {
+				$( this.currentForm ).on( "invalid-form.validate", this.settings.invalidHandler );
+			}
+		},
+
+		// https://jqueryvalidation.org/Validator.form/
+		form: function() {
+			this.checkForm();
+			$.extend( this.submitted, this.errorMap );
+			this.invalid = $.extend( {}, this.errorMap );
+			if ( !this.valid() ) {
+				$( this.currentForm ).triggerHandler( "invalid-form", [ this ] );
+			}
+			this.showErrors();
+			return this.valid();
+		},
+
+		checkForm: function() {
+			this.prepareForm();
+			for ( var i = 0, elements = ( this.currentElements = this.elements() ); elements[ i ]; i++ ) {
+				this.check( elements[ i ] );
+			}
+			return this.valid();
+		},
+
+		// https://jqueryvalidation.org/Validator.element/
+		element: function( element ) {
+			var cleanElement = this.clean( element ),
+				checkElement = this.validationTargetFor( cleanElement ),
+				v = this,
+				result = true,
+				rs, group;
+
+			if ( checkElement === undefined ) {
+				delete this.invalid[ cleanElement.name ];
+			} else {
+				this.prepareElement( checkElement );
+				this.currentElements = $( checkElement );
+
+				// If this element is grouped, then validate all group elements already
+				// containing a value
+				group = this.groups[ checkElement.name ];
+				if ( group ) {
+					$.each( this.groups, function( name, testgroup ) {
+						if ( testgroup === group && name !== checkElement.name ) {
+							cleanElement = v.validationTargetFor( v.clean( v.findByName( name ) ) );
+							if ( cleanElement && cleanElement.name in v.invalid ) {
+								v.currentElements.push( cleanElement );
+								result = v.check( cleanElement ) && result;
+							}
+						}
+					} );
+				}
+
+				rs = this.check( checkElement ) !== false;
+				result = result && rs;
+				if ( rs ) {
+					this.invalid[ checkElement.name ] = false;
+				} else {
+					this.invalid[ checkElement.name ] = true;
+				}
+
+				if ( !this.numberOfInvalids() ) {
+
+					// Hide error containers on last error
+					this.toHide = this.toHide.add( this.containers );
+				}
+				this.showErrors();
+
+				// Add aria-invalid status for screen readers
+				$( element ).attr( "aria-invalid", !rs );
+			}
+
+			return result;
+		},
+
+		// https://jqueryvalidation.org/Validator.showErrors/
+		showErrors: function( errors ) {
+			if ( errors ) {
+				var validator = this;
+
+				// Add items to error list and map
+				$.extend( this.errorMap, errors );
+				this.errorList = $.map( this.errorMap, function( message, name ) {
+					return {
+						message: message,
+						element: validator.findByName( name )[ 0 ]
+					};
+				} );
+
+				// Remove items from success list
+				this.successList = $.grep( this.successList, function( element ) {
+					return !( element.name in errors );
+				} );
+			}
+			if ( this.settings.showErrors ) {
+				this.settings.showErrors.call( this, this.errorMap, this.errorList );
+			} else {
+				this.defaultShowErrors();
+			}
+		},
+
+		// https://jqueryvalidation.org/Validator.resetForm/
+		resetForm: function() {
+			if ( $.fn.resetForm ) {
+				$( this.currentForm ).resetForm();
+			}
+			this.invalid = {};
+			this.submitted = {};
+			this.prepareForm();
+			this.hideErrors();
+			var elements = this.elements()
+				.removeData( "previousValue" )
+				.removeAttr( "aria-invalid" );
+
+			this.resetElements( elements );
+		},
+
+		resetElements: function( elements ) {
+			var i;
+
+			if ( this.settings.unhighlight ) {
+				for ( i = 0; elements[ i ]; i++ ) {
+					this.settings.unhighlight.call( this, elements[ i ],
+						this.settings.errorClass, "" );
+					this.findByName( elements[ i ].name ).removeClass( this.settings.validClass );
+				}
+			} else {
+				elements
+					.removeClass( this.settings.errorClass )
+					.removeClass( this.settings.validClass );
+			}
+		},
+
+		numberOfInvalids: function() {
+			return this.objectLength( this.invalid );
+		},
+
+		objectLength: function( obj ) {
+			/* jshint unused: false */
+			var count = 0,
+				i;
+			for ( i in obj ) {
+
+				// This check allows counting elements with empty error
+				// message as invalid elements
+				if ( obj[ i ] !== undefined && obj[ i ] !== null && obj[ i ] !== false ) {
+					count++;
+				}
+			}
+			return count;
+		},
+
+		hideErrors: function() {
+			this.hideThese( this.toHide );
+		},
+
+		hideThese: function( errors ) {
+			errors.not( this.containers ).text( "" );
+			this.addWrapper( errors ).hide();
+		},
+
+		valid: function() {
+			return this.size() === 0;
+		},
+
+		size: function() {
+			return this.errorList.length;
+		},
+
+		focusInvalid: function() {
+			if ( this.settings.focusInvalid ) {
+				try {
+					$( this.findLastActive() || this.errorList.length && this.errorList[ 0 ].element || [] )
+					.filter( ":visible" )
+					.focus()
+
+					// Manually trigger focusin event; without it, focusin handler isn't called, findLastActive won't have anything to find
+					.trigger( "focusin" );
+				} catch ( e ) {
+
+					// Ignore IE throwing errors when focusing hidden elements
+				}
+			}
+		},
+
+		findLastActive: function() {
+			var lastActive = this.lastActive;
+			return lastActive && $.grep( this.errorList, function( n ) {
+				return n.element.name === lastActive.name;
+			} ).length === 1 && lastActive;
+		},
+
+		elements: function() {
+			var validator = this,
+				rulesCache = {};
+
+			// Select all valid inputs inside the form (no submit or reset buttons)
+			return $( this.currentForm )
+			.find( "input, select, textarea, [contenteditable]" )
+			.not( ":submit, :reset, :image, :disabled" )
+			.not( this.settings.ignore )
+			.filter( function() {
+				var name = this.name || $( this ).attr( "name" ); // For contenteditable
+				if ( !name && validator.settings.debug && window.console ) {
+					console.error( "%o has no name assigned", this );
+				}
+
+				// Set form expando on contenteditable
+				if ( this.hasAttribute( "contenteditable" ) ) {
+					this.form = $( this ).closest( "form" )[ 0 ];
+					this.name = name;
+				}
+
+				// Select only the first element for each name, and only those with rules specified
+				if ( name in rulesCache || !validator.objectLength( $( this ).rules() ) ) {
+					return false;
+				}
+
+				rulesCache[ name ] = true;
+				return true;
+			} );
+		},
+
+		clean: function( selector ) {
+			return $( selector )[ 0 ];
+		},
+
+		errors: function() {
+			var errorClass = this.settings.errorClass.split( " " ).join( "." );
+			return $( this.settings.errorElement + "." + errorClass, this.errorContext );
+		},
+
+		resetInternals: function() {
+			this.successList = [];
+			this.errorList = [];
+			this.errorMap = {};
+			this.toShow = $( [] );
+			this.toHide = $( [] );
+		},
+
+		reset: function() {
+			this.resetInternals();
+			this.currentElements = $( [] );
+		},
+
+		prepareForm: function() {
+			this.reset();
+			this.toHide = this.errors().add( this.containers );
+		},
+
+		prepareElement: function( element ) {
+			this.reset();
+			this.toHide = this.errorsFor( element );
+		},
+
+		elementValue: function( element ) {
+			var $element = $( element ),
+				type = element.type,
+				val, idx;
+
+			if ( type === "radio" || type === "checkbox" ) {
+				return this.findByName( element.name ).filter( ":checked" ).val();
+			} else if ( type === "number" && typeof element.validity !== "undefined" ) {
+				return element.validity.badInput ? "NaN" : $element.val();
+			}
+
+			if ( element.hasAttribute( "contenteditable" ) ) {
+				val = $element.text();
+			} else {
+				val = $element.val();
+			}
+
+			if ( type === "file" ) {
+
+				// Modern browser (chrome & safari)
+				if ( val.substr( 0, 12 ) === "C:\\fakepath\\" ) {
+					return val.substr( 12 );
+				}
+
+				// Legacy browsers
+				// Unix-based path
+				idx = val.lastIndexOf( "/" );
+				if ( idx >= 0 ) {
+					return val.substr( idx + 1 );
+				}
+
+				// Windows-based path
+				idx = val.lastIndexOf( "\\" );
+				if ( idx >= 0 ) {
+					return val.substr( idx + 1 );
+				}
+
+				// Just the file name
+				return val;
+			}
+
+			if ( typeof val === "string" ) {
+				return val.replace( /\r/g, "" );
+			}
+			return val;
+		},
+
+		check: function( element ) {
+			element = this.validationTargetFor( this.clean( element ) );
+
+			var rules = $( element ).rules(),
+				rulesCount = $.map( rules, function( n, i ) {
+					return i;
+				} ).length,
+				dependencyMismatch = false,
+				val = this.elementValue( element ),
+				result, method, rule, normalizer;
+
+			// Prioritize the local normalizer defined for this element over the global one
+			// if the former exists, otherwise user the global one in case it exists.
+			if ( typeof rules.normalizer === "function" ) {
+				normalizer = rules.normalizer;
+			} else if (	typeof this.settings.normalizer === "function" ) {
+				normalizer = this.settings.normalizer;
+			}
+
+			// If normalizer is defined, then call it to retreive the changed value instead
+			// of using the real one.
+			// Note that `this` in the normalizer is `element`.
+			if ( normalizer ) {
+				val = normalizer.call( element, val );
+
+				if ( typeof val !== "string" ) {
+					throw new TypeError( "The normalizer should return a string value." );
+				}
+
+				// Delete the normalizer from rules to avoid treating it as a pre-defined method.
+				delete rules.normalizer;
+			}
+
+			for ( method in rules ) {
+				rule = { method: method, parameters: rules[ method ] };
+				try {
+					result = $.validator.methods[ method ].call( this, val, element, rule.parameters );
+
+					// If a method indicates that the field is optional and therefore valid,
+					// don't mark it as valid when there are no other rules
+					if ( result === "dependency-mismatch" && rulesCount === 1 ) {
+						dependencyMismatch = true;
+						continue;
+					}
+					dependencyMismatch = false;
+
+					if ( result === "pending" ) {
+						this.toHide = this.toHide.not( this.errorsFor( element ) );
+						return;
+					}
+
+					if ( !result ) {
+						this.formatAndAdd( element, rule );
+						return false;
+					}
+				} catch ( e ) {
+					if ( this.settings.debug && window.console ) {
+						console.log( "Exception occurred when checking element " + element.id + ", check the '" + rule.method + "' method.", e );
+					}
+					if ( e instanceof TypeError ) {
+						e.message += ".  Exception occurred when checking element " + element.id + ", check the '" + rule.method + "' method.";
+					}
+
+					throw e;
+				}
+			}
+			if ( dependencyMismatch ) {
+				return;
+			}
+			if ( this.objectLength( rules ) ) {
+				this.successList.push( element );
+			}
+			return true;
+		},
+
+		// Return the custom message for the given element and validation method
+		// specified in the element's HTML5 data attribute
+		// return the generic message if present and no method specific message is present
+		customDataMessage: function( element, method ) {
+			return $( element ).data( "msg" + method.charAt( 0 ).toUpperCase() +
+				method.substring( 1 ).toLowerCase() ) || $( element ).data( "msg" );
+		},
+
+		// Return the custom message for the given element name and validation method
+		customMessage: function( name, method ) {
+			var m = this.settings.messages[ name ];
+			return m && ( m.constructor === String ? m : m[ method ] );
+		},
+
+		// Return the first defined argument, allowing empty strings
+		findDefined: function() {
+			for ( var i = 0; i < arguments.length; i++ ) {
+				if ( arguments[ i ] !== undefined ) {
+					return arguments[ i ];
+				}
+			}
+			return undefined;
+		},
+
+		// The second parameter 'rule' used to be a string, and extended to an object literal
+		// of the following form:
+		// rule = {
+		//     method: "method name",
+		//     parameters: "the given method parameters"
+		// }
+		//
+		// The old behavior still supported, kept to maintain backward compatibility with
+		// old code, and will be removed in the next major release.
+		defaultMessage: function( element, rule ) {
+			if ( typeof rule === "string" ) {
+				rule = { method: rule };
+			}
+
+			var message = this.findDefined(
+					this.customMessage( element.name, rule.method ),
+					this.customDataMessage( element, rule.method ),
+
+					// 'title' is never undefined, so handle empty string as undefined
+					!this.settings.ignoreTitle && element.title || undefined,
+					$.validator.messages[ rule.method ],
+					"<strong>Warning: No message defined for " + element.name + "</strong>"
+				),
+				theregex = /\$?\{(\d+)\}/g;
+			if ( typeof message === "function" ) {
+				message = message.call( this, rule.parameters, element );
+			} else if ( theregex.test( message ) ) {
+				message = $.validator.format( message.replace( theregex, "{$1}" ), rule.parameters );
+			}
+
+			return message;
+		},
+
+		formatAndAdd: function( element, rule ) {
+			var message = this.defaultMessage( element, rule );
+
+			this.errorList.push( {
+				message: message,
+				element: element,
+				method: rule.method
+			} );
+
+			this.errorMap[ element.name ] = message;
+			this.submitted[ element.name ] = message;
+		},
+
+		addWrapper: function( toToggle ) {
+			if ( this.settings.wrapper ) {
+				toToggle = toToggle.add( toToggle.parent( this.settings.wrapper ) );
+			}
+			return toToggle;
+		},
+
+		defaultShowErrors: function() {
+			var i, elements, error;
+			for ( i = 0; this.errorList[ i ]; i++ ) {
+				error = this.errorList[ i ];
+				if ( this.settings.highlight ) {
+					this.settings.highlight.call( this, error.element, this.settings.errorClass, this.settings.validClass );
+				}
+				this.showLabel( error.element, error.message );
+			}
+			if ( this.errorList.length ) {
+				this.toShow = this.toShow.add( this.containers );
+			}
+			if ( this.settings.success ) {
+				for ( i = 0; this.successList[ i ]; i++ ) {
+					this.showLabel( this.successList[ i ] );
+				}
+			}
+			if ( this.settings.unhighlight ) {
+				for ( i = 0, elements = this.validElements(); elements[ i ]; i++ ) {
+					this.settings.unhighlight.call( this, elements[ i ], this.settings.errorClass, this.settings.validClass );
+				}
+			}
+			this.toHide = this.toHide.not( this.toShow );
+			this.hideErrors();
+			this.addWrapper( this.toShow ).show();
+		},
+
+		validElements: function() {
+			return this.currentElements.not( this.invalidElements() );
+		},
+
+		invalidElements: function() {
+			return $( this.errorList ).map( function() {
+				return this.element;
+			} );
+		},
+
+		showLabel: function( element, message ) {
+			var place, group, errorID, v,
+				error = this.errorsFor( element ),
+				elementID = this.idOrName( element ),
+				describedBy = $( element ).attr( "aria-describedby" );
+
+			if ( error.length ) {
+
+				// Refresh error/success class
+				error.removeClass( this.settings.validClass ).addClass( this.settings.errorClass );
+
+				// Replace message on existing label
+				error.html( message );
+			} else {
+
+				// Create error element
+				error = $( "<" + this.settings.errorElement + ">" )
+					.attr( "id", elementID + "-error" )
+					.addClass( this.settings.errorClass )
+					.html( message || "" );
+
+				// Maintain reference to the element to be placed into the DOM
+				place = error;
+				if ( this.settings.wrapper ) {
+
+					// Make sure the element is visible, even in IE
+					// actually showing the wrapped element is handled elsewhere
+					place = error.hide().show().wrap( "<" + this.settings.wrapper + "/>" ).parent();
+				}
+				if ( this.labelContainer.length ) {
+					this.labelContainer.append( place );
+				} else if ( this.settings.errorPlacement ) {
+					this.settings.errorPlacement.call( this, place, $( element ) );
+				} else {
+					place.insertAfter( element );
+				}
+
+				// Link error back to the element
+				if ( error.is( "label" ) ) {
+
+					// If the error is a label, then associate using 'for'
+					error.attr( "for", elementID );
+
+					// If the element is not a child of an associated label, then it's necessary
+					// to explicitly apply aria-describedby
+				} else if ( error.parents( "label[for='" + this.escapeCssMeta( elementID ) + "']" ).length === 0 ) {
+					errorID = error.attr( "id" );
+
+					// Respect existing non-error aria-describedby
+					if ( !describedBy ) {
+						describedBy = errorID;
+					} else if ( !describedBy.match( new RegExp( "\\b" + this.escapeCssMeta( errorID ) + "\\b" ) ) ) {
+
+						// Add to end of list if not already present
+						describedBy += " " + errorID;
+					}
+					$( element ).attr( "aria-describedby", describedBy );
+
+					// If this element is grouped, then assign to all elements in the same group
+					group = this.groups[ element.name ];
+					if ( group ) {
+						v = this;
+						$.each( v.groups, function( name, testgroup ) {
+							if ( testgroup === group ) {
+								$( "[name='" + v.escapeCssMeta( name ) + "']", v.currentForm )
+									.attr( "aria-describedby", error.attr( "id" ) );
+							}
+						} );
+					}
+				}
+			}
+			if ( !message && this.settings.success ) {
+				error.text( "" );
+				if ( typeof this.settings.success === "string" ) {
+					error.addClass( this.settings.success );
+				} else {
+					this.settings.success( error, element );
+				}
+			}
+			this.toShow = this.toShow.add( error );
+		},
+
+		errorsFor: function( element ) {
+			var name = this.escapeCssMeta( this.idOrName( element ) ),
+				describer = $( element ).attr( "aria-describedby" ),
+				selector = "label[for='" + name + "'], label[for='" + name + "'] *";
+
+			// 'aria-describedby' should directly reference the error element
+			if ( describer ) {
+				selector = selector + ", #" + this.escapeCssMeta( describer )
+					.replace( /\s+/g, ", #" );
+			}
+
+			return this
+				.errors()
+				.filter( selector );
+		},
+
+		// See https://api.jquery.com/category/selectors/, for CSS
+		// meta-characters that should be escaped in order to be used with JQuery
+		// as a literal part of a name/id or any selector.
+		escapeCssMeta: function( string ) {
+			return string.replace( /([\\!"#$%&'()*+,./:;<=>?@\[\]^`{|}~])/g, "\\$1" );
+		},
+
+		idOrName: function( element ) {
+			return this.groups[ element.name ] || ( this.checkable( element ) ? element.name : element.id || element.name );
+		},
+
+		validationTargetFor: function( element ) {
+
+			// If radio/checkbox, validate first element in group instead
+			if ( this.checkable( element ) ) {
+				element = this.findByName( element.name );
+			}
+
+			// Always apply ignore filter
+			return $( element ).not( this.settings.ignore )[ 0 ];
+		},
+
+		checkable: function( element ) {
+			return ( /radio|checkbox/i ).test( element.type );
+		},
+
+		findByName: function( name ) {
+			return $( this.currentForm ).find( "[name='" + this.escapeCssMeta( name ) + "']" );
+		},
+
+		getLength: function( value, element ) {
+			switch ( element.nodeName.toLowerCase() ) {
+			case "select":
+				return $( "option:selected", element ).length;
+			case "input":
+				if ( this.checkable( element ) ) {
+					return this.findByName( element.name ).filter( ":checked" ).length;
+				}
+			}
+			return value.length;
+		},
+
+		depend: function( param, element ) {
+			return this.dependTypes[ typeof param ] ? this.dependTypes[ typeof param ]( param, element ) : true;
+		},
+
+		dependTypes: {
+			"boolean": function( param ) {
+				return param;
+			},
+			"string": function( param, element ) {
+				return !!$( param, element.form ).length;
+			},
+			"function": function( param, element ) {
+				return param( element );
+			}
+		},
+
+		optional: function( element ) {
+			var val = this.elementValue( element );
+			return !$.validator.methods.required.call( this, val, element ) && "dependency-mismatch";
+		},
+
+		startRequest: function( element ) {
+			if ( !this.pending[ element.name ] ) {
+				this.pendingRequest++;
+				$( element ).addClass( this.settings.pendingClass );
+				this.pending[ element.name ] = true;
+			}
+		},
+
+		stopRequest: function( element, valid ) {
+			this.pendingRequest--;
+
+			// Sometimes synchronization fails, make sure pendingRequest is never < 0
+			if ( this.pendingRequest < 0 ) {
+				this.pendingRequest = 0;
+			}
+			delete this.pending[ element.name ];
+			$( element ).removeClass( this.settings.pendingClass );
+			if ( valid && this.pendingRequest === 0 && this.formSubmitted && this.form() ) {
+				$( this.currentForm ).submit();
+
+				// Remove the hidden input that was used as a replacement for the
+				// missing submit button. The hidden input is added by `handle()`
+				// to ensure that the value of the used submit button is passed on
+				// for scripted submits triggered by this method
+				if ( this.submitButton ) {
+					$( "input:hidden[name='" + this.submitButton.name + "']", this.currentForm ).remove();
+				}
+
+				this.formSubmitted = false;
+			} else if ( !valid && this.pendingRequest === 0 && this.formSubmitted ) {
+				$( this.currentForm ).triggerHandler( "invalid-form", [ this ] );
+				this.formSubmitted = false;
+			}
+		},
+
+		previousValue: function( element, method ) {
+			method = typeof method === "string" && method || "remote";
+
+			return $.data( element, "previousValue" ) || $.data( element, "previousValue", {
+				old: null,
+				valid: true,
+				message: this.defaultMessage( element, { method: method } )
+			} );
+		},
+
+		// Cleans up all forms and elements, removes validator-specific events
+		destroy: function() {
+			this.resetForm();
+
+			$( this.currentForm )
+				.off( ".validate" )
+				.removeData( "validator" )
+				.find( ".validate-equalTo-blur" )
+					.off( ".validate-equalTo" )
+					.removeClass( "validate-equalTo-blur" );
+		}
+
+	},
+
+	classRuleSettings: {
+		required: { required: true },
+		email: { email: true },
+		url: { url: true },
+		date: { date: true },
+		dateISO: { dateISO: true },
+		number: { number: true },
+		digits: { digits: true },
+		creditcard: { creditcard: true }
+	},
+
+	addClassRules: function( className, rules ) {
+		if ( className.constructor === String ) {
+			this.classRuleSettings[ className ] = rules;
+		} else {
+			$.extend( this.classRuleSettings, className );
+		}
+	},
+
+	classRules: function( element ) {
+		var rules = {},
+			classes = $( element ).attr( "class" );
+
+		if ( classes ) {
+			$.each( classes.split( " " ), function() {
+				if ( this in $.validator.classRuleSettings ) {
+					$.extend( rules, $.validator.classRuleSettings[ this ] );
+				}
+			} );
+		}
+		return rules;
+	},
+
+	normalizeAttributeRule: function( rules, type, method, value ) {
+
+		// Convert the value to a number for number inputs, and for text for backwards compability
+		// allows type="date" and others to be compared as strings
+		if ( /min|max|step/.test( method ) && ( type === null || /number|range|text/.test( type ) ) ) {
+			value = Number( value );
+
+			// Support Opera Mini, which returns NaN for undefined minlength
+			if ( isNaN( value ) ) {
+				value = undefined;
+			}
+		}
+
+		if ( value || value === 0 ) {
+			rules[ method ] = value;
+		} else if ( type === method && type !== "range" ) {
+
+			// Exception: the jquery validate 'range' method
+			// does not test for the html5 'range' type
+			rules[ method ] = true;
+		}
+	},
+
+	attributeRules: function( element ) {
+		var rules = {},
+			$element = $( element ),
+			type = element.getAttribute( "type" ),
+			method, value;
+
+		for ( method in $.validator.methods ) {
+
+			// Support for <input required> in both html5 and older browsers
+			if ( method === "required" ) {
+				value = element.getAttribute( method );
+
+				// Some browsers return an empty string for the required attribute
+				// and non-HTML5 browsers might have required="" markup
+				if ( value === "" ) {
+					value = true;
+				}
+
+				// Force non-HTML5 browsers to return bool
+				value = !!value;
+			} else {
+				value = $element.attr( method );
+			}
+
+			this.normalizeAttributeRule( rules, type, method, value );
+		}
+
+		// 'maxlength' may be returned as -1, 2147483647 ( IE ) and 524288 ( safari ) for text inputs
+		if ( rules.maxlength && /-1|2147483647|524288/.test( rules.maxlength ) ) {
+			delete rules.maxlength;
+		}
+
+		return rules;
+	},
+
+	dataRules: function( element ) {
+		var rules = {},
+			$element = $( element ),
+			type = element.getAttribute( "type" ),
+			method, value;
+
+		for ( method in $.validator.methods ) {
+			value = $element.data( "rule" + method.charAt( 0 ).toUpperCase() + method.substring( 1 ).toLowerCase() );
+			this.normalizeAttributeRule( rules, type, method, value );
+		}
+		return rules;
+	},
+
+	staticRules: function( element ) {
+		var rules = {},
+			validator = $.data( element.form, "validator" );
+
+		if ( validator.settings.rules ) {
+			rules = $.validator.normalizeRule( validator.settings.rules[ element.name ] ) || {};
+		}
+		return rules;
+	},
+
+	normalizeRules: function( rules, element ) {
+
+		// Handle dependency check
+		$.each( rules, function( prop, val ) {
+
+			// Ignore rule when param is explicitly false, eg. required:false
+			if ( val === false ) {
+				delete rules[ prop ];
+				return;
+			}
+			if ( val.param || val.depends ) {
+				var keepRule = true;
+				switch ( typeof val.depends ) {
+				case "string":
+					keepRule = !!$( val.depends, element.form ).length;
+					break;
+				case "function":
+					keepRule = val.depends.call( element, element );
+					break;
+				}
+				if ( keepRule ) {
+					rules[ prop ] = val.param !== undefined ? val.param : true;
+				} else {
+					$.data( element.form, "validator" ).resetElements( $( element ) );
+					delete rules[ prop ];
+				}
+			}
+		} );
+
+		// Evaluate parameters
+		$.each( rules, function( rule, parameter ) {
+			rules[ rule ] = $.isFunction( parameter ) && rule !== "normalizer" ? parameter( element ) : parameter;
+		} );
+
+		// Clean number parameters
+		$.each( [ "minlength", "maxlength" ], function() {
+			if ( rules[ this ] ) {
+				rules[ this ] = Number( rules[ this ] );
+			}
+		} );
+		$.each( [ "rangelength", "range" ], function() {
+			var parts;
+			if ( rules[ this ] ) {
+				if ( $.isArray( rules[ this ] ) ) {
+					rules[ this ] = [ Number( rules[ this ][ 0 ] ), Number( rules[ this ][ 1 ] ) ];
+				} else if ( typeof rules[ this ] === "string" ) {
+					parts = rules[ this ].replace( /[\[\]]/g, "" ).split( /[\s,]+/ );
+					rules[ this ] = [ Number( parts[ 0 ] ), Number( parts[ 1 ] ) ];
+				}
+			}
+		} );
+
+		if ( $.validator.autoCreateRanges ) {
+
+			// Auto-create ranges
+			if ( rules.min != null && rules.max != null ) {
+				rules.range = [ rules.min, rules.max ];
+				delete rules.min;
+				delete rules.max;
+			}
+			if ( rules.minlength != null && rules.maxlength != null ) {
+				rules.rangelength = [ rules.minlength, rules.maxlength ];
+				delete rules.minlength;
+				delete rules.maxlength;
+			}
+		}
+
+		return rules;
+	},
+
+	// Converts a simple string to a {string: true} rule, e.g., "required" to {required:true}
+	normalizeRule: function( data ) {
+		if ( typeof data === "string" ) {
+			var transformed = {};
+			$.each( data.split( /\s/ ), function() {
+				transformed[ this ] = true;
+			} );
+			data = transformed;
+		}
+		return data;
+	},
+
+	// https://jqueryvalidation.org/jQuery.validator.addMethod/
+	addMethod: function( name, method, message ) {
+		$.validator.methods[ name ] = method;
+		$.validator.messages[ name ] = message !== undefined ? message : $.validator.messages[ name ];
+		if ( method.length < 3 ) {
+			$.validator.addClassRules( name, $.validator.normalizeRule( name ) );
+		}
+	},
+
+	// https://jqueryvalidation.org/jQuery.validator.methods/
+	methods: {
+
+		// https://jqueryvalidation.org/required-method/
+		required: function( value, element, param ) {
+
+			// Check if dependency is met
+			if ( !this.depend( param, element ) ) {
+				return "dependency-mismatch";
+			}
+			if ( element.nodeName.toLowerCase() === "select" ) {
+
+				// Could be an array for select-multiple or a string, both are fine this way
+				var val = $( element ).val();
+				return val && val.length > 0;
+			}
+			if ( this.checkable( element ) ) {
+				return this.getLength( value, element ) > 0;
+			}
+			return value.length > 0;
+		},
+
+		// https://jqueryvalidation.org/email-method/
+		email: function( value, element ) {
+
+			// From https://html.spec.whatwg.org/multipage/forms.html#valid-e-mail-address
+			// Retrieved 2014-01-14
+			// If you have a problem with this implementation, report a bug against the above spec
+			// Or use custom methods to implement your own email validation
+			return this.optional( element ) || /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test( value );
+		},
+
+		// https://jqueryvalidation.org/url-method/
+		url: function( value, element ) {
+
+			// Copyright (c) 2010-2013 Diego Perini, MIT licensed
+			// https://gist.github.com/dperini/729294
+			// see also https://mathiasbynens.be/demo/url-regex
+			// modified to allow protocol-relative URLs
+			return this.optional( element ) || /^(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})).?)(?::\d{2,5})?(?:[/?#]\S*)?$/i.test( value );
+		},
+
+		// https://jqueryvalidation.org/date-method/
+		date: function( value, element ) {
+			return this.optional( element ) || !/Invalid|NaN/.test( new Date( value ).toString() );
+		},
+
+		// https://jqueryvalidation.org/dateISO-method/
+		dateISO: function( value, element ) {
+			return this.optional( element ) || /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/.test( value );
+		},
+
+		// https://jqueryvalidation.org/number-method/
+		number: function( value, element ) {
+			return this.optional( element ) || /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test( value );
+		},
+
+		// https://jqueryvalidation.org/digits-method/
+		digits: function( value, element ) {
+			return this.optional( element ) || /^\d+$/.test( value );
+		},
+
+		// https://jqueryvalidation.org/minlength-method/
+		minlength: function( value, element, param ) {
+			var length = $.isArray( value ) ? value.length : this.getLength( value, element );
+			return this.optional( element ) || length >= param;
+		},
+
+		// https://jqueryvalidation.org/maxlength-method/
+		maxlength: function( value, element, param ) {
+			var length = $.isArray( value ) ? value.length : this.getLength( value, element );
+			return this.optional( element ) || length <= param;
+		},
+
+		// https://jqueryvalidation.org/rangelength-method/
+		rangelength: function( value, element, param ) {
+			var length = $.isArray( value ) ? value.length : this.getLength( value, element );
+			return this.optional( element ) || ( length >= param[ 0 ] && length <= param[ 1 ] );
+		},
+
+		// https://jqueryvalidation.org/min-method/
+		min: function( value, element, param ) {
+			return this.optional( element ) || value >= param;
+		},
+
+		// https://jqueryvalidation.org/max-method/
+		max: function( value, element, param ) {
+			return this.optional( element ) || value <= param;
+		},
+
+		// https://jqueryvalidation.org/range-method/
+		range: function( value, element, param ) {
+			return this.optional( element ) || ( value >= param[ 0 ] && value <= param[ 1 ] );
+		},
+
+		// https://jqueryvalidation.org/step-method/
+		step: function( value, element, param ) {
+			var type = $( element ).attr( "type" ),
+				errorMessage = "Step attribute on input type " + type + " is not supported.",
+				supportedTypes = [ "text", "number", "range" ],
+				re = new RegExp( "\\b" + type + "\\b" ),
+				notSupported = type && !re.test( supportedTypes.join() ),
+				decimalPlaces = function( num ) {
+					var match = ( "" + num ).match( /(?:\.(\d+))?$/ );
+					if ( !match ) {
+						return 0;
+					}
+
+					// Number of digits right of decimal point.
+					return match[ 1 ] ? match[ 1 ].length : 0;
+				},
+				toInt = function( num ) {
+					return Math.round( num * Math.pow( 10, decimals ) );
+				},
+				valid = true,
+				decimals;
+
+			// Works only for text, number and range input types
+			// TODO find a way to support input types date, datetime, datetime-local, month, time and week
+			if ( notSupported ) {
+				throw new Error( errorMessage );
+			}
+
+			decimals = decimalPlaces( param );
+
+			// Value can't have too many decimals
+			if ( decimalPlaces( value ) > decimals || toInt( value ) % toInt( param ) !== 0 ) {
+				valid = false;
+			}
+
+			return this.optional( element ) || valid;
+		},
+
+		// https://jqueryvalidation.org/equalTo-method/
+		equalTo: function( value, element, param ) {
+
+			// Bind to the blur event of the target in order to revalidate whenever the target field is updated
+			var target = $( param );
+			if ( this.settings.onfocusout && target.not( ".validate-equalTo-blur" ).length ) {
+				target.addClass( "validate-equalTo-blur" ).on( "blur.validate-equalTo", function() {
+					$( element ).valid();
+				} );
+			}
+			return value === target.val();
+		},
+
+		// https://jqueryvalidation.org/remote-method/
+		remote: function( value, element, param, method ) {
+			if ( this.optional( element ) ) {
+				return "dependency-mismatch";
+			}
+
+			method = typeof method === "string" && method || "remote";
+
+			var previous = this.previousValue( element, method ),
+				validator, data, optionDataString;
+
+			if ( !this.settings.messages[ element.name ] ) {
+				this.settings.messages[ element.name ] = {};
+			}
+			previous.originalMessage = previous.originalMessage || this.settings.messages[ element.name ][ method ];
+			this.settings.messages[ element.name ][ method ] = previous.message;
+
+			param = typeof param === "string" && { url: param } || param;
+			optionDataString = $.param( $.extend( { data: value }, param.data ) );
+			if ( previous.old === optionDataString ) {
+				return previous.valid;
+			}
+
+			previous.old = optionDataString;
+			validator = this;
+			this.startRequest( element );
+			data = {};
+			data[ element.name ] = value;
+			$.ajax( $.extend( true, {
+				mode: "abort",
+				port: "validate" + element.name,
+				dataType: "json",
+				data: data,
+				context: validator.currentForm,
+				success: function( response ) {
+					var valid = response === true || response === "true",
+						errors, message, submitted;
+
+					validator.settings.messages[ element.name ][ method ] = previous.originalMessage;
+					if ( valid ) {
+						submitted = validator.formSubmitted;
+						validator.resetInternals();
+						validator.toHide = validator.errorsFor( element );
+						validator.formSubmitted = submitted;
+						validator.successList.push( element );
+						validator.invalid[ element.name ] = false;
+						validator.showErrors();
+					} else {
+						errors = {};
+						message = response || validator.defaultMessage( element, { method: method, parameters: value } );
+						errors[ element.name ] = previous.message = message;
+						validator.invalid[ element.name ] = true;
+						validator.showErrors( errors );
+					}
+					previous.valid = valid;
+					validator.stopRequest( element, valid );
+				}
+			}, param ) );
+			return "pending";
+		}
+	}
+
+} );
+
+// Ajax mode: abort
+// usage: $.ajax({ mode: "abort"[, port: "uniqueport"]});
+// if mode:"abort" is used, the previous request on that port (port can be undefined) is aborted via XMLHttpRequest.abort()
+
+var pendingRequests = {},
+	ajax;
+
+// Use a prefilter if available (1.5+)
+if ( $.ajaxPrefilter ) {
+	$.ajaxPrefilter( function( settings, _, xhr ) {
+		var port = settings.port;
+		if ( settings.mode === "abort" ) {
+			if ( pendingRequests[ port ] ) {
+				pendingRequests[ port ].abort();
+			}
+			pendingRequests[ port ] = xhr;
+		}
+	} );
+} else {
+
+	// Proxy ajax
+	ajax = $.ajax;
+	$.ajax = function( settings ) {
+		var mode = ( "mode" in settings ? settings : $.ajaxSettings ).mode,
+			port = ( "port" in settings ? settings : $.ajaxSettings ).port;
+		if ( mode === "abort" ) {
+			if ( pendingRequests[ port ] ) {
+				pendingRequests[ port ].abort();
+			}
+			pendingRequests[ port ] = ajax.apply( this, arguments );
+			return pendingRequests[ port ];
+		}
+		return ajax.apply( this, arguments );
+	};
+}
+return $;
+}));
 
 /***/ }),
 /* 206 */
@@ -42584,7 +44193,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".main-container {\n  width: 594px;\n  margin-left: 46px;\n  padding-top: 58px;\n}\n.main-container__title {\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Conv_Lato-Black\";\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n", ""]);
+exports.push([module.i, ".main-container {\n  width: 594px;\n  margin-left: 46px;\n  padding-top: 58px;\n}\n.main-container__title {\n  cursor: default;\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Conv_Lato-Black\";\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n", ""]);
 
 // exports
 
@@ -42610,8 +44219,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-buttons.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-buttons.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-buttons-container.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./standard-buttons-container.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -42629,7 +44238,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".standard-buttons {\n  width: 465px;\n  margin-left: 65px;\n  margin-right: 64px;\n}\n.standard-buttons__title {\n  margin-bottom: 20px;\n}\n.standard-buttons__row {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  margin-bottom: 20px;\n}\n", ""]);
+exports.push([module.i, ".standard-buttons-container {\n  width: 465px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 57px;\n}\n.standard-buttons-container__row {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  margin-bottom: 21px;\n}\n.standard-buttons-container__content {\n  margin-top: 70px;\n}\n", ""]);
 
 // exports
 
@@ -42700,8 +44309,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-buttons.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-buttons.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-buttons-container.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-buttons-container.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -42719,7 +44328,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".arrow-buttons {\n  margin-left: 85px;\n  margin-right: 88px;\n  width: 420px;\n}\n.arrow-buttons__content {\n  display: flex;\n  justify-content: space-between;\n}\n", ""]);
+exports.push([module.i, ".arrow-buttons-container {\n  margin-left: 85px;\n  margin-right: 88px;\n  margin-bottom: 45px;\n  width: 420px;\n}\n.arrow-buttons-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 35px;\n}\n", ""]);
 
 // exports
 
@@ -42728,10 +44337,20 @@ exports.push([module.i, ".arrow-buttons {\n  margin-left: 85px;\n  margin-right:
 /* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
+    $($(".arrow-button").get(2)).prop("disabled", true);
+    $($(".arrow-button").get(3)).prop("disabled", true);
+})
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
+
+/***/ }),
+/* 279 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(279);
+var content = __webpack_require__(280);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -42756,7 +44375,7 @@ if(false) {
 }
 
 /***/ }),
-/* 279 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -42764,19 +44383,19 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".arrow-button {\n  outline: none;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 3px solid #4eb7a8;\n  background-color: #fff;\n}\n.arrow-button::after {\n  content: \"\";\n  display: inline-block;\n  position: relative;\n  top: 2px;\n  width: 13px;\n  height: 13px;\n  border-top: 4px solid #4eb7a8;\n  border-right: 4px solid #4eb7a8;\n}\n.arrow-button_right::after {\n  transform: rotate(45deg);\n  right: 4px;\n}\n.arrow-button_left::after {\n  transform: rotate(-135deg);\n  left: 2px;\n}\n.arrow-button:hover {\n  background-color: #4eb7a8;\n}\n.arrow-button:hover::after {\n  border-color: #fff;\n  background-color: #4eb7a8;\n}\n.arrow-button:disabled {\n  background-color: #e5e5e5;\n}\n.arrow-button:disabled::after {\n  border-color: #fff;\n  background-color: #e5e5e5;\n}\n", ""]);
+exports.push([module.i, ".arrow-button {\n  outline: none;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 3px solid #4eb7a8;\n  background-color: #fff;\n}\n.arrow-button::after {\n  content: \"\";\n  display: inline-block;\n  position: relative;\n  top: 2px;\n  width: 13px;\n  height: 13px;\n  border-top: 4px solid #4eb7a8;\n  border-right: 4px solid #4eb7a8;\n}\n.arrow-button_right::after {\n  transform: rotate(45deg);\n  right: 4px;\n}\n.arrow-button_left::after {\n  transform: rotate(-135deg);\n  left: 2px;\n}\n.arrow-button:hover {\n  background-color: #4eb7a8;\n}\n.arrow-button:hover::after {\n  border-color: #fff;\n  background-color: #4eb7a8;\n}\n.arrow-button:disabled {\n  background-color: #e5e5e5;\n  border-color: #e5e5e5;\n}\n.arrow-button:disabled::after {\n  border-color: #fff;\n  background-color: #e5e5e5;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 280 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(281);
+var content = __webpack_require__(282);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -42790,8 +44409,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./percentages-pie-chart.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./percentages-pie-chart.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./percentages-pie-chart-container.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./percentages-pie-chart-container.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -42801,7 +44420,7 @@ if(false) {
 }
 
 /***/ }),
-/* 281 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -42809,19 +44428,19 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".percentages-pie-chart__content {\n  display: flex;\n  justify-content: space-between;\n}\n", ""]);
+exports.push([module.i, ".percentages-pie-chart-container {\n  width: 588px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 32px;\n}\n.percentages-pie-chart-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 23px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 282 */
+/* 283 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(283);
+var content = __webpack_require__(284);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -42846,7 +44465,7 @@ if(false) {
 }
 
 /***/ }),
-/* 283 */
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -42854,13 +44473,13 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__value {\n  position: absolute;\n  top: 23px;\n  left: 25px;\n  font-size: 40px;\n  color: #9d9d9d;\n  font-family: \"Conv_Lato-Light\";\n}\n", ""]);
+exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__value {\n  cursor: default;\n  position: absolute;\n  top: 23px;\n  left: 25px;\n  text-align: center;\n  vertical-align: middle;\n  font-size: 40px;\n  color: #9d9d9d;\n  font-family: \"Conv_Lato-Light\";\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 284 */
+/* 285 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {    
@@ -42879,7 +44498,7 @@ exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__v
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 285 */
+/* 286 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {var ctx = $(".pie-chart__chart");
@@ -42910,13 +44529,13 @@ var myDoughnutChart = new Chart(ctx, {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 286 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(287);
+var content = __webpack_require__(288);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -42941,7 +44560,7 @@ if(false) {
 }
 
 /***/ }),
-/* 287 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -42955,13 +44574,13 @@ exports.push([module.i, ".pie-chart {\n  width: 95;\n  height: 95;\n}\n", ""]);
 
 
 /***/ }),
-/* 288 */
+/* 289 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(289);
+var content = __webpack_require__(290);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -42975,8 +44594,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./sliders.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./sliders.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./sliders-container.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./sliders-container.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -42986,7 +44605,7 @@ if(false) {
 }
 
 /***/ }),
-/* 289 */
+/* 290 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -42994,19 +44613,19 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".sliders {\n  width: 589px;\n  height: 135px;\n}\n.sliders__first-example {\n  float: left;\n}\n.sliders__second-example {\n  float: right;\n}\n", ""]);
+exports.push([module.i, ".sliders-container {\n  width: 589px;\n  height: 135px;\n}\n.sliders-container__content {\n  margin-top: 46px;\n}\n.sliders-container__content::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.sliders-container__first-example {\n  float: left;\n}\n.sliders-container__second-example {\n  float: right;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 290 */
+/* 291 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(291);
+var content = __webpack_require__(292);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -43031,7 +44650,7 @@ if(false) {
 }
 
 /***/ }),
-/* 291 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -43039,13 +44658,13 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".slider {\n  position: relative;\n  height: 4px;\n  background-color: #e5e5e5;\n  border: none !important;\n  width: 260px;\n  border-radius: 3px;\n}\n.slider__handle.ui-slider-handle {\n  outline: none;\n  border: none;\n  top: -7px;\n  width: 19px;\n  height: 19px;\n  border-radius: 50%;\n}\n.slider_type-a .slider__handle.ui-slider-handle {\n  background-color: #e75735;\n}\n.slider_type-a .ui-slider-tip {\n  visibility: visible;\n  opacity: 1;\n  top: -32px;\n  left: 9px;\n  width: 35px;\n  height: 24px;\n  background-color: #e75735;\n  border-radius: 5px;\n  border: none;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 13px;\n  color: #fff;\n  text-align: center;\n  line-height: 24px;\n}\n.slider_type-a .ui-slider-tip:after {\n  content: \"\";\n  display: block;\n  width: 0;\n  height: 0;\n  top: 24px;\n  left: 18px;\n  border-style: solid;\n  border-width: 4px 5px 0 5px;\n  border-color: #e75735 transparent transparent transparent;\n}\n.slider_type-a .ui-slider-tip:before {\n  border: none;\n}\n.slider_type-a .slider__handle:hover .ui-slider-tip,\n.slider_type-a .slider__handle:focus .ui-slider-tip {\n  top: -32px;\n}\n.slider_type-b .slider__handle.ui-slider-handle {\n  background-color: #4eb7a8;\n}\n.slider_type-b .ui-slider-line {\n  display: none;\n}\n.slider_type-b .ui-slider-pip {\n  font-size: 11px;\n  color: #d1d1d1;\n  font-family: \"Conv_Lato-Black\";\n}\n", ""]);
+exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  background-color: #e5e5e5;\n  border: none !important;\n  width: 260px;\n  border-radius: 3px;\n}\n.slider__handle.ui-slider-handle {\n  outline: none;\n  border: none;\n  top: -7px;\n  width: 19px;\n  height: 19px;\n  border-radius: 50%;\n}\n.slider_type-a .slider__handle.ui-slider-handle {\n  background-color: #e75735;\n}\n.slider_type-a .ui-slider-tip {\n  visibility: visible;\n  opacity: 1;\n  top: -32px;\n  left: 9px;\n  width: 35px;\n  height: 24px;\n  background-color: #e75735;\n  border-radius: 5px;\n  border: none;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 13px;\n  color: #fff;\n  text-align: center;\n  line-height: 24px;\n}\n.slider_type-a .ui-slider-tip:after {\n  content: \"\";\n  display: block;\n  width: 0;\n  height: 0;\n  top: 24px;\n  left: 18px;\n  border-style: solid;\n  border-width: 4px 5px 0 5px;\n  border-color: #e75735 transparent transparent transparent;\n}\n.slider_type-a .ui-slider-tip:before {\n  border: none;\n}\n.slider_type-a .slider__handle:hover .ui-slider-tip,\n.slider_type-a .slider__handle:focus .ui-slider-tip {\n  top: -32px;\n}\n.slider_type-b .slider__handle.ui-slider-handle {\n  background-color: #4eb7a8;\n}\n.slider_type-b .ui-slider-line {\n  display: none;\n}\n.slider_type-b .ui-slider-pip {\n  font-size: 11px;\n  color: #d1d1d1;\n  font-family: \"Conv_Lato-Black\";\n}\n.slider_type-b .ui-slider-label {\n  top: -5px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 292 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
@@ -43074,13 +44693,13 @@ exports.push([module.i, ".slider {\n  position: relative;\n  height: 4px;\n  bac
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 293 */
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(294);
+var content = __webpack_require__(295);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -43105,7 +44724,7 @@ if(false) {
 }
 
 /***/ }),
-/* 294 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -43113,30 +44732,45 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  cursor: default;\n  position: relative;\n  display: inline-block;\n  border-radius: 50%;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 14px;\n  text-align: center;\n  line-height: 29px;\n  width: 29px;\n  height: 29px;\n  margin-left: 108px;\n}\n.stages__stage::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 13px;\n  right: 29px;\n  height: 5px;\n  width: 108px;\n}\n.stages__stage:first-child {\n  margin-left: 0;\n}\n.stages__stage:first-child::before {\n  display: none;\n}\n.stages__stage-active {\n  background-color: #e75735;\n  color: #fff;\n}\n.stages__stage-active::before {\n  background-color: #e75735;\n}\n.stages__stage-inactive {\n  background-color: #e5e5e5;\n  color: #888;\n}\n.stages__stage-inactive::before {\n  background-color: #e5e5e5;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 295 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
-    $(".stages").smartWizard({
-        //
-    });
+    /*$(".stages").steps({
+        headerTag: "h3"        
+    });*/
+
+    $(".stages__stage").click(function() {
+        var i = $(this).index();
+        for (j = i; j <= $(".stages__stage").last().index(); j++) {
+            $($(".stages__stage").get(j))
+                .addClass("stages__stage-inactive")
+                .removeClass("stages__stage-active");
+        }        
+        while (i >= 0) {            
+            $($(".stages__stage").get(i))
+                .addClass("stages__stage-active")
+                .removeClass("stages__stage-inactive");
+            i = i - 1;    
+        }    
+    })
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 296 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(297);
+var content = __webpack_require__(298);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -43161,7 +44795,7 @@ if(false) {
 }
 
 /***/ }),
-/* 297 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -43175,7 +44809,7 @@ exports.push([module.i, ".toggle {\n  position: relative;\n  width: 59px;\n  hei
 
 
 /***/ }),
-/* 298 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function(){
@@ -43193,13 +44827,13 @@ exports.push([module.i, ".toggle {\n  position: relative;\n  width: 59px;\n  hei
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 299 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(300);
+var content = __webpack_require__(301);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -43224,7 +44858,7 @@ if(false) {
 }
 
 /***/ }),
-/* 300 */
+/* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -43238,7 +44872,7 @@ exports.push([module.i, ".tick-box {\n  position: relative;\n  width: 23px;\n  h
 
 
 /***/ }),
-/* 301 */
+/* 302 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
@@ -43256,13 +44890,13 @@ exports.push([module.i, ".tick-box {\n  position: relative;\n  width: 23px;\n  h
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 302 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(303);
+var content = __webpack_require__(304);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -43276,8 +44910,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./form-elements.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./form-elements.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./form-elements-container.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./form-elements-container.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -43287,7 +44921,7 @@ if(false) {
 }
 
 /***/ }),
-/* 303 */
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -43295,19 +44929,19 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".form-elements .send-message-container {\n  width: 288px;\n  float: left;\n}\n.form-elements .toggles-tick-boxes-container {\n  float: right;\n}\n", ""]);
+exports.push([module.i, ".form-elements-container .send-message-container {\n  width: 288px;\n  float: left;\n}\n.form-elements-container .toggles-tick-box-container {\n  float: right;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 304 */
+/* 305 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(305);
+var content = __webpack_require__(306);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -43332,7 +44966,7 @@ if(false) {
 }
 
 /***/ }),
-/* 305 */
+/* 306 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -43340,10 +44974,28 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".send-message__input {\n  box-sizing: border-box;\n  background-color: #e5e5e5;\n  outline: none;\n  border: none;\n  border-radius: 4px;\n  color: #888;\n  font-size: 14px;\n  padding-left: 13px;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n}\n.send-message__name,\n.send-message__email {\n  padding-bottom: 3px;\n  width: 208px;\n  height: 28px;\n  margin-bottom: 12px;\n}\n.send-message__message {\n  padding-top: 9px;\n  width: 288px;\n  height: 88px;\n  resize: none;\n  margin-bottom: 10px;\n}\n.send-message .standard-button {\n  float: right;\n}\n", ""]);
+exports.push([module.i, ".send-message__input {\n  box-sizing: border-box;\n  background-color: #e5e5e5;\n  outline: none;\n  border: none;\n  border-radius: 4px;\n  color: #888;\n  font-size: 14px;\n  padding-left: 13px;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n}\n.send-message__name-field,\n.send-message__email-field {\n  padding-bottom: 3px;\n  width: 208px;\n  height: 28px;\n  margin-bottom: 12px;\n}\n.send-message__message {\n  padding-top: 9px;\n  width: 288px;\n  height: 88px;\n  resize: none;\n  margin-bottom: 10px;\n}\n.send-message .standard-button {\n  float: right;\n}\n.send-message__validation-message {\n  display: none;\n  position: relative;\n  float: right;\n  width: 72px;\n  height: 28px;\n  border-radius: 4px;\n  font-family: \"Conv_Lato-Black\";\n  color: #fff;\n  font-size: 10px;\n  text-align: center;\n  line-height: 28px;\n  background-color: #4eb7a8;\n}\n.send-message__validation-message::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: -4px;\n  top: 10px;\n  border-style: solid;\n  border-width: 4px 4px 4px 0;\n  border-color: transparent #4eb7a8 transparent transparent;\n}\n.send-message__validation-message_error {\n  background-color: #e75735;\n}\n", ""]);
 
 // exports
 
+
+/***/ }),
+/* 307 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
+    $(".send-message").submit(function(event) {
+        $(".send-message .standard-button").click(function() {
+            var email = $(".send-message__email-field");
+            if (email.validity.typeMismatch) {
+                email.setCustomValidity("I expect an e-mail, darling!");
+            } else {
+                email.setCustomValidity("");
+            }            
+        }) 
+    })
+})
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ })
 /******/ ]);
