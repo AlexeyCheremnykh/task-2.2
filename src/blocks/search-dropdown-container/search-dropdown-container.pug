@@ -1,0 +1,9 @@
+include ../search/search.pug
+include ../dropdown/dropdown.pug
+
+.search-dropdown-container
+    h2.search-dropdown-container__title.main-container__title Search / Drop Down
+    .search-dropdown-container__content
+        +search()
+        +search()
+        +dropdown(["opt1", "opt2", "opt3"])
