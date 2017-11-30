@@ -1,5 +1,6 @@
 import "./fonts/Lato Black/fonts.css";
 import "./fonts/Lato Light/fonts.css";
+import "./fonts/Lato Regular/fonts.css";
 import "../node_modules/source-sans-pro/source-sans-pro.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 
@@ -43,6 +44,18 @@ import "./blocks/form-elements-container/form-elements-container.styl";
 import "./blocks/send-message/send-message.styl";
 import "./blocks/send-message/send-message.js";
 import "./blocks/search-dropdown-container/search-dropdown-container.js";
+import "./blocks/search-dropdown-container/search-dropdown-container.styl";
 import "./blocks/search/search.styl";
 import "./blocks/dropdown/dropdown.styl";
 import "./blocks/dropdown/dropdown.js";
+import "./blocks/user-profile-container/user-profile-container.styl";
+import "./blocks/user-profile/user-profile.styl";
+import "./blocks/user-profile/img/man.png";
+import "./blocks/user-profile/img/woman.png";
+//import "./blocks/news-events-container/news-events-container.styl";
+//import "./blocks/location-container/location-container.styl";
+//import "./blocks/calendar-container/calendar-container.styl";
+//import "./blocks/messaging-container/messaging-container.styl";
+//import "./blocks/video-container/video-container.styl";
+
+

@@ -1,0 +1,7 @@
+include ../user-profile/user-profile.pug
+
+.user-profile-container
+    h2.user-profile-container__title.main-container__title User Profile
+    .user-profile-container__content
+        +user_profile("grey", "John Smith", "Ux Designer", "img/man.png")
+        +user_profile("blue", "Sarah Brown", "Developer", "img/woman.png")
