@@ -1,6 +1,4 @@
-import "./fonts/Lato Black/fonts.css";
-import "./fonts/Lato Light/fonts.css";
-import "./fonts/Lato Regular/fonts.css";
+import "./fonts/Lato/lato.css";
 import "../node_modules/source-sans-pro/source-sans-pro.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 
@@ -16,6 +14,7 @@ import "jquery-circle-progress";
 import "../node_modules/jquery-steps/build/jquery.steps.min.js";
 import "../node_modules/select2/dist/js/select2.min.js";
 import "../node_modules/select2/dist/css/select2.min.css";
+import "maplace-js";
 
 import "./blocks/main-container/main-container.styl";
 import "./blocks/standard-buttons-container/standard-buttons-container.styl";
@@ -52,7 +51,9 @@ import "./blocks/user-profile-container/user-profile-container.styl";
 import "./blocks/user-profile/user-profile.styl";
 import "./blocks/user-profile/img/man.png";
 import "./blocks/user-profile/img/woman.png";
-//import "./blocks/news-events-container/news-events-container.styl";
+import "./blocks/news-events-container/news-events-container.styl";
+import "./blocks/news/news.styl";
+import "./blocks/event/event.styl";
 //import "./blocks/location-container/location-container.styl";
 //import "./blocks/calendar-container/calendar-container.styl";
 //import "./blocks/messaging-container/messaging-container.styl";

@@ -4,7 +4,7 @@ var myDoughnutChart = new Chart(ctx, {
     data: {
         labels: ["label1", "label2", "label3", "label4"],
         datasets: [{
-            data: [1, 2.5, 2.5, 3],
+            data: [12.5, 26, 26, 30],
             backgroundColor: [                
                 "#747474",
                 "#e75735",
@@ -18,7 +18,7 @@ var myDoughnutChart = new Chart(ctx, {
         legend: {
             display: false
         },
-        cutoutPercentage: 62,
+        cutoutPercentage: 65,
         maintainAspectRatio: false        
     }
 });

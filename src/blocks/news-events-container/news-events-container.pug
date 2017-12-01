@@ -1,0 +1,8 @@
+include ../news/news.pug
+include ../event/event.pug
+
+.news-events-container
+    h2.news-events-container__title.main-container__title News & Events
+    .news-events-container__content
+        +news()
+        +event()

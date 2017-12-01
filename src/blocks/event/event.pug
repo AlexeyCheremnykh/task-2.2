@@ -1,0 +1,12 @@
+include ../standard-button/standard-button.pug
+
+mixin event()
+    .event
+        .event__image
+        .event__text
+            .event__date
+                .event__day 24
+                .event__month Aug
+            .event__title This is the title
+            .event__content Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            +standard_button("big", "blue", "add to calendar")
