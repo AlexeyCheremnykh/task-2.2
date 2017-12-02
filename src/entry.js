@@ -58,7 +58,9 @@ import "./blocks/location-container/location-container.styl";
 import "./blocks/location/location.styl";
 import "./blocks/location/location.js";
 import "./blocks/location/img/map-marker-icon.png";
-//import "./blocks/calendar-container/calendar-container.styl";
+import "./blocks/calendar-messaging-container/calendar-messaging-container.styl";
+import "./blocks/calendar/calendar.styl";
+import "./blocks/calendar/calendar.js";
 //import "./blocks/messaging-container/messaging-container.styl";
 //import "./blocks/video-container/video-container.styl";
 
