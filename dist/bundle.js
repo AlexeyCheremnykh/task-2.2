@@ -28081,6 +28081,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__blocks_news_news_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_52__blocks_news_news_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__blocks_event_event_styl__ = __webpack_require__(346);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__blocks_event_event_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_53__blocks_event_event_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__blocks_location_location_styl__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__blocks_location_location_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_54__blocks_location_location_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__blocks_location_location_js__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__blocks_location_location_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_55__blocks_location_location_js__);
 
 
 
@@ -28138,6 +28142,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 //import "./blocks/location-container/location-container.styl";
+
+
 //import "./blocks/calendar-container/calendar-container.styl";
 //import "./blocks/messaging-container/messaging-container.styl";
 //import "./blocks/video-container/video-container.styl";
@@ -54950,6 +54956,70 @@ exports.push([module.i, ".event {\n  width: 288px;\n  height: 212px;\n  border-r
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/event-sample.png";
+
+/***/ }),
+/* 349 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(350);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(2)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./location.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./location.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 350 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 351 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
+    $(function() {
+        new Maplace({
+            locations: [{
+                lat: 45.9,
+                lon: 10.9,
+                zoom: 8
+            }],
+            map_div: ".location__map",
+            controls_on_map: false
+        }).Load();
+});
+})
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ })
 /******/ ]);
