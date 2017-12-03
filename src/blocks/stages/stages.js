@@ -1,8 +1,4 @@
 $(document).ready(function () {
-    /*$(".stages").steps({
-        headerTag: "h3"        
-    });*/
-
     $(".stages__stage").click(function() {
         var i = $(this).index();
         for (j = i; j <= $(".stages__stage").last().index(); j++) {

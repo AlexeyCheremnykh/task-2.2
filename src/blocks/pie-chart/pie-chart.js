@@ -1,8 +1,8 @@
 var ctx = $(".pie-chart__chart");
 var myDoughnutChart = new Chart(ctx, {
     type: 'doughnut',
-    data: {
-        labels: ["label1", "label2", "label3", "label4"],
+    showTooltips: false,
+    data: {        
         datasets: [{
             data: [12.5, 26, 26, 30],
             backgroundColor: [                
@@ -19,6 +19,12 @@ var myDoughnutChart = new Chart(ctx, {
             display: false
         },
         cutoutPercentage: 65,
-        maintainAspectRatio: false        
+        maintainAspectRatio: false,
+        tooltips: { 
+            enabled: false 
+        },
+        hover: { 
+            mode: null 
+        },              
     }
 });

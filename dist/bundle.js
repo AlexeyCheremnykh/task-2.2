@@ -28071,10 +28071,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_user_profile_container_user_profile_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_47__blocks_user_profile_container_user_profile_container_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__blocks_user_profile_user_profile_styl__ = __webpack_require__(335);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__blocks_user_profile_user_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_48__blocks_user_profile_user_profile_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_img_man_png__ = __webpack_require__(338);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_img_man_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_img_man_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_woman_png__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_woman_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_woman_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_img_user_profile_man_png__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_img_user_profile_man_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_img_user_profile_man_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_user_profile_woman_png__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_user_profile_woman_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_user_profile_woman_png__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__blocks_news_events_container_news_events_container_styl__ = __webpack_require__(340);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__blocks_news_events_container_news_events_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_51__blocks_news_events_container_news_events_container_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__blocks_news_news_styl__ = __webpack_require__(342);
@@ -28095,6 +28095,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__blocks_calendar_calendar_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_59__blocks_calendar_calendar_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__blocks_calendar_calendar_js__ = __webpack_require__(360);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__blocks_calendar_calendar_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_60__blocks_calendar_calendar_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__blocks_messaging_messaging_styl__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__blocks_messaging_messaging_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_61__blocks_messaging_messaging_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__blocks_video_container_video_container_styl__ = __webpack_require__(366);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__blocks_video_container_video_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_62__blocks_video_container_video_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__blocks_video_video_styl__ = __webpack_require__(368);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__blocks_video_video_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_63__blocks_video_video_styl__);
 
 
 
@@ -28158,8 +28164,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-//import "./blocks/messaging-container/messaging-container.styl";
-//import "./blocks/video-container/video-container.styl";
 
 
 
@@ -44385,7 +44389,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".main-container {\n  width: 594px;\n  margin-left: 45px;\n  padding-top: 73px;\n}\n.main-container__title {\n  margin-top: 0;\n  margin-bottom: 0;\n  cursor: default;\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Lato\";\n  font-weight: 900;\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n", ""]);
+exports.push([module.i, ".main-container {\n  width: 594px;\n  margin-left: 45px;\n  padding-top: 73px;\n  padding-bottom: 109px;\n}\n.main-container__title {\n  margin-top: 0;\n  margin-bottom: 0;\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Lato\";\n  font-weight: 900;\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n", ""]);
 
 // exports
 
@@ -44475,7 +44479,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".standard-button {\n  outline: none;\n  padding: 0;\n  background-color: #fff;\n  text-transform: uppercase;\n  font-family: \"Lato\";\n  font-weight: 900;\n  letter-spacing: 0.05em;\n}\n.standard-button_big {\n  width: 118px;\n  height: 32px;\n  border-radius: 3px;\n  font-size: 12px;\n}\n.standard-button_small {\n  width: 78px;\n  height: 22px;\n  border-radius: 3px;\n  font-size: 10px;\n}\n.standard-button_red {\n  color: #e34a26;\n  border: 1px solid #e75735;\n}\n.standard-button_red.standard-button_big {\n  box-shadow: 0 3px 0 0 #e75735;\n}\n.standard-button_red.standard-button_small {\n  box-shadow: 0 2px 0 0 #e75735;\n}\n.standard-button_blue {\n  color: #44ae9f;\n  border: 1px solid #4eb7a8;\n}\n.standard-button_blue.standard-button_big {\n  box-shadow: 0 3px 0 0 #4eb7a8;\n}\n.standard-button_blue.standard-button_small {\n  box-shadow: 0 2px 0 0 #4eb7a8;\n}\n.standard-button:hover,\n.standard-button:active {\n  border: none;\n  color: #fff;\n  cursor: pointer;\n}\n.standard-button_red:hover {\n  background-color: #e75735;\n}\n.standard-button_red:hover.standard-button_big {\n  box-shadow: 0 3px 0 0 #bf3e1f;\n}\n.standard-button_red:hover.standard-button_small {\n  box-shadow: 0 2px 0 0 #bf3e1f;\n}\n.standard-button_blue:hover {\n  background-color: #4eb7a8;\n}\n.standard-button_blue:hover.standard-button_big {\n  box-shadow: 0 3px 0 0 #28a290;\n}\n.standard-button_blue:hover.standard-button_small {\n  box-shadow: 0 2px 0 0 #28a290;\n}\n.standard-button:active.standard-button_big {\n  transform: translateY(3px);\n  box-shadow: none;\n}\n.standard-button:active.standard-button_small {\n  transform: translateY(2px);\n  box-shadow: none;\n}\n", ""]);
+exports.push([module.i, ".standard-button {\n  outline: none;\n  padding: 0;\n  background-color: #fff;\n  text-transform: uppercase;\n  font-family: \"Lato\";\n  font-weight: 900;\n  letter-spacing: 0.05em;\n  border-radius: 3px;\n}\n.standard-button_big {\n  width: 118px;\n  height: 32px;\n  font-size: 12px;\n}\n.standard-button_small {\n  width: 78px;\n  height: 22px;\n  font-size: 10px;\n}\n.standard-button_red {\n  color: #e34a26;\n  border: 1px solid #e75735;\n}\n.standard-button_red.standard-button_big {\n  box-shadow: 0 3px 0 0 #e75735;\n}\n.standard-button_red.standard-button_small {\n  box-shadow: 0 2px 0 0 #e75735;\n}\n.standard-button_blue {\n  color: #44ae9f;\n  border: 1px solid #4eb7a8;\n}\n.standard-button_blue.standard-button_big {\n  box-shadow: 0 3px 0 0 #4eb7a8;\n}\n.standard-button_blue.standard-button_small {\n  box-shadow: 0 2px 0 0 #4eb7a8;\n}\n.standard-button:hover,\n.standard-button:active {\n  border: none;\n  color: #fff;\n  cursor: pointer;\n}\n.standard-button_red:hover {\n  background-color: #e75735;\n}\n.standard-button_red:hover.standard-button_big {\n  box-shadow: 0 3px 0 0 #bf3e1f;\n}\n.standard-button_red:hover.standard-button_small {\n  box-shadow: 0 2px 0 0 #bf3e1f;\n}\n.standard-button_blue:hover {\n  background-color: #4eb7a8;\n}\n.standard-button_blue:hover.standard-button_big {\n  box-shadow: 0 3px 0 0 #28a290;\n}\n.standard-button_blue:hover.standard-button_small {\n  box-shadow: 0 2px 0 0 #28a290;\n}\n.standard-button:active.standard-button_big {\n  transform: translateY(3px);\n  box-shadow: none;\n}\n.standard-button:active.standard-button_small {\n  transform: translateY(2px);\n  box-shadow: none;\n}\n", ""]);
 
 // exports
 
@@ -44575,7 +44579,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".arrow-button {\n  outline: none;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 3px solid #4eb7a8;\n  background-color: #fff;\n}\n.arrow-button::after {\n  content: \"\";\n  display: inline-block;\n  position: relative;\n  top: 2px;\n  width: 13px;\n  height: 13px;\n  border-top: 4px solid #4eb7a8;\n  border-right: 4px solid #4eb7a8;\n}\n.arrow-button_right::after {\n  transform: rotate(45deg);\n  right: 4px;\n}\n.arrow-button_left::after {\n  transform: rotate(-135deg);\n  left: 2px;\n}\n.arrow-button:hover {\n  background-color: #4eb7a8;\n}\n.arrow-button:hover::after {\n  border-color: #fff;\n  background-color: #4eb7a8;\n}\n.arrow-button:disabled {\n  background-color: #e5e5e5;\n  border-color: #e5e5e5;\n}\n.arrow-button:disabled::after {\n  border-color: #fff;\n  background-color: #e5e5e5;\n}\n", ""]);
+exports.push([module.i, ".arrow-button {\n  outline: none;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 3px solid #4eb7a8;\n  background-color: #fff;\n}\n.arrow-button::after {\n  content: \"\";\n  display: inline-block;\n  position: relative;\n  top: 2px;\n  width: 13px;\n  height: 13px;\n  border-top: 4px solid #4eb7a8;\n  border-right: 4px solid #4eb7a8;\n}\n.arrow-button_right::after {\n  transform: rotate(45deg);\n  right: 4px;\n}\n.arrow-button_left::after {\n  transform: rotate(-135deg);\n  left: 2px;\n}\n.arrow-button:hover {\n  background-color: #4eb7a8;\n}\n.arrow-button:hover::after {\n  border-color: #fff;\n  background-color: #4eb7a8;\n}\n.arrow-button:disabled {\n  background-color: #e5e5e5;\n  border-color: #e5e5e5;\n}\n.arrow-button:disabled::after {\n  border-color: #fff;\n  background-color: #e5e5e5;\n}\n", ""]);
 
 // exports
 
@@ -44665,7 +44669,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__value {\n  width: 95px;\n  cursor: default;\n  position: absolute;\n  top: 23px;\n  text-align: center;\n  vertical-align: middle;\n  font-size: 40px;\n  color: #9d9d9d;\n  font-family: \"Lato\";\n  font-weight: 300;\n  letter-spacing: -2px;\n}\n", ""]);
+exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__value {\n  width: 95px;\n  cursor: default;\n  position: absolute;\n  top: 23px;\n  text-align: center;\n  font-size: 40px;\n  color: #9d9d9d;\n  font-family: \"Lato\";\n  font-weight: 300;\n  letter-spacing: -2px;\n}\n", ""]);
 
 // exports
 
@@ -44696,8 +44700,8 @@ exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__v
 /* WEBPACK VAR INJECTION */(function($) {var ctx = $(".pie-chart__chart");
 var myDoughnutChart = new Chart(ctx, {
     type: 'doughnut',
-    data: {
-        labels: ["label1", "label2", "label3", "label4"],
+    showTooltips: false,
+    data: {        
         datasets: [{
             data: [12.5, 26, 26, 30],
             backgroundColor: [                
@@ -44714,7 +44718,13 @@ var myDoughnutChart = new Chart(ctx, {
             display: false
         },
         cutoutPercentage: 65,
-        maintainAspectRatio: false        
+        maintainAspectRatio: false,
+        tooltips: { 
+            enabled: false 
+        },
+        hover: { 
+            mode: null 
+        },              
     }
 });
 
@@ -44850,7 +44860,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  background-color: #e5e5e5;\n  border: none !important;\n  width: 260px;\n  border-radius: 3px;\n}\n.slider__handle.ui-slider-handle {\n  outline: none;\n  border: none;\n  top: -7px;\n  width: 19px;\n  height: 19px;\n  border-radius: 50%;\n}\n.slider_type-a .slider__handle.ui-slider-handle {\n  background-color: #e75735;\n}\n.slider_type-a .ui-slider-tip {\n  visibility: visible;\n  opacity: 1;\n  top: -32px;\n  left: 9px;\n  width: 35px;\n  height: 24px;\n  background-color: #e75735;\n  border-radius: 5px;\n  border: none;\n  font-family: \"Conv_Lato-Black\";\n  font-size: 13px;\n  color: #fff;\n  text-align: center;\n  line-height: 24px;\n}\n.slider_type-a .ui-slider-tip:after {\n  content: \"\";\n  display: block;\n  width: 0;\n  height: 0;\n  top: 24px;\n  left: 18px;\n  border-style: solid;\n  border-width: 4px 5px 0 5px;\n  border-color: #e75735 transparent transparent transparent;\n}\n.slider_type-a .ui-slider-tip:before {\n  border: none;\n}\n.slider_type-a .slider__handle:hover .ui-slider-tip,\n.slider_type-a .slider__handle:focus .ui-slider-tip {\n  top: -32px;\n}\n.slider_type-b .slider__handle.ui-slider-handle {\n  background-color: #4eb7a8;\n}\n.slider_type-b .ui-slider-line {\n  display: none;\n}\n.slider_type-b .ui-slider-pip {\n  font-size: 11px;\n  color: #d1d1d1;\n  font-family: \"Lato\";\n  font-weight: 900;\n}\n.slider_type-b .ui-slider-label {\n  top: -5px;\n}\n", ""]);
+exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  background-color: #e5e5e5;\n  border: none !important;\n  width: 260px;\n  border-radius: 3px;\n}\n.slider__handle.ui-slider-handle {\n  outline: none;\n  border: none;\n  top: -7px;\n  width: 19px;\n  height: 19px;\n  border-radius: 50%;\n}\n.slider_type-a .slider__handle.ui-slider-handle {\n  background-color: #e75735;\n}\n.slider_type-a .ui-slider-tip {\n  visibility: visible;\n  opacity: 1;\n  top: -32px;\n  left: 9px;\n  width: 35px;\n  height: 24px;\n  background-color: #e75735;\n  border-radius: 5px;\n  border: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 13px;\n  color: #fff;\n  text-align: center;\n  line-height: 24px;\n}\n.slider_type-a .ui-slider-tip:after {\n  content: \"\";\n  display: block;\n  width: 0;\n  height: 0;\n  top: 24px;\n  left: 18px;\n  border-style: solid;\n  border-width: 4px 5px 0 5px;\n  border-color: #e75735 transparent transparent transparent;\n}\n.slider_type-a .ui-slider-tip:before {\n  border: none;\n}\n.slider_type-a .slider__handle:hover .ui-slider-tip,\n.slider_type-a .slider__handle:focus .ui-slider-tip {\n  top: -32px;\n}\n.slider_type-b .slider__handle.ui-slider-handle {\n  background-color: #4eb7a8;\n}\n.slider_type-b .ui-slider-line {\n  display: none;\n}\n.slider_type-b .ui-slider-pip {\n  font-size: 11px;\n  color: #d1d1d1;\n  font-family: \"Lato\";\n  font-weight: 900;\n}\n.slider_type-b .ui-slider-label {\n  top: -5px;\n}\n", ""]);
 
 // exports
 
@@ -44969,7 +44979,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  cursor: default;\n  position: relative;\n  display: inline-block;\n  border-radius: 50%;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 14px;\n  text-align: center;\n  line-height: 29px;\n  width: 29px;\n  height: 29px;\n  margin-left: 108px;\n  margin-top: 0;\n  margin-bottom: 0;\n}\n.stages__stage::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 13px;\n  right: 29px;\n  height: 5px;\n  width: 108px;\n}\n.stages__stage:first-child {\n  margin-left: 0;\n}\n.stages__stage:first-child::before {\n  display: none;\n}\n.stages__stage-active {\n  background-color: #e75735;\n  color: #fff;\n}\n.stages__stage-active::before {\n  background-color: #e75735;\n}\n.stages__stage-inactive {\n  background-color: #e5e5e5;\n  color: #888;\n}\n.stages__stage-inactive::before {\n  background-color: #e5e5e5;\n}\n", ""]);
+exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  cursor: default;\n  position: relative;\n  display: inline-block;\n  border-radius: 50%;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 14px;\n  text-align: center;\n  line-height: 29px;\n  width: 29px;\n  height: 29px;\n  margin: 0 0 0 108px;\n}\n.stages__stage::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 13px;\n  right: 29px;\n  height: 5px;\n  width: 108px;\n}\n.stages__stage:first-child {\n  margin-left: 0;\n}\n.stages__stage:first-child::before {\n  display: none;\n}\n.stages__stage-active {\n  background-color: #e75735;\n  color: #fff;\n}\n.stages__stage-active::before {\n  background-color: #e75735;\n}\n.stages__stage-inactive {\n  background-color: #e5e5e5;\n  color: #888;\n}\n.stages__stage-inactive::before {\n  background-color: #e5e5e5;\n}\n", ""]);
 
 // exports
 
@@ -44979,10 +44989,6 @@ exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  curs
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
-    /*$(".stages").steps({
-        headerTag: "h3"        
-    });*/
-
     $(".stages__stage").click(function() {
         var i = $(this).index();
         for (j = i; j <= $(".stages__stage").last().index(); j++) {
@@ -45433,7 +45439,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".search {\n  position: relative;\n  margin-bottom: 16px;\n}\n.search__field {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 255px;\n  background-color: #e5e5e5;\n  border-radius: 3px 0 0 3px;\n  padding-left: 13px;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.search__field::placeholder {\n  color: #888;\n}\n.search__field_not-found {\n  background-color: #e75735;\n}\n.search__field_not-found::placeholder {\n  color: #fff;\n}\n.search__button {\n  position: absolute;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 33px;\n  border-radius: 0 3px 3px 0;\n  background-color: #e75735;\n  color: #fff;\n}\n", ""]);
+exports.push([module.i, ".search {\n  position: relative;\n  margin-bottom: 16px;\n}\n.search__field {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 255px;\n  background-color: #e5e5e5;\n  border-radius: 3px 0 0 3px;\n  padding-left: 13px;\n  padding-bottom: 4px;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.search__field::placeholder {\n  color: #888;\n}\n.search__field_not-found {\n  background-color: #e75735;\n}\n.search__field_not-found::placeholder {\n  color: #fff;\n}\n.search__button {\n  position: absolute;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 33px;\n  border-radius: 0 3px 3px 0;\n  background-color: #e75735;\n  color: #fff;\n}\n", ""]);
 
 // exports
 
@@ -45594,13 +45600,13 @@ module.exports = __webpack_require__.p + "img/social_icons.png";
 /* 338 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/man.png";
+module.exports = __webpack_require__.p + "img/user-profile-man.png";
 
 /***/ }),
 /* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/woman.png";
+module.exports = __webpack_require__.p + "img/user-profile-woman.png";
 
 /***/ }),
 /* 340 */
@@ -45642,7 +45648,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".news-events-container {\n  margin-bottom: 47px;\n}\n.news-events-container__content {\n  margin-top: 33px;\n}\n.news-events-container .news {\n  float: left;\n}\n.news-events-container .event {\n  float: right;\n}\n.news-events-container::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n", ""]);
+exports.push([module.i, ".news-events-container {\n  margin-bottom: 47px;\n}\n.news-events-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 33px;\n}\n", ""]);
 
 // exports
 
@@ -45918,7 +45924,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".calendar-messaging-container .calendar-container__content {\n  margin-top: 25px;\n}\n", ""]);
+exports.push([module.i, ".calendar-messaging-container {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 52px;\n}\n.calendar-messaging-container .calendar-container__content,\n.calendar-messaging-container .messaging-container__content {\n  margin-top: 25px;\n}\n", ""]);
 
 // exports
 
@@ -45963,7 +45969,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".calendar {\n  width: 279px;\n}\n.calendar .calendar__day {\n  width: 279px;\n  height: 109px;\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 80px;\n  text-align: center;\n  color: #fff;\n  line-height: 110px;\n  letter-spacing: -0.04em;\n  background-color: #e75735;\n  border-radius: 4px 4px 0 0;\n}\n.calendar .calendar__datepicker .ui-datepicker {\n  box-sizing: border-box;\n  width: 279px;\n  height: 271px;\n  padding: 0;\n  border: none;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-header {\n  padding: 0;\n  border: none;\n  border-radius: 0;\n  height: 43px;\n  background-color: #d54c2c;\n  color: #fff;\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 24px;\n  letter-spacing: -0.03em;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-year {\n  display: none;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title {\n  line-height: 1.6em;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon {\n  background-image: none;\n  width: 9px;\n  height: 9px;\n  border-left: 2px solid #fff;\n  border-bottom: 2px solid #fff;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon-circle-triangle-e {\n  transform: rotate(-135deg);\n  margin-left: -6px;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon-circle-triangle-w {\n  transform: rotate(45deg);\n  margin-left: -7px;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-calendar {\n  margin: 0;\n/*.ui-datepicker-week-end\n                    border-right: none\n                    border-left: none*/\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-calendar th {\n  width: 40px;\n  height: 27px;\n  padding: 0;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 9px;\n  letter-spacing: 0.05em;\n  color: #fff;\n  background-color: #e75735;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-calendar th:last-child {\n  width: 39px;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-calendar td {\n  width: 39px;\n  height: 39px;\n  border: 1px solid #fff;\n  padding: 0;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-calendar td .ui-state-default {\n  font-family: \"Source Sans Pro\";\n  font-size: 20px;\n  line-height: 42px;\n  font-weight: 400;\n  background-color: #f2f2f2;\n  border: none;\n  padding: 0;\n  width: 39px;\n  height: 39px;\n  color: #868686;\n  text-align: center;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-calendar .ui-datepicker-other-month {\n  background-color: #f2f2f2;\n  opacity: 1;\n}\n.calendar .calendar__datepicker .ui-datepicker .ui-datepicker-calendar .ui-datepicker-other-month .ui-state-default {\n  color: #fff;\n}\n", ""]);
+exports.push([module.i, ".calendar {\n  width: 279px;\n}\n.calendar__day {\n  width: 279px;\n  height: 109px;\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 80px;\n  text-align: center;\n  color: #fff;\n  line-height: 110px;\n  letter-spacing: -0.04em;\n  background-color: #e75735;\n  border-radius: 4px 4px 0 0;\n}\n.calendar__datepicker .ui-datepicker {\n  box-sizing: border-box;\n  width: 279px;\n  padding: 0;\n  border: none;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header {\n  padding: 0;\n  border: none;\n  border-radius: 0;\n  height: 43px;\n  background-color: #d54c2c;\n  color: #fff;\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 24px;\n  letter-spacing: -0.03em;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-year {\n  display: none;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title {\n  line-height: 1.6em;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon {\n  background-image: none;\n  width: 9px;\n  height: 9px;\n  border-left: 2px solid #fff;\n  border-bottom: 2px solid #fff;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon-circle-triangle-e {\n  transform: rotate(-135deg);\n  margin-left: -6px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon-circle-triangle-w {\n  transform: rotate(45deg);\n  margin-left: -7px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-next.ui-state-hover,\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-prev.ui-state-hover {\n  background-color: #d54c2c;\n  border: none;\n  top: 0;\n  border-radius: 0;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-next.ui-state-hover > .ui-icon,\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-prev.ui-state-hover > .ui-icon {\n  top: 24px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar {\n  margin: 0;\n  width: 279px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar th {\n  width: 40px;\n  height: 27px;\n  padding: 0;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 9px;\n  letter-spacing: 0.05em;\n  color: #fff;\n  background-color: #e75735;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar th:last-child {\n  width: 39px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar td {\n  width: 39px;\n  height: 39px;\n  border-right: 1px solid #fff;\n  padding: 0;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar td:last-child {\n  border-right: none;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar td .ui-state-default {\n  font-family: \"Source Sans Pro\";\n  font-size: 20px;\n  line-height: 39px;\n  font-weight: 400;\n  background-color: #f2f2f2;\n  border: none;\n  padding: 0;\n  width: 39px;\n  height: 39px;\n  color: #868686;\n  text-align: center;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar td .ui-state-active {\n  background-color: #e75735;\n  color: #fff;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar .ui-datepicker-other-month {\n  background-color: #f2f2f2;\n  opacity: 1;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar .ui-datepicker-other-month .ui-state-default {\n  color: #fff;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar tr {\n  border-bottom: 1px solid #fff;\n}\n.calendar__today {\n  box-sizing: border-box;\n  width: 100%;\n  height: 49px;\n  background-color: #e5e5e5;\n  border-radius: 0 0 4px 4px;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 13px;\n  letter-spacing: 0.05em;\n  line-height: 49px;\n  text-transform: uppercase;\n  color: #868686;\n  padding-left: 20px;\n  text-align: left;\n  outline: none;\n  border: none;\n  cursor: pointer;\n}\n", ""]);
 
 // exports
 
@@ -45974,13 +45980,179 @@ exports.push([module.i, ".calendar {\n  width: 279px;\n}\n.calendar .calendar__d
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
     $(".calendar__datepicker").datepicker({
-        dayNamesMin: ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
-        showOtherMonths: true
+        dayNamesMin: ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],        
+        showOtherMonths: true,
+        onSelect: function() {
+            var currentDate = $(".calendar__datepicker").datepicker("getDate");
+            $(".calendar__day").text($.datepicker.formatDate("d", currentDate));
+        },
+        /*onChangeMonthYear: function (year, month, inst) {   
+            $(".calendar__datepicker").datepicker("setDate", month + "/" + "1" +"/" + year);
+            $(".calendar__day").text(1); 
+        }   */        
     });
-    var currentDate = $(".calendar__datepicker").datepicker("getDate");
-    $(".calendar__day").text($.datepicker.formatDate("d", currentDate));          
+    var currentDate = $(".calendar__datepicker").datepicker("getDate"); //??????
+    $(".calendar__day").text($.datepicker.formatDate("d", currentDate)); 
+    
+    $(".calendar__today").click(function() {
+        $(".calendar__datepicker").datepicker("setDate", currentDate);
+        $(".calendar__day").text($.datepicker.formatDate("d", currentDate)); 
+    });
 })
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
+
+/***/ }),
+/* 361 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(362);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(2)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./messaging.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./messaging.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 362 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".messaging {\n  height: 428px;\n  width: 288px;\n  border-radius: 4px;\n  overflow: hidden;\n  position: relative;\n}\n.messaging__person-name {\n  font-family: \"Source Sans Pro\";\n  font-weight: 300;\n  text-align: center;\n  line-height: 77px;\n  font-size: 34px;\n  letter-spacing: -0.03em;\n  color: #fff;\n}\n.messaging__person-name-upper {\n  height: 82px;\n  background-color: #4eb7a8;\n}\n.messaging__person-name-lower {\n  height: 34px;\n  background-color: #46ab9d;\n}\n.messaging__person-photo {\n  position: absolute;\n  top: 70px;\n  left: 93px;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(363) + ");\n}\n.messaging__messages {\n  height: 313px;\n  background-color: #f2f2f2;\n}\n.messaging__icons {\n  box-sizing: border-box;\n  height: 62px;\n  padding: 21px 22px 12px 22px;\n  display: flex;\n  justify-content: space-between;\n}\n.messaging__icon {\n  height: 30px;\n  width: 30px;\n}\n.messaging__chat-icon {\n  background: url(" + __webpack_require__(364) + ") no-repeat 5px 1px;\n}\n.messaging__camera-icon {\n  background: url(" + __webpack_require__(365) + ") no-repeat;\n}\n.messaging__input-message {\n  position: relative;\n  box-sizing: border-box;\n  width: 243px;\n  height: 69px;\n  margin-left: 22px;\n  margin-right: 23px;\n  background-color: #fff;\n  padding: 18px;\n  font-weight: 600;\n  font-family: \"Lato\";\n  font-size: 12.5px;\n  color: #868686;\n  letter-spacing: 0.05em;\n  border-radius: 7px;\n}\n.messaging__input-message::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  width: 2px;\n  top: -6px;\n  left: 112px;\n  border-style: solid;\n  border-width: 0 5px 6px 5px;\n  border-color: transparent transparent #fff transparent;\n}\n.messaging__output-message {\n  box-sizing: border-box;\n  resize: none;\n  outline: none;\n  display: block;\n  margin: 17px auto 15px auto;\n  padding: 16px;\n  height: 88px;\n  width: 244px;\n  background-color: #e5e5e5;\n  border: 3px solid #fff;\n  border-radius: 6px;\n  font-weight: 600;\n  font-family: \"Lato\";\n  font-size: 12.5px;\n  color: #777;\n  letter-spacing: 0.05em;\n}\n.messaging .standard-button {\n  display: block;\n  width: 243px;\n  height: 32px;\n  color: #fff;\n  background-color: #4eb7a8;\n  box-shadow: 0 3px 0 0 #28a290;\n  margin-left: auto;\n  margin-right: auto;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 363 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/messaging-woman.png";
+
+/***/ }),
+/* 364 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/messaging-chat-icon.png";
+
+/***/ }),
+/* 365 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/messaging-camera-icon.png";
+
+/***/ }),
+/* 366 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(367);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(2)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./video-container.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./video-container.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 367 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".video-container__content {\n  margin-top: 23px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 368 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(369);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(2)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./video.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./video.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 369 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".video {\n  width: 594px;\n  height: 334px;\n  border: none;\n}\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);

@@ -49,8 +49,8 @@ import "./blocks/dropdown/dropdown.styl";
 import "./blocks/dropdown/dropdown.js";
 import "./blocks/user-profile-container/user-profile-container.styl";
 import "./blocks/user-profile/user-profile.styl";
-import "./blocks/user-profile/img/man.png";
-import "./blocks/user-profile/img/woman.png";
+import "./blocks/user-profile/img/user-profile-man.png";
+import "./blocks/user-profile/img/user-profile-woman.png";
 import "./blocks/news-events-container/news-events-container.styl";
 import "./blocks/news/news.styl";
 import "./blocks/event/event.styl";
@@ -61,7 +61,6 @@ import "./blocks/location/img/map-marker-icon.png";
 import "./blocks/calendar-messaging-container/calendar-messaging-container.styl";
 import "./blocks/calendar/calendar.styl";
 import "./blocks/calendar/calendar.js";
-//import "./blocks/messaging-container/messaging-container.styl";
-//import "./blocks/video-container/video-container.styl";
-
-
+import "./blocks/messaging/messaging.styl";
+import "./blocks/video-container/video-container.styl";
+import "./blocks/video/video.styl";

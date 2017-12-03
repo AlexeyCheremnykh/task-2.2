@@ -1,7 +1,7 @@
-mixin news()
+mixin news(title, date, text)
     .news
         .news__image
         .news__text
-            .news__title It's all going downhill
-            .news__date 24 August 2013
-            .news__content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum aliquet venenatis. Etiam a nisi nunc, a tincidunt eros.
+            .news__title #{title}
+            .news__date #{date}
+            .news__content #{text}

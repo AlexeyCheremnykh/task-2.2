@@ -1,7 +1,13 @@
 include ../calendar/calendar.pug
+include ../messaging/messaging.pug
 
 .calendar-messaging-container
     .calendar-container
         h2.calendar-container__title.main-container__title Calendar
         .calendar-container__content
             +calendar()
+
+    .messaging-container
+        h2.messaging-container__title.main-container__title Messaging
+        .messaging-container__content
+            +messaging()
