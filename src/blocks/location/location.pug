@@ -1,12 +1,10 @@
-mixin location()
+mixin location(address, title)
     .location
-        .location__map
+        div(class="location__map" data-address=address)
         .location__footer
             .location__footer-text
-                .location__meet-us Meet us!
-                .location__address 
-                    span.location__building 1259 
-                    span.location__non-building California ST San Francisco, CA
+                .location__meet-us #{title}
+                .location__address #{address}                    
             .location__footer-buttons
                 .location__my-location.location__footer-button
                 .location__pin.location__footer-button

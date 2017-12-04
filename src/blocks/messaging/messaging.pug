@@ -1,14 +1,15 @@
 include ../standard-button/standard-button.pug
-mixin messaging()
+
+mixin messaging(personName, message)
     form.messaging
         .messaging__person-name
-            .messaging__person-name-upper Sarah Brown
+            .messaging__person-name-upper #{personName}
             .messaging__person-name-lower
         .messaging__person-photo
         .messaging__messages
             .messaging__icons
                 .messaging__chat-icon.messaging__icon
                 .messaging__camera-icon.messaging__icon
-            .messaging__input-message Hey! So are we cool to meet at the art gallery? Say 8pm
+            .messaging__input-message #{message}
             textarea.messaging__output-message
             +standard_button("big", "blue", "reply")
