@@ -44698,12 +44698,13 @@ exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__v
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {var ctx = $(".pie-chart__chart");
+var pc = $(".pie-chart");
 var myDoughnutChart = new Chart(ctx, {
     type: 'doughnut',
     showTooltips: false,
     data: {        
         datasets: [{
-            data: [12.5, 26, 26, 30],
+            data: [pc.data("val1"), pc.data("val2"), pc.data("val3"), pc.data("val4")],
             backgroundColor: [                
                 "#747474",
                 "#e75735",
@@ -44869,27 +44870,29 @@ exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  bac
 /* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
-    $(".slider_type-a")
-        .slider({
-            min: 0,
-            max: 100,            
-        })
-        .slider("float");
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
+    $(".slider").each(function() {
+        $(".slider_type-a")
+            .slider({
+                min: $(this).data("min"),
+                max: $(this).data("max"),            
+            })
+            .slider("float");
 
-    $(".slider_type-b")
-        .slider({
-            range: "min",            
-            min: 0,
-            max: 100,
-            step: 25,            
-            slide: function () {            
-                $(".ui-slider-range", this).css("background", "#4eb7a8");         
-            }
-        })
-        .slider("pips", {
-            rest: "label"              
-        });
+        $(".slider_type-b")
+            .slider({
+                range: "min",            
+                min: $(this).data("min"),
+                max: $(this).data("max"),
+                step: $(this).data("step"),            
+                slide: function () {            
+                    $(".ui-slider-range", this).css("background", "#4eb7a8");         
+                }
+            })
+            .slider("pips", {
+                rest: "label"              
+            });
+    })
 });
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
@@ -44989,21 +44992,25 @@ exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  curs
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
-    $(".stages__stage").click(function() {
-        var i = $(this).index();
-        for (j = i; j <= $(".stages__stage").last().index(); j++) {
-            $($(".stages__stage").get(j))
-                .addClass("stages__stage-inactive")
-                .removeClass("stages__stage-active");
-        }        
-        while (i >= 0) {            
-            $($(".stages__stage").get(i))
-                .addClass("stages__stage-active")
-                .removeClass("stages__stage-inactive");
-            i = i - 1;    
-        }    
-    })
-});
+    $(".stages").each(function() {
+        var currentStage = $(this);
+        $(".stages__stage", currentStage).click(function() {
+            var i = $(this).index();
+            var lastIndex = $(".stages__stage", currentStage).last().index();
+            for (j = i; j <= lastIndex; j++) {
+                $($(".stages__stage", currentStage).get(j))
+                    .addClass("stages__stage-inactive")
+                    .removeClass("stages__stage-active");
+            }        
+            while (i >= 0) {            
+                $($(".stages__stage", currentStage).get(i))
+                    .addClass("stages__stage-active")
+                    .removeClass("stages__stage-inactive");
+                i = i - 1;    
+            }    
+        });
+    });
+})
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
@@ -45840,7 +45847,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  box-sizing: border-box;\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-text {\n  margin-left: 27px;\n  height: 29px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  width: 280px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.location__meet-us {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 30px;\n  word-spacing: -0.09em;\n}\n.location__address {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  width: 143px;\n}\n.location__building {\n  word-spacing: 0.2em;\n}\n.location__footer-buttons {\n  width: 79px;\n  height: 69px;\n  padding: 20px 13px 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-button {\n  width: 30px;\n  height: 30px;\n}\n.location__my-location {\n  background: url(" + __webpack_require__(352) + ") no-repeat 0px 1px;\n}\n.location__pin {\n  background: url(" + __webpack_require__(353) + ") no-repeat 0px 2px;\n}\n", ""]);
+exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  box-sizing: border-box;\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-text {\n  margin-left: 27px;\n  height: 29px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  width: 280px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.location__meet-us {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 30px;\n  word-spacing: -0.09em;\n}\n.location__address {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  width: 143px;\n}\n.location__footer-buttons {\n  width: 79px;\n  height: 69px;\n  padding: 20px 13px 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-button {\n  width: 30px;\n  height: 30px;\n}\n.location__my-location {\n  background: url(" + __webpack_require__(352) + ") no-repeat 0px 1px;\n}\n.location__pin {\n  background: url(" + __webpack_require__(353) + ") no-repeat 0px 2px;\n}\n", ""]);
 
 // exports
 
@@ -45863,12 +45870,12 @@ module.exports = __webpack_require__.p + "img/map-pin.png";
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
     $(".location__map")
-        .gmap3({
-            address: "San Francisco, CA, 1259 California ST",
+        .gmap3({            
+            address: $(".location__map").data("address"),
             zoom: 14            
         })
         .marker({
-            address: "San Francisco, CA, 1259 California ST",
+            address: $(".location__map").data("address"),
             icon: {
                 url: "img/map-marker-icon.png",                
                 anchor: new google.maps.Point(20, 56)
