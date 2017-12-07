@@ -1,14 +1,61 @@
 .standard-buttons-container
-    width: 465px
+    width: 29.0625rem
     margin-left: auto
     margin-right: auto
-    margin-bottom: 57px 
+    margin-bottom: 3.5625rem 
 
     &__row
         display: flex 
         justify-content: space-between
         align-items: flex-end 
-        margin-bottom: 21px 
+        margin-bottom: 1.3125rem 
 
     &__content
-        margin-top: 70px 
+        margin-top: 4.375rem 
+
+    .standard-button
+        border-radius: 0.1875rem
+
+        &_big
+            width: 7.375rem
+            height: 2rem             
+            font-size: 0.75rem
+    
+        &_small
+            width: 4.875rem
+            height: 1.375rem          
+            font-size: 0.625rem        
+
+        &_red                   
+            border-width: 0.0625rem
+            &^[0]_big
+                box-shadow: 0 0.1875rem 0 0 #e75735
+            &^[0]_small
+                box-shadow: 0 0.125rem 0 0 #e75735                    
+
+        &_blue
+            border-width: 0.0625rem
+            &^[0]_big
+                box-shadow: 0 0.1875rem 0 0 #4eb7a8
+            &^[0]_small
+                box-shadow: 0 0.125rem 0 0 #4eb7a8  
+
+        &_red:hover            
+            &^[0]_big
+                box-shadow: 0 0.1875rem 0 0 #bf3e1f
+            &^[0]_small
+                box-shadow: 0 0.125rem 0 0 #bf3e1f        
+        
+        &_blue:hover            
+            &^[0]_big
+                box-shadow: 0 0.1875rem 0 0 #28a290
+            &^[0]_small
+                box-shadow: 0 0.125rem 0 0 #28a290
+
+        &:active       
+            &^[0]_big
+                transform: translateY(0.1875rem)
+                box-shadow: none
+            &^[0]_small
+                transform: translateY(0.125rem)
+                box-shadow: none
