@@ -1,10 +1,10 @@
 .sliders-container
-    width: 589px
-    height: 117px
-    margin-bottom: 15px
+    width: 36.8125rem
+    height: 7.3125rem
+    margin-bottom: 0.9375rem
     
     &__content        
-        margin-top: 46px
+        margin-top: 2.875rem
 
         &::after
             content: ""
@@ -15,3 +15,45 @@
         float: left
     &__second-example
         float: right
+
+    .slider        
+        height: 0.3125rem
+        width: 16.25rem
+        border-radius: 0.1875rem
+
+        &__handle.ui-slider-handle       
+            top: -0.4375rem        
+            width: 1.1875rem
+            height: 1.1875rem
+
+    .slider_type-a
+        .ui-slider-tip            
+            top: -2rem
+            left: 0.5625rem
+            width: 2.1875rem
+            height: 1.5rem        
+            border-radius: 0.3125rem
+            font-size: 0.8125rem
+            line-height: 1.5rem
+            margin-left: -1.125rem   
+
+            &:after
+                top: 1.5rem       
+                left: 1.125rem        
+                border-width: 0.25rem 0.3125rem 0 0.3125rem
+            
+        & .slider__handle:hover .ui-slider-tip,
+        & .slider__handle:focus .ui-slider-tip
+            top: -2rem
+        
+        .ui-slider-pip        
+            font-size: 0.6875rem
+
+        .ui-slider-label
+            top: -0.3125rem
+
+    .slider_type-b  
+        .ui-slider-pip        
+            font-size: 0.6875rem
+        .ui-slider-label
+            top: -0.3125px
