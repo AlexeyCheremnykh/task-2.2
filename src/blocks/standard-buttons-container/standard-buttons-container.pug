@@ -1,12 +1,13 @@
 include ../standard-button/standard-button.pug
 
 .standard-buttons-container   
-    //это легально? (h2)
     h2.standard-buttons-container__title.main-container__title Standard buttons
     .standard-buttons-container__content
-        - for(i = 0; i < 3; i++)
-            //.standard-buttons-container__row
-            +standard_button("small", "blue", "button") 
-            +standard_button("big", "blue", "button") 
-            +standard_button("big", "red", "button") 
-            +standard_button("small", "red", "button")
+        .standard-buttons-container__buttons
+            - for(i = 0; i < 3; i++)
+                +standard_button("small", "blue", "button") 
+                +standard_button("big", "blue", "button")
+        .standard-buttons-container__buttons
+            - for(i = 0; i < 3; i++)
+                +standard_button("big", "red", "button") 
+                +standard_button("small", "red", "button")
