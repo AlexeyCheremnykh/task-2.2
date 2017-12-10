@@ -5,4 +5,20 @@
     &__content
         display: flex
         justify-content: space-between
+        flex-wrap: wrap
         margin-top: 35px
+    
+    &__part
+        width: 198px
+        display: flex
+        justify-content: space-between
+
+@media (max-width: 560px)
+    .arrow-buttons-container
+        width: 210px
+
+        &__part:nth-child(2)
+            margin-top: 10px
+            display: flex
+            flex-direction: row-reverse
+            justify-content: space-between
