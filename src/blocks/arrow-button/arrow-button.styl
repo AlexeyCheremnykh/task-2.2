@@ -1,6 +1,5 @@
 .arrow-button
-    outline: none
-    position: relative    
+    outline: none    
     width: 50px
     height: 50px
     border-radius: 50%
@@ -10,8 +9,8 @@
     &::after
         content: ""
         display: inline-block
-        position: absolute
-        top: 14px
+        position: relative
+        top: 2px
         width: 13px
         height: 13px        
         border-top: 4px solid #4eb7a8
@@ -19,11 +18,11 @@
 
     &_right::after
         transform: rotate(45deg)        
-        right: 16px
+        right: 4px
     
     &_left::after
         transform: rotate(-135deg)
-        left: 16px
+        left: 2px
               
     &:hover
         background-color: #4eb7a8
