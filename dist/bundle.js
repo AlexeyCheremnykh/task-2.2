@@ -44389,7 +44389,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".main-container {\n  width: 620px;\n  margin-left: auto;\n  margin-right: auto;\n  padding-top: 73px;\n  padding-bottom: 109px;\n}\n.main-container__title {\n  margin-top: 0;\n  margin-bottom: 0;\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Lato\";\n  font-weight: 900;\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n@media (max-width: 660px) {\n  .main-container {\n    width: 100%;\n  }\n}\n", ""]);
+exports.push([module.i, ".main-container {\n  width: 620px;\n  margin-left: auto;\n  margin-right: auto;\n  padding-top: 73px;\n  padding-bottom: 109px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.main-container__title {\n  margin-top: 0;\n  margin-bottom: 0;\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Lato\";\n  font-weight: 900;\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n.main-container .search-user-profile-container {\n  width: 100%;\n}\n@media (max-width: 660px) {\n  .main-container {\n    width: 100%;\n  }\n}\n", ""]);
 
 // exports
 
@@ -44434,7 +44434,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".standard-buttons-container {\n  width: 465px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 36px;\n}\n.standard-buttons-container__content {\n  margin-top: 70px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.standard-buttons-container__content .standard-button {\n  margin-bottom: 21px;\n}\n", ""]);
+exports.push([module.i, ".standard-buttons-container {\n  width: 465px;\n  margin-bottom: 36px;\n}\n.standard-buttons-container__content {\n  margin-top: 70px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.standard-buttons-container__content .standard-button {\n  margin-bottom: 21px;\n}\n", ""]);
 
 // exports
 
@@ -44524,7 +44524,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".arrow-buttons-container {\n  margin-left: 86px;\n  margin-bottom: 45px;\n  width: 420px;\n}\n.arrow-buttons-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 35px;\n}\n", ""]);
+exports.push([module.i, ".arrow-buttons-container {\n  margin-bottom: 45px;\n  width: 420px;\n}\n.arrow-buttons-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 35px;\n}\n", ""]);
 
 // exports
 
@@ -44624,7 +44624,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".percentages-pie-chart-container {\n  width: 588px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 32px;\n}\n.percentages-pie-chart-container__title {\n  word-spacing: -0.1em;\n}\n.percentages-pie-chart-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 23px;\n}\n", ""]);
+exports.push([module.i, ".percentages-pie-chart-container {\n  width: 588px;\n  margin-bottom: 32px;\n}\n.percentages-pie-chart-container__title {\n  word-spacing: -0.1em;\n}\n.percentages-pie-chart-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 23px;\n}\n", ""]);
 
 // exports
 
@@ -44937,7 +44937,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".stages-container {\n  margin-bottom: 54px;\n}\n.stages-container__content {\n  margin-top: 25px;\n}\n", ""]);
+exports.push([module.i, ".stages-container {\n  margin-bottom: 54px;\n}\n.stages-container__content {\n  margin-top: 25px;\n}\n@media (max-width: 600px) {\n  .stages-container .stages {\n    width: 465px;\n  }\n  .stages-container .stages__stage {\n    margin-left: 80px;\n  }\n  .stages-container .stages__stage::before {\n    width: 80px;\n  }\n}\n@media (max-width: 490px) {\n  .stages-container .stages {\n    width: 365px;\n  }\n  .stages-container .stages__stage {\n    margin-left: 55px;\n  }\n  .stages-container .stages__stage::before {\n    width: 55px;\n  }\n}\n@media (max-width: 385px) {\n  .stages-container .stages {\n    width: 305px;\n  }\n  .stages-container .stages__stage {\n    margin-left: 40px;\n  }\n  .stages-container .stages__stage::before {\n    width: 40px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -45269,7 +45269,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".form-elements-container {\n  margin-bottom: 67px;\n}\n.form-elements-container__content {\n  margin-top: 45px;\n}\n.form-elements-container .send-message-container {\n  margin-top: 4px;\n  display: inline-block;\n  width: 50%;\n}\n.form-elements-container .toggles-tick-box-container {\n  display: inline-block;\n  vertical-align: top;\n  width: 50%;\n}\n", ""]);
+exports.push([module.i, ".form-elements-container {\n  margin-bottom: 67px;\n  width: 100%;\n}\n.form-elements-container__content {\n  margin-top: 45px;\n}\n.form-elements-container .send-message-container {\n  padding-left: 13px;\n  margin-top: 4px;\n  display: inline-block;\n  vertical-align: top;\n  box-sizing: border-box;\n  width: 50%;\n}\n.form-elements-container .toggles-tick-box-container {\n  display: inline-block;\n  width: 50%;\n}\n", ""]);
 
 // exports
 
@@ -45401,7 +45401,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".search-dropdown-container {\n  width: 297px;\n  display: inline-block;\n}\n.search-dropdown-container__title {\n  word-spacing: normal;\n}\n.search-dropdown-container__content {\n  margin-top: 20px;\n}\n", ""]);
+exports.push([module.i, ".search-dropdown-container {\n  box-sizing: border-box;\n  width: 50%;\n  padding-left: 13px;\n  display: inline-block;\n}\n.search-dropdown-container__title {\n  word-spacing: normal;\n}\n.search-dropdown-container__content {\n  margin-top: 20px;\n}\n", ""]);
 
 // exports
 
@@ -45547,7 +45547,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".user-profile-container {\n  width: 297px;\n  display: inline-block;\n  vertical-align: top;\n  margin-bottom: 68px;\n}\n.user-profile-container__content {\n  padding-left: 28px;\n  margin-top: 28px;\n}\n", ""]);
+exports.push([module.i, ".user-profile-container {\n  width: 50%;\n  display: inline-block;\n  vertical-align: top;\n  margin-bottom: 68px;\n}\n.user-profile-container__content {\n  padding-left: 28px;\n  margin-top: 28px;\n}\n", ""]);
 
 // exports
 
@@ -45655,7 +45655,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".news-events-container {\n  margin-bottom: 47px;\n}\n.news-events-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 33px;\n}\n", ""]);
+exports.push([module.i, ".news-events-container {\n  margin-bottom: 47px;\n  width: 594px;\n}\n.news-events-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 33px;\n}\n", ""]);
 
 // exports
 
@@ -45931,7 +45931,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".calendar-messaging-container {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 52px;\n}\n.calendar-messaging-container .calendar-container__content,\n.calendar-messaging-container .messaging-container__content {\n  margin-top: 25px;\n}\n", ""]);
+exports.push([module.i, ".calendar-messaging-container {\n  width: 594px;\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 52px;\n}\n.calendar-messaging-container .calendar-container__content,\n.calendar-messaging-container .messaging-container__content {\n  margin-top: 25px;\n}\n", ""]);
 
 // exports
 
