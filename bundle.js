@@ -44389,7 +44389,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".main-container {\n  width: 594px;\n  margin-left: 45px;\n  padding-top: 73px;\n  padding-bottom: 109px;\n}\n.main-container__title {\n  margin-top: 0;\n  margin-bottom: 0;\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Lato\";\n  font-weight: 900;\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n", ""]);
+exports.push([module.i, ".main-container {\n  width: 620px;\n  margin-left: auto;\n  margin-right: auto;\n  padding-top: 73px;\n  padding-bottom: 109px;\n}\n.main-container__title {\n  margin-top: 0;\n  margin-bottom: 0;\n  text-align: center;\n  text-transform: uppercase;\n  color: #4f4f4f;\n  font-size: 18px;\n  font-family: \"Lato\";\n  font-weight: 900;\n  letter-spacing: 0.9px;\n  word-spacing: 4px;\n}\n@media (max-width: 660px) {\n  .main-container {\n    width: 100%;\n  }\n}\n", ""]);
 
 // exports
 
@@ -44434,7 +44434,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".standard-buttons-container {\n  width: 465px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 57px;\n}\n.standard-buttons-container__row {\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n  margin-bottom: 21px;\n}\n.standard-buttons-container__content {\n  margin-top: 70px;\n}\n", ""]);
+exports.push([module.i, ".standard-buttons-container {\n  width: 465px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 36px;\n}\n.standard-buttons-container__content {\n  margin-top: 70px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.standard-buttons-container__content .standard-button {\n  margin-bottom: 21px;\n}\n", ""]);
 
 // exports
 
@@ -44579,7 +44579,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".arrow-button {\n  outline: none;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 3px solid #4eb7a8;\n  background-color: #fff;\n}\n.arrow-button::after {\n  content: \"\";\n  display: inline-block;\n  position: relative;\n  top: 2px;\n  width: 13px;\n  height: 13px;\n  border-top: 4px solid #4eb7a8;\n  border-right: 4px solid #4eb7a8;\n}\n.arrow-button_right::after {\n  transform: rotate(45deg);\n  right: 4px;\n}\n.arrow-button_left::after {\n  transform: rotate(-135deg);\n  left: 2px;\n}\n.arrow-button:hover {\n  background-color: #4eb7a8;\n}\n.arrow-button:hover::after {\n  border-color: #fff;\n  background-color: #4eb7a8;\n}\n.arrow-button:disabled {\n  background-color: #e5e5e5;\n  border-color: #e5e5e5;\n}\n.arrow-button:disabled::after {\n  border-color: #fff;\n  background-color: #e5e5e5;\n}\n", ""]);
+exports.push([module.i, ".arrow-button {\n  outline: none;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 3px solid #4eb7a8;\n  background-color: #fff;\n}\n.arrow-button::after {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  top: 14px;\n  width: 13px;\n  height: 13px;\n  border-top: 4px solid #4eb7a8;\n  border-right: 4px solid #4eb7a8;\n}\n.arrow-button_right::after {\n  transform: rotate(45deg);\n  right: 16px;\n}\n.arrow-button_left::after {\n  transform: rotate(-135deg);\n  left: 16px;\n}\n.arrow-button:hover {\n  background-color: #4eb7a8;\n}\n.arrow-button:hover::after {\n  border-color: #fff;\n  background-color: #4eb7a8;\n}\n.arrow-button:disabled {\n  background-color: #e5e5e5;\n  border-color: #e5e5e5;\n}\n.arrow-button:disabled::after {\n  border-color: #fff;\n  background-color: #e5e5e5;\n}\n", ""]);
 
 // exports
 
@@ -44816,7 +44816,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".sliders-container {\n  width: 589px;\n  height: 117px;\n  margin-bottom: 15px;\n}\n.sliders-container__content {\n  margin-top: 46px;\n}\n.sliders-container__content::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.sliders-container__first-example {\n  float: left;\n}\n.sliders-container__second-example {\n  float: right;\n}\n", ""]);
+exports.push([module.i, ".sliders-container {\n  width: 589px;\n  height: 117px;\n  margin-bottom: 15px;\n  padding-left: 19px;\n  padding-right: 10px;\n}\n.sliders-container__content {\n  margin-top: 46px;\n}\n.sliders-container__content::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.sliders-container__first-example {\n  float: left;\n}\n.sliders-container__second-example {\n  float: right;\n}\n@media (max-width: 660px) {\n  .sliders-container {\n    width: 95%;\n  }\n  .sliders-container__first-example,\n  .sliders-container__second-example {\n    width: 44%;\n  }\n  .sliders-container .slider {\n    width: 100%;\n  }\n  .sliders-container .slider_type-b .ui-slider-pip {\n    font-size: 10px;\n  }\n}\n@media (max-width: 470px) {\n  .sliders-container .slider_type-b .ui-slider-pip {\n    font-size: 8px;\n  }\n}\n", ""]);
 
 // exports
 
