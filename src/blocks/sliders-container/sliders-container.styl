@@ -2,6 +2,8 @@
     width: 589px
     height: 117px
     margin-bottom: 15px
+    padding-left: 19px
+    padding-right: 10px
     
     &__content        
         margin-top: 46px
@@ -15,3 +17,24 @@
         float: left
     &__second-example
         float: right
+
+@media (max-width: 660px)
+    .sliders-container
+        width: 95%
+
+        &__first-example,
+        &__second-example
+            width: 44%
+        
+        .slider
+            width: 100%
+
+        .slider_type-b 
+            .ui-slider-pip        
+                font-size: 10px
+
+@media (max-width: 470px)
+    .sliders-container
+        .slider_type-b 
+            .ui-slider-pip        
+                font-size: 8px
