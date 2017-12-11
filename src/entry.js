@@ -43,6 +43,7 @@ import "./blocks/tick-box/tick-box.js";
 import "./blocks/form-elements-container/form-elements-container.styl";
 import "./blocks/send-message/send-message.styl";
 import "./blocks/send-message/send-message.js";
+import "./blocks/search-user-profile-container/search-user-profile-container.styl";
 import "./blocks/search-dropdown-container/search-dropdown-container.js";
 import "./blocks/search-dropdown-container/search-dropdown-container.styl";
 import "./blocks/search/search.styl";
