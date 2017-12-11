@@ -28059,50 +28059,53 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__blocks_send_message_send_message_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_41__blocks_send_message_send_message_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__blocks_send_message_send_message_js__ = __webpack_require__(326);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__blocks_send_message_send_message_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_42__blocks_send_message_send_message_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_search_dropdown_container_search_dropdown_container_js__ = __webpack_require__(327);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_search_dropdown_container_search_dropdown_container_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_43__blocks_search_dropdown_container_search_dropdown_container_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_search_dropdown_container_search_dropdown_container_styl__ = __webpack_require__(328);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_search_dropdown_container_search_dropdown_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_44__blocks_search_dropdown_container_search_dropdown_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_search_search_styl__ = __webpack_require__(330);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_search_search_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_45__blocks_search_search_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_dropdown_dropdown_styl__ = __webpack_require__(332);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_dropdown_dropdown_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_46__blocks_dropdown_dropdown_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_dropdown_dropdown_js__ = __webpack_require__(334);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_dropdown_dropdown_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_47__blocks_dropdown_dropdown_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__blocks_user_profile_container_user_profile_container_styl__ = __webpack_require__(335);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__blocks_user_profile_container_user_profile_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_48__blocks_user_profile_container_user_profile_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_user_profile_styl__ = __webpack_require__(337);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_user_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_user_profile_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_user_profile_man_png__ = __webpack_require__(340);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_user_profile_man_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_img_user_profile_man_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__blocks_user_profile_img_user_profile_woman_png__ = __webpack_require__(341);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__blocks_user_profile_img_user_profile_woman_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_51__blocks_user_profile_img_user_profile_woman_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__blocks_news_events_container_news_events_container_styl__ = __webpack_require__(342);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__blocks_news_events_container_news_events_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_52__blocks_news_events_container_news_events_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__blocks_news_news_styl__ = __webpack_require__(344);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__blocks_news_news_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_53__blocks_news_news_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__blocks_event_event_styl__ = __webpack_require__(347);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__blocks_event_event_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_54__blocks_event_event_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__blocks_location_container_location_container_styl__ = __webpack_require__(350);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__blocks_location_container_location_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_55__blocks_location_container_location_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__blocks_location_location_styl__ = __webpack_require__(352);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__blocks_location_location_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_56__blocks_location_location_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__blocks_location_location_js__ = __webpack_require__(356);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__blocks_location_location_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_57__blocks_location_location_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__blocks_location_img_map_marker_icon_png__ = __webpack_require__(357);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__blocks_location_img_map_marker_icon_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_58__blocks_location_img_map_marker_icon_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__blocks_calendar_messaging_container_calendar_messaging_container_styl__ = __webpack_require__(358);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__blocks_calendar_messaging_container_calendar_messaging_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_59__blocks_calendar_messaging_container_calendar_messaging_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__blocks_calendar_calendar_styl__ = __webpack_require__(360);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__blocks_calendar_calendar_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_60__blocks_calendar_calendar_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__blocks_calendar_calendar_js__ = __webpack_require__(362);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__blocks_calendar_calendar_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_61__blocks_calendar_calendar_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__blocks_messaging_messaging_styl__ = __webpack_require__(363);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__blocks_messaging_messaging_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_62__blocks_messaging_messaging_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__blocks_video_container_video_container_styl__ = __webpack_require__(368);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__blocks_video_container_video_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_63__blocks_video_container_video_container_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__blocks_video_video_styl__ = __webpack_require__(370);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__blocks_video_video_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_64__blocks_video_video_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_search_user_profile_container_search_user_profile_container_styl__ = __webpack_require__(327);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_search_user_profile_container_search_user_profile_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_43__blocks_search_user_profile_container_search_user_profile_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_search_dropdown_container_search_dropdown_container_js__ = __webpack_require__(329);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_search_dropdown_container_search_dropdown_container_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_44__blocks_search_dropdown_container_search_dropdown_container_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_search_dropdown_container_search_dropdown_container_styl__ = __webpack_require__(330);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_search_dropdown_container_search_dropdown_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_45__blocks_search_dropdown_container_search_dropdown_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_search_search_styl__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_search_search_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_46__blocks_search_search_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_dropdown_dropdown_styl__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_dropdown_dropdown_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_47__blocks_dropdown_dropdown_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__blocks_dropdown_dropdown_js__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__blocks_dropdown_dropdown_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_48__blocks_dropdown_dropdown_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_container_user_profile_container_styl__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_container_user_profile_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_49__blocks_user_profile_container_user_profile_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_user_profile_styl__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_user_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_50__blocks_user_profile_user_profile_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__blocks_user_profile_img_user_profile_man_png__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__blocks_user_profile_img_user_profile_man_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_51__blocks_user_profile_img_user_profile_man_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__blocks_user_profile_img_user_profile_woman_png__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__blocks_user_profile_img_user_profile_woman_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_52__blocks_user_profile_img_user_profile_woman_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__blocks_news_events_container_news_events_container_styl__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__blocks_news_events_container_news_events_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_53__blocks_news_events_container_news_events_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__blocks_news_news_styl__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__blocks_news_news_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_54__blocks_news_news_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__blocks_event_event_styl__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__blocks_event_event_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_55__blocks_event_event_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__blocks_location_container_location_container_styl__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__blocks_location_container_location_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_56__blocks_location_container_location_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__blocks_location_location_styl__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__blocks_location_location_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_57__blocks_location_location_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__blocks_location_location_js__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__blocks_location_location_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_58__blocks_location_location_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__blocks_location_img_map_marker_icon_png__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__blocks_location_img_map_marker_icon_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_59__blocks_location_img_map_marker_icon_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__blocks_calendar_messaging_container_calendar_messaging_container_styl__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__blocks_calendar_messaging_container_calendar_messaging_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_60__blocks_calendar_messaging_container_calendar_messaging_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__blocks_calendar_calendar_styl__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__blocks_calendar_calendar_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_61__blocks_calendar_calendar_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__blocks_calendar_calendar_js__ = __webpack_require__(364);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__blocks_calendar_calendar_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_62__blocks_calendar_calendar_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__blocks_messaging_messaging_styl__ = __webpack_require__(365);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__blocks_messaging_messaging_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_63__blocks_messaging_messaging_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__blocks_video_container_video_container_styl__ = __webpack_require__(370);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__blocks_video_container_video_container_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_64__blocks_video_container_video_container_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__blocks_video_video_styl__ = __webpack_require__(372);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__blocks_video_video_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_65__blocks_video_video_styl__);
+
 
 
 
@@ -44482,7 +44485,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".standard-buttons-container {\n  width: 465px;\n  margin-bottom: 36px;\n}\n.standard-buttons-container__content {\n  margin-top: 70px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.standard-buttons-container .standard-button {\n  margin-bottom: 21px;\n}\n.standard-buttons-container__buttons {\n  width: 219px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n@media (max-width: 490px) {\n  .standard-buttons-container {\n    width: 232.5px;\n  }\n}\n", ""]);
+exports.push([module.i, ".standard-buttons-container {\n  width: 465px;\n  margin-bottom: 36px;\n}\n.standard-buttons-container__content {\n  margin-top: 70px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.standard-buttons-container .standard-button {\n  margin-bottom: 21px;\n}\n.standard-buttons-container__buttons {\n  width: 219px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n@media (max-width: 490px) {\n  .standard-buttons-container {\n    width: 232.5px;\n  }\n  .standard-buttons-container__content {\n    margin-top: 35px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -44672,7 +44675,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".percentages-pie-chart-container {\n  width: 588px;\n  margin-bottom: 32px;\n}\n.percentages-pie-chart-container__title {\n  word-spacing: -0.1em;\n}\n.percentages-pie-chart-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 23px;\n}\n", ""]);
+exports.push([module.i, ".percentages-pie-chart-container {\n  width: 588px;\n  margin-bottom: 32px;\n}\n.percentages-pie-chart-container__title {\n  word-spacing: -0.1em;\n}\n.percentages-pie-chart-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 23px;\n}\n@media (max-width: 605px) {\n  .percentages-pie-chart-container {\n    width: 493px;\n  }\n  .percentages-pie-chart-container .percentage:first-child {\n    display: none;\n  }\n}\n@media (max-width: 510px) {\n  .percentages-pie-chart-container {\n    width: 398px;\n  }\n  .percentages-pie-chart-container .percentage:nth-child(2) {\n    display: none;\n  }\n}\n@media (max-width: 415px) {\n  .percentages-pie-chart-container {\n    width: 100%;\n  }\n}\n", ""]);
 
 // exports
 
@@ -44864,7 +44867,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".sliders-container {\n  width: 589px;\n  height: 117px;\n  margin-bottom: 15px;\n  padding-left: 19px;\n  padding-right: 10px;\n}\n.sliders-container__content {\n  margin-top: 46px;\n}\n.sliders-container__content::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.sliders-container__first-example {\n  float: left;\n}\n.sliders-container__second-example {\n  float: right;\n}\n@media (max-width: 660px) {\n  .sliders-container {\n    width: 95%;\n  }\n  .sliders-container__first-example,\n  .sliders-container__second-example {\n    width: 44%;\n  }\n  .sliders-container .slider {\n    width: 100%;\n  }\n  .sliders-container .slider_type-b .ui-slider-pip {\n    font-size: 10px;\n  }\n}\n@media (max-width: 470px) {\n  .sliders-container .slider_type-b .ui-slider-pip {\n    font-size: 8px;\n  }\n}\n", ""]);
+exports.push([module.i, ".sliders-container {\n  width: 589px;\n  height: 117px;\n  margin-bottom: 15px;\n}\n.sliders-container__content {\n  margin-top: 46px;\n}\n.sliders-container__content::after {\n  content: \"\";\n  display: block;\n  clear: both;\n}\n.sliders-container__first-example {\n  float: left;\n}\n.sliders-container__second-example {\n  float: right;\n}\n@media (max-width: 645px) {\n  .sliders-container {\n    width: 95%;\n    height: 142px;\n    margin-bottom: 32px;\n/*.slider\n            width: 100%\n\n        .slider_type-b \n            .ui-slider-pip        \n                font-size: 10px*/\n  }\n  .sliders-container__first-example,\n  .sliders-container__second-example {\n    width: 260px;\n    margin: 0 auto 35px;\n    float: none;\n    display: block;\n  }\n}\n/*@media (max-width: 470px)\n    .sliders-container\n        .slider_type-b \n            .ui-slider-pip        \n                font-size: 8px\n                font-weight: 400*/\n", ""]);
 
 // exports
 
@@ -45402,6 +45405,51 @@ exports.push([module.i, ".send-message {\n  width: 288px;\n}\n.send-message__dat
 /* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(328);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(2)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./search-user-profile-container.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./search-user-profile-container.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 328 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "@media (max-width: 637px) {\n  .search-user-profile-container .search-dropdown-container {\n    width: 288px;\n    padding: 0;\n    margin-bottom: 55px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .search-user-profile-container .user-profile-container {\n    width: 288px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .search-user-profile-container .user-profile-container__content {\n    padding: 0;\n  }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 329 */
+/***/ (function(module, exports, __webpack_require__) {
+
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
     $($(".search__field").get(1))
         .addClass("search__field_not-found")
@@ -45410,13 +45458,13 @@ exports.push([module.i, ".send-message {\n  width: 288px;\n}\n.send-message__dat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 328 */
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(329);
+var content = __webpack_require__(331);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45441,51 +45489,6 @@ if(false) {
 }
 
 /***/ }),
-/* 329 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(1)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, ".search-dropdown-container {\n  box-sizing: border-box;\n  width: 50%;\n  padding-left: 13px;\n  display: inline-block;\n}\n.search-dropdown-container__title {\n  word-spacing: normal;\n}\n.search-dropdown-container__content {\n  margin-top: 20px;\n}\n@media (max-width: 637px) {\n  .search-dropdown-container__content .search {\n    width: 97.135%;\n  }\n  .search-dropdown-container__content .select2-container {\n    width: 97.13% !important;\n  }\n  .search-dropdown-container__content .select2-container .selection .select2-selection {\n    width: 100%;\n  }\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 330 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(331);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(2)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./search.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./search.styl");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
 /* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -45494,7 +45497,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".search {\n  position: relative;\n  margin-bottom: 16px;\n  width: 288px;\n}\n.search__field {\n  vertical-align: top;\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 88.542%;\n  background-color: #e5e5e5;\n  border-radius: 3px 0 0 3px;\n  padding-left: 13px;\n  padding-bottom: 4px;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.search__field::placeholder {\n  color: #888;\n}\n.search__field_not-found {\n  background-color: #e75735;\n}\n.search__field_not-found::placeholder {\n  color: #fff;\n}\n.search__button {\n  position: absolute;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 33px;\n  border-radius: 0 3px 3px 0;\n  background-color: #e75735;\n  color: #fff;\n}\n", ""]);
+exports.push([module.i, ".search-dropdown-container {\n  box-sizing: border-box;\n  width: 50%;\n  padding-left: 13px;\n  display: inline-block;\n}\n.search-dropdown-container__title {\n  word-spacing: normal;\n}\n.search-dropdown-container__content {\n  margin-top: 20px;\n}\n.search-dropdown-container .search {\n  margin-bottom: 16px;\n}\n", ""]);
 
 // exports
 
@@ -45520,8 +45523,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./dropdown.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./dropdown.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./search.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./search.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -45539,13 +45542,58 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n  background-color: #e5e5e5;\n}\n.select2-container .selection .select2-selection {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 288px;\n  padding-left: 6px;\n  padding-right: 33px;\n  background-color: #e5e5e5;\n  border-radius: 2px;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n}\n.select2-container .selection .select2-selection .select2-selection__placeholder {\n  color: #888;\n}\n.select2-container .selection .select2-selection .select2-selection__rendered {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow {\n  width: 33px;\n  height: 28px;\n  border-radius: 0 3px 3px 0;\n  top: 0;\n  right: 0;\n  background-color: #4eb7a8;\n  padding: 0;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow b {\n  width: 8px;\n  height: 8px;\n  border: none;\n  border-left: 2px solid #fff;\n  border-top: 2px solid #fff;\n  transform: rotate(-135deg);\n  top: 9px;\n  left: 15px;\n}\n.select2-container .select2-dropdown {\n  border: none;\n}\n.select2-container .select2-dropdown .select2-results > .select2-results__options {\n  color: #666;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  background-color: #e5e5e5;\n}\n.select2-container .select2-dropdown .select2-results .select2-results__option {\n  padding-left: 13px;\n  border-bottom: 1px solid rgba(88,88,88,0.3);\n}\n", ""]);
+exports.push([module.i, ".search {\n  margin-bottom: 16px;\n  width: 288px;\n}\n.search__field {\n  vertical-align: top;\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 88.542%;\n  background-color: #e5e5e5;\n  border-radius: 3px 0 0 3px;\n  padding-left: 13px;\n  padding-bottom: 4px;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.search__field::placeholder {\n  color: #888;\n}\n.search__field_not-found {\n  background-color: #e75735;\n}\n.search__field_not-found::placeholder {\n  color: #fff;\n}\n.search__button {\n  position: absolute;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 33px;\n  border-radius: 0 3px 3px 0;\n  background-color: #e75735;\n  color: #fff;\n}\n.search__button:hover {\n  background-color: #c94d2f;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 /* 334 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(335);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(2)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./dropdown.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./dropdown.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 335 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n  background-color: #e5e5e5;\n}\n.select2-container .selection .select2-selection {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 288px;\n  padding-left: 6px;\n  padding-right: 33px;\n  background-color: #e5e5e5;\n  border-radius: 2px;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n}\n.select2-container .selection .select2-selection .select2-selection__placeholder {\n  color: #888;\n}\n.select2-container .selection .select2-selection .select2-selection__rendered {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow {\n  width: 33px;\n  height: 28px;\n  border-radius: 0 3px 3px 0;\n  top: 0;\n  right: 0;\n  background-color: #4eb7a8;\n  padding: 0;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow b {\n  width: 8px;\n  height: 8px;\n  border: none;\n  border-left: 2px solid #fff;\n  border-top: 2px solid #fff;\n  transform: rotate(-135deg);\n  top: 9px;\n  left: 15px;\n}\n.select2-container .select2-dropdown {\n  border: none;\n}\n.select2-container .select2-dropdown .select2-results > .select2-results__options {\n  color: #666;\n  font-family: \"Source Sans Pro\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  background-color: #e5e5e5;\n}\n.select2-container .select2-dropdown .select2-results .select2-results__option {\n  padding-left: 13px;\n  border-bottom: 1px solid rgba(88,88,88,0.3);\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -45556,13 +45604,13 @@ exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 335 */
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(336);
+var content = __webpack_require__(338);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45587,7 +45635,7 @@ if(false) {
 }
 
 /***/ }),
-/* 336 */
+/* 338 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -45601,13 +45649,13 @@ exports.push([module.i, ".user-profile-container {\n  width: 50%;\n  display: in
 
 
 /***/ }),
-/* 337 */
+/* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(338);
+var content = __webpack_require__(340);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45632,7 +45680,7 @@ if(false) {
 }
 
 /***/ }),
-/* 338 */
+/* 340 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -45640,37 +45688,37 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".user-profile {\n  margin-bottom: 25px;\n}\n.user-profile__photo {\n  display: inline-block;\n  vertical-align: middle;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n}\n.user-profile__info {\n  display: inline-block;\n  vertical-align: middle;\n  position: relative;\n  width: 163px;\n  height: 93px;\n  border-radius: 6px;\n  margin-top: 2px;\n}\n.user-profile__info::before {\n  position: absolute;\n  left: -6px;\n  top: 40px;\n  content: \"\";\n  display: block;\n  border-style: solid;\n  border-width: 6px 6px 6px 0;\n}\n.user-profile__name {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 18px;\n  text-align: center;\n  margin-top: 8px;\n  word-spacing: -0.05em;\n}\n.user-profile__profession {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  text-transform: uppercase;\n  text-align: center;\n  margin-top: 1px;\n  word-spacing: 2px;\n  letter-spacing: 0.05em;\n}\n.user-profile__social-container {\n  text-align: center;\n}\n.user-profile__social-icon {\n  width: 30px;\n  height: 30px;\n  display: inline-block;\n  background-image: url(" + __webpack_require__(339) + ");\n  margin-top: 6px;\n  margin-left: 5px;\n  margin-right: 5px;\n}\n.user-profile__info_blue {\n  background-color: #4eb7a8;\n}\n.user-profile__info_blue::before {\n  border-color: transparent #4eb7a8 transparent transparent;\n}\n.user-profile__info_blue .user-profile__name {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__profession {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__fb {\n  background-position: -90px -4px;\n}\n.user-profile__info_blue .user-profile__twitter {\n  background-position: -8px -2px;\n}\n.user-profile__info_blue .user-profile__dribbble {\n  background-position: -6px -43px;\n}\n.user-profile__info_grey {\n  background-color: #e5e5e5;\n}\n.user-profile__info_grey::before {\n  border-color: transparent #e5e5e5 transparent transparent;\n}\n.user-profile__info_grey .user-profile__name {\n  color: #e75735;\n}\n.user-profile__info_grey .user-profile__profession {\n  color: #4f4f4f;\n}\n.user-profile__info_grey .user-profile__fb {\n  background-position: -120px -4px;\n}\n.user-profile__info_grey .user-profile__twitter {\n  background-position: -53px -2px;\n}\n.user-profile__info_grey .user-profile__dribbble {\n  background-position: -47px -43px;\n}\n", ""]);
+exports.push([module.i, ".user-profile {\n  margin-bottom: 25px;\n}\n.user-profile__photo {\n  display: inline-block;\n  vertical-align: middle;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n}\n.user-profile__info {\n  display: inline-block;\n  vertical-align: middle;\n  position: relative;\n  width: 163px;\n  height: 93px;\n  border-radius: 6px;\n  margin-top: 2px;\n}\n.user-profile__info::before {\n  position: absolute;\n  left: -6px;\n  top: 40px;\n  content: \"\";\n  display: block;\n  border-style: solid;\n  border-width: 6px 6px 6px 0;\n}\n.user-profile__name {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 18px;\n  text-align: center;\n  margin-top: 8px;\n  word-spacing: -0.05em;\n}\n.user-profile__profession {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  text-transform: uppercase;\n  text-align: center;\n  margin-top: 1px;\n  word-spacing: 2px;\n  letter-spacing: 0.05em;\n}\n.user-profile__social-container {\n  text-align: center;\n}\n.user-profile__social-icon {\n  width: 30px;\n  height: 30px;\n  display: inline-block;\n  background-image: url(" + __webpack_require__(341) + ");\n  margin-top: 6px;\n  margin-left: 5px;\n  margin-right: 5px;\n}\n.user-profile__info_blue {\n  background-color: #4eb7a8;\n}\n.user-profile__info_blue::before {\n  border-color: transparent #4eb7a8 transparent transparent;\n}\n.user-profile__info_blue .user-profile__name {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__profession {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__fb {\n  background-position: -89px -4px;\n}\n.user-profile__info_blue .user-profile__twitter {\n  background-position: -7px -2px;\n}\n.user-profile__info_blue .user-profile__dribbble {\n  background-position: -5px -43px;\n}\n.user-profile__info_grey {\n  background-color: #e5e5e5;\n}\n.user-profile__info_grey::before {\n  border-color: transparent #e5e5e5 transparent transparent;\n}\n.user-profile__info_grey .user-profile__name {\n  color: #e75735;\n}\n.user-profile__info_grey .user-profile__profession {\n  color: #4f4f4f;\n}\n.user-profile__info_grey .user-profile__fb {\n  background-position: -119px -4px;\n}\n.user-profile__info_grey .user-profile__twitter {\n  background-position: -52px -2px;\n}\n.user-profile__info_grey .user-profile__dribbble {\n  background-position: -46px -43px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 339 */
+/* 341 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/social_icons.png";
 
 /***/ }),
-/* 340 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/user-profile-man.png";
 
 /***/ }),
-/* 341 */
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/user-profile-woman.png";
 
 /***/ }),
-/* 342 */
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(343);
+var content = __webpack_require__(345);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45695,7 +45743,7 @@ if(false) {
 }
 
 /***/ }),
-/* 343 */
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -45703,19 +45751,19 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".news-events-container {\n  margin-bottom: 47px;\n  width: 594px;\n}\n.news-events-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 33px;\n}\n", ""]);
+exports.push([module.i, ".news-events-container {\n  margin-bottom: 47px;\n  width: 594px;\n}\n.news-events-container__content {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 33px;\n}\n@media (max-width: 620px) {\n  .news-events-container {\n    width: 288px;\n  }\n  .news-events-container__content {\n    flex-direction: column;\n    height: 434px;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 344 */
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(345);
+var content = __webpack_require__(347);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45740,7 +45788,7 @@ if(false) {
 }
 
 /***/ }),
-/* 345 */
+/* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -45748,25 +45796,25 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".news {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.news__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(346) + ");\n}\n.news__text {\n  box-sizing: border-box;\n  padding-left: 22px;\n  padding-top: 22px;\n  padding-right: 20px;\n  line-height: 0.9;\n  width: 193px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #e75735;\n  color: #fff;\n}\n.news__title {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 28px;\n  line-height: 26px;\n}\n.news__date {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  margin-top: 13px;\n  margin-bottom: 15px;\n  text-transform: uppercase;\n  word-spacing: 5px;\n}\n.news__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  line-height: 13px;\n  letter-spacing: 0.05em;\n}\n", ""]);
+exports.push([module.i, ".news {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.news__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(348) + ");\n}\n.news__text {\n  box-sizing: border-box;\n  padding-left: 22px;\n  padding-top: 22px;\n  padding-right: 20px;\n  line-height: 0.9;\n  width: 193px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #e75735;\n  color: #fff;\n}\n.news__title {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 28px;\n  line-height: 26px;\n}\n.news__date {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  margin-top: 13px;\n  margin-bottom: 15px;\n  text-transform: uppercase;\n  word-spacing: 5px;\n}\n.news__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  line-height: 13px;\n  letter-spacing: 0.05em;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 346 */
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/news-sample.png";
 
 /***/ }),
-/* 347 */
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(348);
+var content = __webpack_require__(350);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45791,7 +45839,7 @@ if(false) {
 }
 
 /***/ }),
-/* 348 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -45799,25 +45847,25 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".event {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.event__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(349) + ");\n}\n.event__text {\n  box-sizing: border-box;\n  width: 193px;\n  height: 212px;\n  padding-left: 19px;\n  padding-top: 4px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #4eb7a8;\n  color: #fff;\n}\n.event__text .standard-button {\n  width: 128px;\n  height: 22px;\n  border: none;\n  font-size: 10px;\n  box-shadow: 0 3px 0 0 #379285;\n  margin-left: 13px;\n  word-spacing: 0.2em;\n}\n.event__date {\n  font-family: \"Lato\";\n  font-weight: 300;\n  word-spacing: 14px;\n  margin-bottom: 8px;\n}\n.event__day {\n  font-size: 73px;\n  letter-spacing: -0.04em;\n  display: inline-block;\n  margin-right: 14px;\n}\n.event__month {\n  font-size: 30px;\n  display: inline-block;\n}\n.event__title {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  margin-bottom: 3px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n}\n.event__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  letter-spacing: 0.05em;\n  margin-bottom: 19px;\n}\n", ""]);
+exports.push([module.i, ".event {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.event__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(351) + ");\n}\n.event__text {\n  box-sizing: border-box;\n  width: 193px;\n  height: 212px;\n  padding-left: 19px;\n  padding-top: 4px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #4eb7a8;\n  color: #fff;\n}\n.event__text .standard-button {\n  width: 128px;\n  height: 22px;\n  border: none;\n  font-size: 10px;\n  box-shadow: 0 3px 0 0 #379285;\n  margin-left: 13px;\n  word-spacing: 0.2em;\n}\n.event__date {\n  font-family: \"Lato\";\n  font-weight: 300;\n  word-spacing: 14px;\n  margin-bottom: 8px;\n}\n.event__day {\n  font-size: 73px;\n  letter-spacing: -0.04em;\n  display: inline-block;\n  margin-right: 14px;\n}\n.event__month {\n  font-size: 30px;\n  display: inline-block;\n}\n.event__title {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  margin-bottom: 3px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n}\n.event__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  letter-spacing: 0.05em;\n  margin-bottom: 19px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 349 */
+/* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/event-sample.png";
 
 /***/ }),
-/* 350 */
+/* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(351);
+var content = __webpack_require__(353);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45842,7 +45890,7 @@ if(false) {
 }
 
 /***/ }),
-/* 351 */
+/* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -45850,19 +45898,19 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".location-container {\n  margin-bottom: 50px;\n}\n.location-container__content {\n  margin-top: 30px;\n}\n", ""]);
+exports.push([module.i, ".location-container {\n  margin-bottom: 50px;\n}\n.location-container__content {\n  margin-top: 30px;\n}\n@media (max-width: 610px) {\n  .location-container {\n    width: 100%;\n  }\n  .location-container .location {\n    width: 100%;\n  }\n}\n@media (max-width: 400px) {\n  .location-container .location__meet-us {\n    font-size: 29px;\n    line-height: 30px;\n  }\n  .location-container .location__address {\n    font-size: 12px;\n  }\n}\n@media (max-width: 387px) {\n  .location-container .location__meet-us {\n    font-size: 26px;\n  }\n  .location-container .location__address {\n    font-size: 11px;\n  }\n}\n@media (max-width: 374px) {\n  .location-container .location__meet-us {\n    font-size: 23px;\n  }\n  .location-container .location__address {\n    font-size: 10px;\n  }\n}\n@media (max-width: 355px) {\n  .location-container .location__meet-us {\n    font-size: 20px;\n  }\n  .location-container .location__address {\n    font-size: 9.5px;\n  }\n  .location-container .location__footer-text {\n    margin-left: 23px;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 352 */
+/* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(353);
+var content = __webpack_require__(355);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45887,7 +45935,7 @@ if(false) {
 }
 
 /***/ }),
-/* 353 */
+/* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -45895,25 +45943,25 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  box-sizing: border-box;\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-text {\n  margin-left: 27px;\n  height: 29px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  width: 280px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.location__meet-us {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 30px;\n  word-spacing: -0.09em;\n}\n.location__address {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  width: 143px;\n}\n.location__footer-buttons {\n  width: 79px;\n  height: 69px;\n  padding: 20px 13px 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-button {\n  width: 30px;\n  height: 30px;\n}\n.location__my-location {\n  background: url(" + __webpack_require__(354) + ") no-repeat 0px 1px;\n}\n.location__pin {\n  background: url(" + __webpack_require__(355) + ") no-repeat 0px 2px;\n}\n", ""]);
+exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  box-sizing: border-box;\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-text {\n  margin-left: 27px;\n  height: 29px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  width: 280px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.location__meet-us {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 30px;\n  word-spacing: -0.09em;\n}\n.location__address {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  width: 143px;\n}\n.location__footer-buttons {\n  width: 79px;\n  height: 69px;\n  padding: 20px 13px 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-button {\n  width: 30px;\n  height: 30px;\n}\n.location__my-location {\n  background: url(" + __webpack_require__(356) + ") no-repeat 0px 1px;\n}\n.location__pin {\n  background: url(" + __webpack_require__(357) + ") no-repeat 0px 2px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 354 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-my-location.png";
 
 /***/ }),
-/* 355 */
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-pin.png";
 
 /***/ }),
-/* 356 */
+/* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -45934,19 +45982,19 @@ module.exports = __webpack_require__.p + "img/map-pin.png";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 357 */
+/* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-marker-icon.png";
 
 /***/ }),
-/* 358 */
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(359);
+var content = __webpack_require__(361);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -45971,7 +46019,7 @@ if(false) {
 }
 
 /***/ }),
-/* 359 */
+/* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -45979,19 +46027,19 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".calendar-messaging-container {\n  width: 594px;\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 52px;\n}\n.calendar-messaging-container .calendar-container__content,\n.calendar-messaging-container .messaging-container__content {\n  margin-top: 25px;\n}\n", ""]);
+exports.push([module.i, ".calendar-messaging-container {\n  width: 594px;\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 52px;\n}\n.calendar-messaging-container .calendar-container__content,\n.calendar-messaging-container .messaging-container__content {\n  margin-top: 25px;\n}\n@media (max-width: 611px) {\n  .calendar-messaging-container {\n    width: 288px;\n    flex-direction: column;\n  }\n  .messaging-container {\n    margin-top: 54px;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 360 */
+/* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(361);
+var content = __webpack_require__(363);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -46016,7 +46064,7 @@ if(false) {
 }
 
 /***/ }),
-/* 361 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -46030,7 +46078,7 @@ exports.push([module.i, ".calendar {\n  width: 279px;\n}\n.calendar__day {\n  wi
 
 
 /***/ }),
-/* 362 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -46057,13 +46105,13 @@ exports.push([module.i, ".calendar {\n  width: 279px;\n}\n.calendar__day {\n  wi
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 363 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(364);
+var content = __webpack_require__(366);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -46088,7 +46136,7 @@ if(false) {
 }
 
 /***/ }),
-/* 364 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -46096,37 +46144,37 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".messaging {\n  height: 428px;\n  width: 288px;\n  border-radius: 4px;\n  overflow: hidden;\n  position: relative;\n}\n.messaging__person-name {\n  font-family: \"Source Sans Pro\";\n  font-weight: 300;\n  text-align: center;\n  line-height: 77px;\n  font-size: 34px;\n  letter-spacing: -0.03em;\n  color: #fff;\n}\n.messaging__person-name-upper {\n  height: 82px;\n  background-color: #4eb7a8;\n}\n.messaging__person-name-lower {\n  height: 34px;\n  background-color: #46ab9d;\n}\n.messaging__person-photo {\n  position: absolute;\n  top: 70px;\n  left: 93px;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(365) + ");\n}\n.messaging__messages {\n  height: 313px;\n  background-color: #f2f2f2;\n}\n.messaging__icons {\n  box-sizing: border-box;\n  height: 62px;\n  padding: 21px 22px 12px 22px;\n  display: flex;\n  justify-content: space-between;\n}\n.messaging__icon {\n  height: 30px;\n  width: 30px;\n}\n.messaging__chat-icon {\n  background: url(" + __webpack_require__(366) + ") no-repeat 5px 1px;\n}\n.messaging__camera-icon {\n  background: url(" + __webpack_require__(367) + ") no-repeat;\n}\n.messaging__input-message {\n  position: relative;\n  box-sizing: border-box;\n  width: 243px;\n  height: 69px;\n  margin-left: 22px;\n  margin-right: 23px;\n  background-color: #fff;\n  padding: 18px;\n  font-weight: 600;\n  font-family: \"Lato\";\n  font-size: 12.5px;\n  color: #868686;\n  letter-spacing: 0.05em;\n  border-radius: 7px;\n}\n.messaging__input-message::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  width: 2px;\n  top: -6px;\n  left: 112px;\n  border-style: solid;\n  border-width: 0 5px 6px 5px;\n  border-color: transparent transparent #fff transparent;\n}\n.messaging__output-message {\n  box-sizing: border-box;\n  resize: none;\n  outline: none;\n  display: block;\n  margin: 17px auto 15px auto;\n  padding: 16px;\n  height: 88px;\n  width: 244px;\n  background-color: #e5e5e5;\n  border: 3px solid #fff;\n  border-radius: 6px;\n  font-weight: 600;\n  font-family: \"Lato\";\n  font-size: 12.5px;\n  color: #777;\n  letter-spacing: 0.05em;\n}\n.messaging .standard-button {\n  display: block;\n  width: 243px;\n  height: 32px;\n  color: #fff;\n  background-color: #4eb7a8;\n  box-shadow: 0 3px 0 0 #28a290;\n  margin-left: auto;\n  margin-right: auto;\n}\n", ""]);
+exports.push([module.i, ".messaging {\n  height: 428px;\n  width: 288px;\n  border-radius: 4px;\n  overflow: hidden;\n  position: relative;\n}\n.messaging__person-name {\n  font-family: \"Source Sans Pro\";\n  font-weight: 300;\n  text-align: center;\n  line-height: 77px;\n  font-size: 34px;\n  letter-spacing: -0.03em;\n  color: #fff;\n}\n.messaging__person-name-upper {\n  height: 82px;\n  background-color: #4eb7a8;\n}\n.messaging__person-name-lower {\n  height: 34px;\n  background-color: #46ab9d;\n}\n.messaging__person-photo {\n  position: absolute;\n  top: 70px;\n  left: 93px;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(367) + ");\n}\n.messaging__messages {\n  height: 313px;\n  background-color: #f2f2f2;\n}\n.messaging__icons {\n  box-sizing: border-box;\n  height: 62px;\n  padding: 21px 22px 12px 22px;\n  display: flex;\n  justify-content: space-between;\n}\n.messaging__icon {\n  height: 30px;\n  width: 30px;\n}\n.messaging__chat-icon {\n  background: url(" + __webpack_require__(368) + ") no-repeat 5px 1px;\n}\n.messaging__camera-icon {\n  background: url(" + __webpack_require__(369) + ") no-repeat;\n}\n.messaging__input-message {\n  position: relative;\n  box-sizing: border-box;\n  width: 243px;\n  height: 69px;\n  margin-left: 22px;\n  margin-right: 23px;\n  background-color: #fff;\n  padding: 18px;\n  font-weight: 600;\n  font-family: \"Lato\";\n  font-size: 12.5px;\n  color: #868686;\n  letter-spacing: 0.05em;\n  border-radius: 7px;\n}\n.messaging__input-message::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  width: 2px;\n  top: -6px;\n  left: 112px;\n  border-style: solid;\n  border-width: 0 5px 6px 5px;\n  border-color: transparent transparent #fff transparent;\n}\n.messaging__output-message {\n  box-sizing: border-box;\n  resize: none;\n  outline: none;\n  display: block;\n  margin: 17px auto 15px auto;\n  padding: 16px;\n  height: 88px;\n  width: 244px;\n  background-color: #e5e5e5;\n  border: 3px solid #fff;\n  border-radius: 6px;\n  font-weight: 600;\n  font-family: \"Lato\";\n  font-size: 12.5px;\n  color: #777;\n  letter-spacing: 0.05em;\n}\n.messaging .standard-button {\n  display: block;\n  width: 243px;\n  height: 32px;\n  color: #fff;\n  background-color: #4eb7a8;\n  box-shadow: 0 3px 0 0 #28a290;\n  margin-left: auto;\n  margin-right: auto;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 365 */
+/* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/messaging-woman.png";
 
 /***/ }),
-/* 366 */
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/messaging-chat-icon.png";
 
 /***/ }),
-/* 367 */
+/* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/messaging-camera-icon.png";
 
 /***/ }),
-/* 368 */
+/* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(369);
+var content = __webpack_require__(371);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -46151,7 +46199,7 @@ if(false) {
 }
 
 /***/ }),
-/* 369 */
+/* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -46159,19 +46207,19 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, ".video-container__content {\n  margin-top: 23px;\n}\n", ""]);
+exports.push([module.i, ".video-container__content {\n  margin-top: 23px;\n}\n@media (max-width: 611px) {\n  .video-container {\n    width: 100%;\n  }\n  .video-container__content {\n    width: 100%;\n    position: relative;\n    padding-bottom: 56.25%;\n    height: 0;\n  }\n  .video-container__content .video {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 370 */
+/* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(371);
+var content = __webpack_require__(373);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -46196,7 +46244,7 @@ if(false) {
 }
 
 /***/ }),
-/* 371 */
+/* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
