@@ -1,39 +1,43 @@
 .stages-container
-    margin-bottom: 54px
+  margin-bottom: 54px
 
-    &__content
-        margin-top: 25px
+  &__content
+    margin-top: 25px
 
-@media (max-width: 600px)
-    .stages-container
-        .stages
-            width: 465px
+  .stages
+    @media (max-width: 600px)
+      width: 465px
 
-            &__stage          
-                margin-left: 80px
-            
-            &__stage::before
-                width: 80px
+      &__stage          
+        margin-left: 80px
+      
+      &__stage::before
+        width: 80px 
 
-@media (max-width: 490px)
-    .stages-container
-        .stages
-            width: 365px
+    @media (max-width: 600px)
+      width: 465px
 
-            &__stage          
-                margin-left: 55px
-            
-            &__stage::before
-                width: 55px
+      &__stage          
+        margin-left: 80px
+      
+      &__stage::before
+        width: 80px
 
-@media (max-width: 385px)
-    .stages-container
-        .stages
-            width: 305px
+    @media (max-width: 490px)
+      width: 365px
 
-            &__stage          
-                margin-left: 40px
-            
-            &__stage::before
-                width: 40px
-            
+      &__stage          
+        margin-left: 55px
+      
+      &__stage::before
+        width: 55px
+
+    @media (max-width: 385px)
+      width: 305px
+
+      &__stage          
+        margin-left: 40px
+      
+      &__stage::before
+        width: 40px
+                
