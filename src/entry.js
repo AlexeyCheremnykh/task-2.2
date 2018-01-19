@@ -27,7 +27,7 @@ import "./blocks/percentage/percentage.styl";
 import "./blocks/percentage/percentage.js";
 import "./blocks/pie-chart/pie-chart.js";
 import "./blocks/pie-chart/pie-chart.styl";
-import "./blocks/sliders-container/sliders-container.styl";
+import "./blocks/sliders/sliders.styl";
 import "./blocks/slider/slider.styl";
 import "./blocks/slider/slider.js";
 import "./blocks/stages-container/stages-container.styl";
