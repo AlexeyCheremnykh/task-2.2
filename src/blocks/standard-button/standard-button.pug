@@ -1,2 +1,6 @@
-mixin standard_button(size, color, label)
-    button(class="ripple standard-button standard-button_" + size + " standard-button_" + color) #{label}
+mixin standard_button(options)
+    - var size = options.size
+    - var color = options.color
+    - var label = options.label
+    - var btnClass = `ripple standard-button standard-button_size_${size} standard-button_color_${color}`
+    button(class=btnClass)&attributes(attributes) #{label}

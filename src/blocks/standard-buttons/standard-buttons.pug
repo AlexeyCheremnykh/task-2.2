@@ -1,0 +1,17 @@
+include ../standard-button/standard-button.pug
+
+section.standard-buttons   
+    header.ui-kit__title Standard buttons
+    .standard-buttons__content
+        .standard-buttons__content-part
+            - var smallBlue = {size: "small", color: "blue", label: "button"}
+            - var bigBlue = {size: "big", color: "blue", label: "button"}
+            - var smallRed = {size: "small", color: "red", label: "button"}
+            - var bigRed = {size: "big", color: "red", label: "button"}
+            - for(i = 0; i < 3; i++)
+                +standard_button(smallBlue)(class="standard-buttons__button")
+                +standard_button(bigBlue)(class="standard-buttons__button")
+        .standard-buttons__content-part
+            - for(i = 0; i < 3; i++)
+                +standard_button(bigRed)(class="standard-buttons__button") 
+                +standard_button(smallRed)(class="standard-buttons__button")

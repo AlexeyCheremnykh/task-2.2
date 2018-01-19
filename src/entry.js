@@ -17,11 +17,11 @@ import "../node_modules/select2/dist/css/select2.min.css";
 import "../node_modules/gmap3/dist/gmap3.min.js";
 
 import "./blocks/index.styl";
-import "./blocks/main-container/main-container.styl";
-import "./blocks/standard-buttons-container/standard-buttons-container.styl";
+import "./blocks/ui-kit/ui-kit.styl";
+import "./blocks/standard-buttons/standard-buttons.styl";
 import "./blocks/standard-button/standard-button.styl";
-import "./blocks/arrow-buttons-container/arrow-buttons-container.styl";
-import "./blocks/arrow-buttons-container/arrow-buttons-container.js";
+import "./blocks/arrow-buttons/arrow-buttons.styl";
+import "./blocks/arrow-buttons/arrow-buttons.js";
 import "./blocks/arrow-button/arrow-button.styl";
 import "./blocks/percentages-pie-chart-container/percentages-pie-chart-container.styl";
 import "./blocks/percentage/percentage.styl";
