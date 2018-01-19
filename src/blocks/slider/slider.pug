@@ -1,3 +1,7 @@
-mixin slider(type, min, max, step)
-    div(data-min=min data-max=max data-step=step class="slider slider_" + type)       
+mixin slider(options)
+    - var type = options.type
+    - var min = options.min
+    - var max = options.max
+    - var step = options.step
+    div(data-min=min data-max=max data-step=step class=`slider slider_${type}`)&attributes(attributes)       
         .slider__handle.ui-slider-handle            

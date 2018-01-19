@@ -1,9 +1,11 @@
 include ../slider/slider.pug
 
-.sliders-container
-    h2.sliders-container__title.main-container__title Sliders
-    .sliders-container__content
-        .sliders-container__first-example
-            +slider("type-a", 0, 100)
-        .sliders-container__second-example
-            +slider("type-b", 0, 100, 25)
+section.sliders
+    header.ui-kit__title Sliders
+    .sliders__content
+        .sliders__first-example
+            - var optionsRed = {type: "type-a", min: 0, max: 100}
+            +slider(optionsRed)
+        .sliders__second-example
+            - var optionsBlue = {type: "type-b", min: 0, max: 100, step: 25}
+            +slider(optionsBlue)
