@@ -1,0 +1,9 @@
+include ../search/search.pug
+include ../dropdown/dropdown.pug
+
+.search-dropdown
+    header.ui-kit__title.search-dropdown__title Search / Drop Down
+    .search-dropdown__content
+        +search("Search")(class="search-dropdown__search")
+        +search()(class="search-dropdown__search")
+        +dropdown(["opt1", "opt2", "opt3"])
