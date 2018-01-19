@@ -1,45 +1,47 @@
+@import "../../colors"
+
 .stages    
-    width: 577px
+  width: 577px
 
-    &__stage
-        cursor: default
-        position: relative
-        display: inline-block
-        border-radius: 50%
-        font-family: "Lato"
-        font-weight: 900
-        font-size: 14px
-        text-align: center
-        line-height: 29px        
-        width: 29px
-        height: 29px
-        margin: 0 0 0 108px        
+  &__stage
+    cursor: default
+    position: relative
+    display: inline-block
+    border-radius: 50%
+    font-family: "Lato"
+    font-weight: 900
+    font-size: 14px
+    text-align: center
+    line-height: 29px        
+    width: 29px
+    height: 29px
+    margin: 0 0 0 108px        
 
-        &::before
-            content: ""
-            display: block
-            position: absolute
-            top: 13px
-            right: 29px
-            height: 5px
-            width: 108px            
+    &::before
+      content: ""
+      display: block
+      position: absolute
+      top: 13px
+      right: 29px
+      height: 5px
+      width: 108px            
+    
+    &:first-child
+      margin-left: 0
         
-        &:first-child
-            margin-left: 0
-            
-            &::before
-                display: none 
+      &::before
+        display: none 
 
-        &-active
-            background-color: #e75735
-            color: #ffffff
+    &-active
+      background-color: main-red
+      color: white
 
-            &::before
-                background-color: #e75735  
+      &::before
+        background-color: main-red  
 
-        &-inactive
-            background-color: #e5e5e5
-            color: #888888
+    &-inactive
+      background-color: disabled-grey
+      color: stages-label
 
-            &::before
-                background-color: #e5e5e5    
+      &::before
+        background-color: disabled-grey    
