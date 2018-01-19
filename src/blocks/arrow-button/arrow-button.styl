@@ -1,41 +1,42 @@
+@import "../../colors"
+
 .arrow-button
-    outline: none
-    position: relative    
-    width: 50px
-    height: 50px
-    border-radius: 50%
-    border: 3px solid #4eb7a8
-    background-color: #ffffff
+  outline: none
+  position: relative    
+  width: 50px
+  height: 50px
+  border-radius: 50%
+  border: 3px solid main-blue
+  background-color: white
+
+  &::after
+    content: ""
+    position: absolute
+    top: 14px
+    width: 13px
+    height: 13px        
+    border-top: 4px solid main-blue
+    border-right: 4px solid main-blue  
+
+  &_right::after
+    transform: rotate(45deg)        
+    right: 16px
+  
+  &_left::after
+    transform: rotate(-135deg)
+    left: 16px
+            
+  &:hover
+    background-color: main-blue
 
     &::after
-        content: ""
-        display: inline-block
-        position: absolute
-        top: 14px
-        width: 13px
-        height: 13px        
-        border-top: 4px solid #4eb7a8
-        border-right: 4px solid #4eb7a8  
-
-    &_right::after
-        transform: rotate(45deg)        
-        right: 16px
+      border-color: white
+      background-color: main-blue
+  
+  &:disabled
+    background-color: disabled-grey
+    border-color: disabled-grey
     
-    &_left::after
-        transform: rotate(-135deg)
-        left: 16px
-              
-    &:hover
-        background-color: #4eb7a8
-
-        &::after
-            border-color: #ffffff
-            background-color: #4eb7a8
-    
-    &:disabled
-        background-color: #e5e5e5
-        border-color: #e5e5e5
-        
-        &::after
-            border-color: #ffffff
-            background-color: #e5e5e5
+    &::after
+      border-color: white
+      background-color: disabled-grey
