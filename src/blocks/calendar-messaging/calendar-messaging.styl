@@ -1,18 +1,19 @@
-.calendar-messaging-container
-    width: 594px
-    display: flex
-    justify-content: space-between
-    margin-bottom: 52px
+.calendar-messaging
+  width: 594px
+  display: flex
+  justify-content: space-between
+  margin-bottom: 52px
 
-    .calendar-container, .messaging-container
-        &__content
-            margin-top: 25px
+  @media (max-width: 611px)
+    width: 288px
+    flex-direction: column
+  
+  .calendar-container__content
+    margin-top: 25px
+  
+  .messaging-container
+    &__content
+      margin-top: 25px
 
-
-@media (max-width: 611px)
-    .calendar-messaging-container
-        width: 288px
-        flex-direction: column
-
-    .messaging-container
-        margin-top: 54px
+    @media (max-width: 611px)
+      margin-top: 54px

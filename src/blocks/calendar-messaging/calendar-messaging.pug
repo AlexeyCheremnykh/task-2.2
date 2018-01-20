@@ -2,12 +2,12 @@ include ../calendar/calendar.pug
 include ../messaging/messaging.pug
 
 .calendar-messaging
-    .calendar-container
-        h2.calendar-container__title.main-container__title Calendar
+    section.calendar-container
+        header.ui-kit__title Calendar
         .calendar-container__content
             +calendar()
 
-    .messaging
-        h2.messaging__title.main-container__title Messaging
+    section.messaging-container
+        header.ui-kit__title Messaging
         .messaging__content
             +messaging("Sarah Brown", "Hey! So are we cool to meet at the art gallery? Say 8pm")
