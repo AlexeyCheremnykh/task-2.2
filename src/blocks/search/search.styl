@@ -1,44 +1,47 @@
+@import "../../colors"
+
 .search
-  margin-bottom: 16px
   width: 288px  
 
   &__field
-      vertical-align: top  
-      box-sizing: border-box
-      outline: none
-      border: none
-      height: 28px
-      width: 88.542%
-      background-color: #e5e5e5
-      border-radius: 3px 0 0 3px
-      padding-left: 13px
-      padding-bottom: 4px
-      font-family: "Source Sans Pro"
-      font-weight: 400
-      font-style: normal
-      font-stretch: normal
-      font-size: 14px
-      letter-spacing: 0.01em        
-      color: #666666
-      
-      &::placeholder
-          color: #888888
+    box-sizing: border-box
+    outline: none
+    border: none
+    height: 28px
+    width: 88.542%
+    background-color: search-background
+    border-radius: 3px 0 0 3px
+    padding-left: 13px
+    padding-bottom: 4px
+    font-family: "Source Sans Pro"
+    font-weight: 400
+    font-style: normal
+    font-stretch: normal
+    font-size: 14px
+    letter-spacing: 0.01em        
+    color: search-text
 
-  &__field_not-found
-      background-color: #e75735
+    &:focus
+      border: 1px solid #888888
+      
+    &::placeholder
+      color: #888888
+
+    &_not-found
+      background-color: main-red
       
       &::placeholder
-          color: #ffffff
+        color: white
 
   &__button
-      position: absolute      
-      outline: none
-      border: none
-      height: 28px
-      width: 33px
-      border-radius: 0 3px 3px 0
-      background-color: #e75735
-      color: #ffffff 
+    position: absolute      
+    outline: none
+    border: none
+    height: 28px
+    width: 33px
+    border-radius: 0 3px 3px 0
+    background-color: main-red
+    color: white 
 
-      &:hover
-          background-color: #c94d2f         
+    &:hover
+      background-color: search-btn-hover        

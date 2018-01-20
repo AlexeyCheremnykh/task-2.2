@@ -1,13 +1,13 @@
 include ../calendar/calendar.pug
 include ../messaging/messaging.pug
 
-.calendar-messaging-container
+.calendar-messaging
     .calendar-container
         h2.calendar-container__title.main-container__title Calendar
         .calendar-container__content
             +calendar()
 
-    .messaging-container
-        h2.messaging-container__title.main-container__title Messaging
-        .messaging-container__content
+    .messaging
+        h2.messaging__title.main-container__title Messaging
+        .messaging__content
             +messaging("Sarah Brown", "Hey! So are we cool to meet at the art gallery? Say 8pm")
