@@ -1,4 +1,7 @@
-mixin news(title, date, text)
+mixin news(options)
+    - var title = options.title
+    - var date = options.date
+    - var text = options.text
     .news
         .news__image
         .news__text
