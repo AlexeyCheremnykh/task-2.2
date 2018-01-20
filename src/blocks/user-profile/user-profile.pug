@@ -1,10 +1,14 @@
-mixin user_profile(type, name, profession, photo)
+mixin user_profile(options)
+    - var color = options.color
+    - var name = options.name 
+    - var profession = options.profession
+    - var photo = options.photo
     .user-profile
-        div(class="user-profile__photo" style="background-image: url(" + photo + ");")
-        div(class="user-profile__info user-profile__info_" + type)
+        img(class="user-profile__photo" src=photo)
+        div(class="user-profile__info user-profile__info_" + color)
             .user-profile__name #{name}
             .user-profile__profession #{profession}
             .user-profile__social-container
-                a(class="user-profile__social-icon user-profile__fb" href="#")
-                a(class="user-profile__social-icon user-profile__twitter" href="#")                
-                a(class="user-profile__social-icon user-profile__dribbble" href="#")              
+                a(class="user-profile__social user-profile__social_fb" href="/mock-address/")
+                a(class="user-profile__social user-profile__social_twitter" href="/mock-address/")                
+                a(class="user-profile__social user-profile__social_dribbble" href="/mock-address/")              

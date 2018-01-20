@@ -50,8 +50,6 @@ import "./blocks/dropdown/dropdown.styl";
 import "./blocks/dropdown/dropdown.js";
 import "./blocks/user-profile-container/user-profile-container.styl";
 import "./blocks/user-profile/user-profile.styl";
-import "./blocks/user-profile/img/user-profile-man.png";
-import "./blocks/user-profile/img/user-profile-woman.png";
 import "./blocks/news-events/news-events.styl";
 import "./blocks/news/news.styl";
 import "./blocks/event/event.styl";
