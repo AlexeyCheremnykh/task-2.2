@@ -1,6 +1,10 @@
 include ../standard-button/standard-button.pug
 
-mixin event(day, month, title, text)
+mixin event(options)
+    - var day = options.day
+    - var month = options.month
+    - var title = options.title
+    - var text = options.text
     .event
         .event__image
         .event__text
@@ -9,4 +13,4 @@ mixin event(day, month, title, text)
                 .event__month #{month}
             .event__title #{title}
             .event__content #{text}
-            +standard_button("big", "blue", "add to calendar")
+            +standard_button({size: "big", color: "blue", label: "add to calendar"})

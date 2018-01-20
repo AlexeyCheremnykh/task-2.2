@@ -11,4 +11,10 @@ section.news-events
         - }
         +news(news)
 
-        +event("24", "Aug", "This is the title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+        - var event = {
+        - day: "24",
+        - month: "Aug",
+        - title: "This is the title",
+        - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        - }
+        +event(event)
