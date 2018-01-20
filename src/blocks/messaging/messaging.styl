@@ -1,111 +1,111 @@
 .messaging
-    height: 428px
-    width: 288px
-    border-radius: 4px
-    overflow: hidden
+  height: 428px
+  width: 288px
+  border-radius: 4px
+  overflow: hidden
+  position: relative
+
+  &__person-name
+    font-family: "Source Sans Pro"
+    font-weight: 300
+    text-align: center
+    line-height: 77px
+    font-size: 34px
+    letter-spacing: -0.03em
+    color: #ffffff
+
+    &-upper
+      height: 82px
+      background-color: #4eb7a8
+
+    &-lower
+      height: 34px
+      background-color: #46ab9d
+  
+  &__person-photo 
+    position: absolute
+    top: 70px
+    left: 93px                    
+    height: 85px
+    width: 85px
+    border-radius: 50%
+    border: 4px solid #e5e5e5
+    margin-right: 11px
+    background-size: cover
+    background-image: url("img/messaging-woman.png")
+  
+  &__messages
+    height: 313px
+    background-color: #f2f2f2
+
+  &__icons
+    box-sizing: border-box
+    height: 62px
+    padding: 21px 22px 12px 22px
+    display: flex
+    justify-content: space-between
+
+  &__icon
+    height: 30px
+    width: 30px
+  
+    &_chat
+      background: url("img/messaging-chat-icon.png") no-repeat 5px 1px   
+    
+    &_camera
+      background: url("img/messaging-camera-icon.png") no-repeat
+
+  &__input-message
     position: relative
+    box-sizing: border-box
+    width: 243px
+    height: 69px
+    margin-left: 22px
+    margin-right: 23px
+    background-color: #ffffff
+    padding: 18px
+    font-weight: 600
+    font-family: "Lato"
+    font-size: 12.5px
+    color: #868686
+    letter-spacing: 0.05em
+    border-radius: 7px
 
-    &__person-name
-        font-family: "Source Sans Pro"
-        font-weight: 300
-        text-align: center
-        line-height: 77px
-        font-size: 34px
-        letter-spacing: -0.03em
-        color: #ffffff
+    &::before
+      content: ""
+      display: block
+      position: absolute
+      width: 2px
+      top: -6px
+      left: 112px
+      border-style: solid
+      border-width: 0 5px 6px 5px
+      border-color: transparent transparent #ffffff transparent
 
-        &-upper
-            height: 82px
-            background-color: #4eb7a8
+  &__output-message
+    box-sizing: border-box
+    resize: none
+    outline: none
+    display: block
+    margin: 17px auto 15px auto
+    padding: 16px
+    height: 88px
+    width: 244px
+    background-color: #e5e5e5
+    border: 3px solid #ffffff
+    border-radius: 6px
+    font-weight: 600
+    font-family: "Lato"
+    font-size: 12.5px
+    color: #777777
+    letter-spacing: 0.05em
 
-        &-lower
-            height: 34px
-            background-color: #46ab9d
-    
-    &__person-photo 
-        position: absolute
-        top: 70px
-        left: 93px                    
-        height: 85px
-        width: 85px
-        border-radius: 50%
-        border: 4px solid #e5e5e5
-        margin-right: 11px
-        background-size: cover
-        background-image: url("img/messaging-woman.png")
-    
-    &__messages
-        height: 313px
-        background-color: #f2f2f2
-
-    &__icons
-        box-sizing: border-box
-        height: 62px
-        padding: 21px 22px 12px 22px
-        display: flex
-        justify-content: space-between
-
-    &__icon
-        height: 30px
-        width: 30px
-    
-    &__chat-icon
-        background: url("img/messaging-chat-icon.png") no-repeat 5px 1px   
-    
-    &__camera-icon
-        background: url("img/messaging-camera-icon.png") no-repeat
-
-    &__input-message
-        position: relative
-        box-sizing: border-box
-        width: 243px
-        height: 69px
-        margin-left: 22px
-        margin-right: 23px
-        background-color: #ffffff
-        padding: 18px
-        font-weight: 600
-        font-family: "Lato"
-        font-size: 12.5px
-        color: #868686
-        letter-spacing: 0.05em
-        border-radius: 7px
-
-        &::before
-            content: ""
-            display: block
-            position: absolute
-            width: 2px
-            top: -6px
-            left: 112px
-            border-style: solid
-            border-width: 0 5px 6px 5px
-            border-color: transparent transparent #ffffff transparent
-    
-    &__output-message
-        box-sizing: border-box
-        resize: none
-        outline: none
-        display: block
-        margin: 17px auto 15px auto
-        padding: 16px
-        height: 88px
-        width: 244px
-        background-color: #e5e5e5
-        border: 3px solid #ffffff
-        border-radius: 6px
-        font-weight: 600
-        font-family: "Lato"
-        font-size: 12.5px
-        color: #777777
-        letter-spacing: 0.05em
-
-    .standard-button
-        display: block
-        width: 243px
-        height: 32px
-        color: #ffffff
-        background-color: #4eb7a8
-        box-shadow: 0 3px 0 0 #28a290
-        margin-left: auto
-        margin-right: auto
+  .standard-button
+    display: block
+    width: 243px
+    height: 32px
+    color: #ffffff
+    background-color: #4eb7a8
+    box-shadow: 0 3px 0 0 #28a290
+    margin-left: auto
+    margin-right: auto

@@ -8,8 +8,8 @@ mixin messaging(personName, message)
         .messaging__person-photo
         .messaging__messages
             .messaging__icons
-                .messaging__chat-icon.messaging__icon
-                .messaging__camera-icon.messaging__icon
+                .messaging__icon_chat.messaging__icon
+                .messaging__icon_camera.messaging__icon
             .messaging__input-message #{message}
             textarea.messaging__output-message
-            +standard_button("big", "blue", "reply")
+            +standard_button({size: "big", color: "blue", label: "reply"})
