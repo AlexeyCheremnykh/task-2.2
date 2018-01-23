@@ -3,7 +3,7 @@ mixin news(options)
     - var date = options.date
     - var text = options.text
     .news
-        .news__image
+        img(class="news__image" src="news/img/news-sample.png" alt="news image")
         .news__text
             .news__title #{title}
             .news__date #{date}

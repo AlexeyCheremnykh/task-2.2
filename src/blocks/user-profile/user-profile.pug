@@ -4,7 +4,7 @@ mixin user_profile(options)
     - var profession = options.profession
     - var photo = options.photo
     .user-profile
-        img(class="user-profile__photo" src=photo)
+        img(class="user-profile__photo" src=photo alt="user photo")
         div(class="user-profile__info user-profile__info_" + color)
             .user-profile__name #{name}
             .user-profile__profession #{profession}
