@@ -1,4 +1,9 @@
-@import "../../colors"
+$main-red = #e75735
+$main-blue = #4eb7a8
+$btn-red-shadow = #bf3e1f
+$btn-blue-shadow = #28a290
+$btn-red-text = #e34a26
+$btn-blue-text = #44ae9f
 
 .standard-button
   outline: none
@@ -8,6 +13,7 @@
   font-family: "Lato", "Arial", sans-serif
   font-weight: 900
   letter-spacing: 0.05em
+  cursor: pointer
 
   &_size_big
     width: 118px
@@ -20,40 +26,46 @@
     font-size: 10px        
 
   &_color_red
-    color: btn-red-text       
-    border: 1px solid main-red
+    color: $btn-red-text       
+    border: 1px solid $main-red
+    &:focus
+      border-radius: 0
+      outline: 1px solid $main-red
+
   &_color_red&_size_big
-      box-shadow: 0 3px 0 0 main-red
+      box-shadow: 0 3px 0 0 $main-red
   &_color_red&_size_small
-      box-shadow: 0 2px 0 0 main-red 
+      box-shadow: 0 2px 0 0 $main-red 
   
   &_color_blue
-    color: btn-blue-text       
-    border: 1px solid main-blue 
-  &_color_blue&_size_big
-    box-shadow: 0 3px 0 0 main-blue
-  &_color_blue&_size_small
-    box-shadow: 0 2px 0 0 main-blue            
+    color: $btn-blue-text       
+    border: 1px solid $main-blue
+    &:focus
+      border-radius: 0
+      outline: 1px solid $main-blue
 
-  &:hover,
-  &:active
-    border: none   
+  &_color_blue&_size_big
+    box-shadow: 0 3px 0 0 $main-blue
+  &_color_blue&_size_small
+    box-shadow: 0 2px 0 0 $main-blue            
+
+  &:hover  
+    border: none  
     color: white
-    cursor: pointer
 
   &_color_red:hover
-    background-color: main-red
+    background-color: $main-red
   &_color_red:hover&_size_big
-    box-shadow: 0 3px 0 0 btn-red-shadow
+    box-shadow: 0 3px 0 0 $btn-red-shadow
   &_color_red:hover&_size_small
-    box-shadow: 0 2px 0 0 btn-red-shadow       
+    box-shadow: 0 2px 0 0 $btn-red-shadow       
   
   &_color_blue:hover
-    background-color: main-blue
+    background-color: $main-blue
   &_color_blue:hover&_size_big
-    box-shadow: 0 3px 0 0 btn-blue-shadow
+    box-shadow: 0 3px 0 0 $btn-blue-shadow
   &_color_blue:hover&_size_small
-    box-shadow: 0 2px 0 0 btn-blue-shadow
+    box-shadow: 0 2px 0 0 $btn-blue-shadow
      
   &:active&_size_big
     transform: translateY(3px)
