@@ -1,6 +1,8 @@
 mixin standard_button(options)
-    - var size = options.size
-    - var color = options.color
-    - var label = options.label
-    - var btnClass = `ripple standard-button standard-button_size_${size} standard-button_color_${color}`
+    - var size = options.size;
+    - var color = options.color;
+    - var label = options.label;
+    - var filled = options.filled || false;
+    - var btnClass = `ripple standard-button standard-button_size_${size} standard-button_color_${color}`;
+    - btnClass = filled ? btnClass + " standard-button_filled" : btnClass;
     button(class=btnClass)&attributes(attributes) #{label}
