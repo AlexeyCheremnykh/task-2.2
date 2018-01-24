@@ -28,9 +28,6 @@ $btn-blue-text = #44ae9f
   &_color_red
     color: $btn-red-text       
     border: 1px solid $main-red
-    &:focus
-      border-radius: 0
-      outline: 1px solid $main-red
 
   &_color_red&_size_big
       box-shadow: 0 3px 0 0 $main-red
@@ -40,9 +37,6 @@ $btn-blue-text = #44ae9f
   &_color_blue
     color: $btn-blue-text       
     border: 1px solid $main-blue
-    &:focus
-      border-radius: 0
-      outline: 1px solid $main-blue
 
   &_color_blue&_size_big
     box-shadow: 0 3px 0 0 $main-blue
@@ -52,6 +46,9 @@ $btn-blue-text = #44ae9f
   &:hover  
     border: none  
     color: white
+
+  &:focus
+    border-width: 2px
 
   &_color_red:hover
     background-color: $main-red
