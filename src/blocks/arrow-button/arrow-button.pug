@@ -1,2 +1,5 @@
-mixin arrow_button(direction)
-    button(class=`arrow-button arrow-button_${direction}`)&attributes(attributes)
+mixin arrow_button(direction, disabled)
+    - if (disabled !== "disabled")
+        button(class=`arrow-button arrow-button_${direction}`)
+    - else
+        button(class=`arrow-button arrow-button_${direction}` disabled)

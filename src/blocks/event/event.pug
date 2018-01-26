@@ -1,16 +1,17 @@
 include ../standard-button/standard-button.pug
 
 mixin event(options)
-    - var day = options.day
-    - var month = options.month
-    - var title = options.title
-    - var text = options.text
-    .event
+    - const day = options.day;
+    - const month = options.month;
+    - const title = options.title;
+    - const text = options.text;
+    article.event
         .event__image
-        .event__text
-            .event__date
-                .event__day #{day}
-                .event__month #{month}
-            .event__title #{title}
-            .event__content #{text}
+        .event__main
+            header.event__header
+                .event__date
+                    .event__day #{day}
+                    .event__month #{month}
+                h1.event__title #{title}
+            p.event__content #{text}
             +standard_button({size: "big", color: "blue", label: "add to calendar"})
