@@ -2,6 +2,7 @@ $main-red = #e75735
 $main-blue = #4eb7a8
 $red-shadow = #bf3e1f
 $blue-shadow = #28a290
+$blue-dark-shadow = #379285
 $red-text = #e34a26
 $blue-text = #44ae9f
 $filled-blue-shadow = #28a290
@@ -18,16 +19,16 @@ $filled-blue-shadow = #28a290
 
   &_size_big
     width: 118px
-    height: 32px             
+    height: 32px
     font-size: 12px
-  
+
   &_size_small
     width: 78px
-    height: 22px          
-    font-size: 10px        
+    height: 22px
+    font-size: 10px
 
   &_color_red
-    color: $red-text       
+    color: $red-text
     border: 1px solid $main-red
 
     &:focus
@@ -37,9 +38,9 @@ $filled-blue-shadow = #28a290
     box-shadow: 0 3px 0 0 $main-red
   &_color_red&_size_small
     box-shadow: 0 2px 0 0 $main-red
-  
+
   &_color_blue
-    color: $blue-text       
+    color: $blue-text
     border: 1px solid $main-blue
 
     &:focus
@@ -48,7 +49,7 @@ $filled-blue-shadow = #28a290
   &_color_blue&_size_big
     box-shadow: 0 3px 0 0 $main-blue
   &_color_blue&_size_small
-    box-shadow: 0 2px 0 0 $main-blue   
+    box-shadow: 0 2px 0 0 $main-blue
 
   &_color_blue&_filled
     background-color: $main-blue
@@ -56,30 +57,39 @@ $filled-blue-shadow = #28a290
 
   &_color_blue&_filled&_size_big
     box-shadow: 0 3px 0 0 $blue-shadow
-  &_color_blue&_filled&_size_small
-    box-shadow: 0 2px 0 0 $blue-shadow
-  
-  &:hover  
-    border: none  
-    color: #fff  
+
+  &_color_blue&_dark&_size_big
+    box-shadow: 0 3px 0 0 $blue-dark-shadow
+
+  &_thin
+    width: 128px
+    height: 22px
+    border: none
+    font-size: 10px
+    margin-left: 13px
+    word-spacing: 0.2em
+
+  &:hover
+    border: none
+    color: #fff
 
   &_color_red:hover
     background-color: $main-red
   &_color_red:hover&_size_big
     box-shadow: 0 3px 0 0 $red-shadow
   &_color_red:hover&_size_small
-    box-shadow: 0 2px 0 0 $red-shadow       
-  
+    box-shadow: 0 2px 0 0 $red-shadow
+
   &_color_blue:hover
     background-color: $main-blue
   &_color_blue:hover&_size_big
     box-shadow: 0 3px 0 0 $blue-shadow
   &_color_blue:hover&_size_small
     box-shadow: 0 2px 0 0 $blue-shadow
-     
+
   &:active&_size_big
     transform: translateY(3px)
     box-shadow: none
   &:active&_size_small
     transform: translateY(2px)
-    box-shadow: none          
+    box-shadow: none
