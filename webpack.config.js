@@ -11,12 +11,12 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.styl$/,                
+                test: /\.styl$/,
                 use: [
                     'style-loader',
                     'css-loader',
                     'stylus-loader'
-                ]                  
+                ]
             },
             {
                 test: /\.css$/,
@@ -59,9 +59,9 @@ module.exports = {
             jQuery: "jquery",
             "window.jQuery": "jquery",
             "window.$": "jquery"
-        }),       
+        }),
         new HtmlWebpackPlugin({
-            template: 'src/blocks/index.pug'
+            template: 'src/index.pug'
         })
     ]
 };
