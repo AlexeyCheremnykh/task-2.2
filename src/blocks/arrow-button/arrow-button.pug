@@ -1,5 +1,5 @@
 mixin arrow_button(direction, disabled)
-    - if (disabled !== "disabled")
+    if (disabled !== "disabled")
         button(class=`arrow-button arrow-button_${direction}`)
-    - else
+    else
         button(class=`arrow-button arrow-button_${direction}` disabled)
