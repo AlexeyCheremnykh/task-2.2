@@ -7,7 +7,7 @@ $disabled-grey = #e5e5e5
   width: 50px
   height: 50px
   border-radius: 50%
-  border: 3px solid main-blue
+  border: 3px solid $main-blue
   background-color: #ffffff
   cursor: pointer
 
@@ -17,8 +17,8 @@ $disabled-grey = #e5e5e5
     top: 14px
     width: 13px
     height: 13px
-    border-top: 4px solid main-blue
-    border-right: 4px solid main-blue
+    border-top: 4px solid $main-blue
+    border-right: 4px solid $main-blue
 
   &_right::after
     transform: rotate(45deg)
@@ -29,20 +29,20 @@ $disabled-grey = #e5e5e5
     left: 16px
 
   &:hover
-    background-color: main-blue
+    background-color: $main-blue
 
     &::after
       border-color: #ffffff
-      background-color: main-blue
+      background-color: $main-blue
 
   &:disabled
-    background-color: disabled-grey
-    border-color: disabled-grey
+    background-color: $disabled-grey
+    border-color: $disabled-grey
     cursor: default
 
     &::after
       border-color: #ffffff
-      background-color: disabled-grey
+      background-color: $disabled-grey
 
   &:focus
-    outline: 2px solid disabled-grey
+    outline: 2px solid $disabled-grey

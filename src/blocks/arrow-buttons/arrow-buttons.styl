@@ -2,6 +2,9 @@
   padding-bottom: 45px
   width: 420px
 
+  @media (max-width: 560px)
+    width: 210px
+
   &__content
     display: flex
     justify-content: space-between
@@ -13,13 +16,9 @@
     display: flex
     justify-content: space-between
 
-
-@media (max-width: 560px)
-  .arrow-buttons
-    width: 210px
-
-    &__content-part:nth-child(2)
-      margin-top: 10px
-      display: flex
-      flex-direction: row-reverse
-      justify-content: space-between
+    &:nth-child(2)
+      @media (max-width: 560px)
+        margin-top: 10px
+        display: flex
+        flex-direction: row-reverse
+        justify-content: space-between
