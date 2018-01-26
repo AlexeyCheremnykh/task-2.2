@@ -1,6 +1,7 @@
 include ../stages/stages.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.stages-container
-    h2.ui-kit__title Stages
+    +elem_demo_title("Stages")
     .stages-container__content
         +stages(5)

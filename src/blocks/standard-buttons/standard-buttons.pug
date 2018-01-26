@@ -1,7 +1,8 @@
 include ../standard-button/standard-button.pug
+include ../elem-demo-title/elem-demo-title.pug
 
-section.standard-buttons   
-    h2.ui-kit__title Standard buttons
+section.standard-buttons
+    +elem_demo_title("Standard buttons")
     .standard-buttons__content
         .standard-buttons__content-part
             - var smallBlue = {size: "small", color: "blue", label: "button"}
@@ -13,5 +14,5 @@ section.standard-buttons
                 +standard_button(bigBlue)(class="standard-buttons__button")
         .standard-buttons__content-part
             - for(i = 0; i < 3; i++)
-                +standard_button(bigRed)(class="standard-buttons__button") 
+                +standard_button(bigRed)(class="standard-buttons__button")
                 +standard_button(smallRed)(class="standard-buttons__button")

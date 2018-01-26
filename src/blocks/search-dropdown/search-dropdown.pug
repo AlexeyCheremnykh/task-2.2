@@ -1,8 +1,9 @@
 include ../search/search.pug
 include ../dropdown/dropdown.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.search-dropdown
-    h2.ui-kit__title.search-dropdown__title Search / Drop Down
+    +elem_demo_title("Search / Drop Down")(class="search-dropdown__title")
     .search-dropdown__content
         +search("Search")(class="search-dropdown__search")
         +search()(class="search-dropdown__search")

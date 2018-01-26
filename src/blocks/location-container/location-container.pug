@@ -1,6 +1,7 @@
 include ../location/location.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.location-container
-    h2.ui-kit__title Location
+    +elem_demo_title("Location")
     .location-container__content
-        +location("1259 California ST San Francisco, CA", "Meet us!")   
+        +location("1259 California ST San Francisco, CA", "Meet us!")

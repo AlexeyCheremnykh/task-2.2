@@ -1,12 +1,12 @@
 include ../send-message/send-message.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.form-elements
-    h2.ui-kit__title Form Elements
+    +elem_demo_title("Form Elements")
     .form-elements__content
         .send-message-container
             +send_message()
         .toggles-tick-box-container
             include ../toggles/toggles.pug
             include ../tick-boxes/tick-boxes.pug
-            
-    
+

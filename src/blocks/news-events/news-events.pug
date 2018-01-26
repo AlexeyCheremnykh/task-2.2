@@ -1,8 +1,9 @@
 include ../news/news.pug
 include ../event/event.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.news-events
-    h2.ui-kit__title News & Events
+    +elem_demo_title("News & Events")
     .news-events__content
         - var news = {
         - title: "It's all going downhill",

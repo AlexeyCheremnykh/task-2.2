@@ -1,6 +1,7 @@
 include ../video/video.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.video-container
-    h2.ui-kit__title Video
+    +elem_demo_title("Video")
     .video-container__content
         +video("9S7TcdkUB0w")

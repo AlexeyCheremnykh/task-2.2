@@ -1,7 +1,8 @@
 include ../slider/slider.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.sliders
-    h2.ui-kit__title Sliders
+    +elem_demo_title("Sliders")
     .sliders__content
         .sliders__first-example
             - var optionsRed = {type: "type-a", min: 0, max: 100}

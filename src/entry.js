@@ -17,6 +17,7 @@ import "../node_modules/select2/dist/css/select2.min.css";
 import "../node_modules/gmap3/dist/gmap3.min.js";
 
 import "./index.styl";
+import "./blocks/elem-demo-title/elem-demo-title.styl";
 import "./blocks/standard-buttons/standard-buttons.styl";
 import "./blocks/standard-button/standard-button.styl";
 import "./blocks/arrow-buttons/arrow-buttons.styl";

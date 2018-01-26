@@ -1,7 +1,8 @@
 include ../user-profile/user-profile.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.user-profile-container
-    h2.ui-kit__title User Profile
+    +elem_demo_title("User profile")
     .user-profile-container__content
         +user_profile({color: "grey", name: "John Smith", profession: "Ux Designer", photo: "blocks/user-profile/img/user-profile-man.png"})
         +user_profile({color: "blue", name: "Sarah Brown", profession: "Developer", photo: "blocks/user-profile/img/user-profile-woman.png"})

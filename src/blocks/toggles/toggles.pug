@@ -1,7 +1,8 @@
 include ../toggle/toggle.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.toggles
-    h2.ui-kit__title toggles
+    +elem_demo_title("toggles")
     .toggles__content
         +toggle("off")(class="toggles__toggle")
         +toggle("on")(class="toggles__toggle")

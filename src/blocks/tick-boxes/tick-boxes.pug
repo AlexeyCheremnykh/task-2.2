@@ -1,7 +1,8 @@
 include ../tick-box/tick-box.pug
+include ../elem-demo-title/elem-demo-title.pug
 
 section.tick-boxes
-    h2.ui-kit__title Tick Boxes
+    +elem_demo_title("Tick Boxes")
     .tick-boxes__content
         +tick_box("checked")
         +tick_box("unchecked")
