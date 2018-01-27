@@ -1,8 +1,9 @@
 mixin article({title, date, text, mixClass = ""})
     - mixClass = mixClass ? " " + mixClass : mixClass;
-    div(class="article" + mixClass)
+    article(class="article" + mixClass)
         .article__image
         .article__text
-            .article__title #{title}
-            .article__date #{date}
-            .article__content #{text}
+            header.article__header
+                h3.article__title #{title}
+                .article__date #{date}
+            p.article__content #{text}

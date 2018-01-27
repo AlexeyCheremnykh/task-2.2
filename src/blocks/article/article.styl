@@ -1,3 +1,6 @@
+$color-main = #e75735
+$color-text = #ffffff
+
 .article
   width: 288px
   height: 212px
@@ -22,10 +25,11 @@
     height: 212px
     display: inline-block
     vertical-align: top
-    background-color: #e75735
-    color: #ffffff
+    background-color: $color-main
+    color: $color-text
 
   &__title
+    margin: 0
     font-weight: 300
     font-size: 28px
     line-height: 26px
@@ -39,8 +43,11 @@
     margin-bottom: 15px
     text-transform: uppercase
     word-spacing: 5px
+    max-height: 9px
+    overflow: hidden
 
   &__content
+    margin: 0
     font-weight: 400
     font-size: 11px
     line-height: 13px
