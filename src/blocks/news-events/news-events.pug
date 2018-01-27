@@ -1,16 +1,16 @@
-include ../news/news.pug
+include ../article/article.pug
 include ../event/event.pug
 include ../elem-demo-title/elem-demo-title.pug
 
 section.news-events
     +elem_demo_title("News & Events")
     .news-events__content
-        - var news = {
+        - var article = {
         - title: "It's all going downhill",
         - date: "24 August 2013",
         - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum aliquet venenatis. Etiam a nisi nunc, a tincidunt eros."
         - }
-        +news(news)
+        +article(article)
 
         - var event = {
         - day: "24",
