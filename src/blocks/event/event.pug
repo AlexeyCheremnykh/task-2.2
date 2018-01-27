@@ -1,10 +1,6 @@
 include ../standard-button/standard-button.pug
 
-mixin event(options)
-    - const day = options.day;
-    - const month = options.month;
-    - const title = options.title;
-    - const text = options.text;
+mixin event({day, month, title, text})
     article.event
         .event__image
         .event__main
