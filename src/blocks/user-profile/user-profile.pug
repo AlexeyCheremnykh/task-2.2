@@ -1,14 +1,11 @@
-mixin user_profile(options)
-    - var color = options.color
-    - var name = options.name 
-    - var profession = options.profession
-    - var photo = options.photo
-    .user-profile
+mixin user_profile({color, name, profession, photo, mixClass = ""})
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(class="user-profile" + mixClass)
         img(class="user-profile__photo" src=photo alt="user photo")
         div(class="user-profile__info user-profile__info_" + color)
             .user-profile__name #{name}
             .user-profile__profession #{profession}
             .user-profile__social-container
                 a(class="user-profile__social user-profile__social_fb" href="/mock-address/")
-                a(class="user-profile__social user-profile__social_twitter" href="/mock-address/")                
-                a(class="user-profile__social user-profile__social_dribbble" href="/mock-address/")              
+                a(class="user-profile__social user-profile__social_twitter" href="/mock-address/")
+                a(class="user-profile__social user-profile__social_dribbble" href="/mock-address/")

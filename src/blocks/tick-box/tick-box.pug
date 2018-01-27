@@ -1,2 +1,3 @@
-mixin tick_box(type)
-    div(class="tick-box tick-box_" + type)
+mixin tick_box(type, mixClass = "")
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(class="tick-box tick-box_" + type + mixClass)

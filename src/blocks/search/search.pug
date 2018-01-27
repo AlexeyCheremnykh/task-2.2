@@ -1,5 +1,6 @@
-mixin search(placeholder)
-	form.search&attributes(attributes)
+mixin search(placeholder, mixClass = "")
+	- mixClass = mixClass ? " " + mixClass : mixClass;
+	form(class="search" + mixClass)
 		input(type="text" placeholder=placeholder class="search__field")
 		button(class="search__button")
 			i(class="fa fa-search" aria-hidden="true")

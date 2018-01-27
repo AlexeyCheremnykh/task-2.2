@@ -1,2 +1,3 @@
-mixin toggle(status)
-    div(class=`toggle toggle_${status}`)&attributes(attributes)
+mixin toggle(status, mixClass = "")
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(class=`toggle toggle_${status}` + mixClass)

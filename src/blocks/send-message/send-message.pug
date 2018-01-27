@@ -1,7 +1,8 @@
 include ../standard-button/standard-button.pug
 
-mixin send_message()
-    form.send-message
+mixin send_message(mixClass = "")
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    form(class="send-message" + mixClass)
         .send-message__name
             input(type="text" name="name" placeholder="Your Name" class="send-message__input-field send-message__name-field" required)
             .send-message__validation-message

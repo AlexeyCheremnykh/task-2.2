@@ -1,5 +1,6 @@
-mixin calendar()
-    .calendar
+mixin calendar(mixClass = "")
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(class="calendar" + mixClass)
         .calendar__day
         .calendar__datepicker
         button.calendar__today today

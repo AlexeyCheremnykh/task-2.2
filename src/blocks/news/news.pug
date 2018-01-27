@@ -1,8 +1,6 @@
-mixin news(options)
-    - var title = options.title
-    - var date = options.date
-    - var text = options.text
-    .news
+mixin news({title, date, text, mixClass = ""})
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(class="news" + mixClass)
         .news__image
         .news__text
             .news__title #{title}
