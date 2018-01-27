@@ -12,4 +12,4 @@ mixin messaging(personName, message)
                 .messaging__icon_camera.messaging__icon
             .messaging__input-message #{message}
             textarea.messaging__output-message
-            +standard_button({size: "big", color: "blue", label: "reply", filled: true})(class="messaging__reply")
+            +standard_button({size: "big", color: "blue", label: "reply", filled: true, long: true, mixClass: "messaging__reply"})

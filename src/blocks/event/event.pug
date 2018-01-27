@@ -14,4 +14,4 @@ mixin event(options)
                     .event__month #{month}
                 h1.event__title #{title}
             p.event__content #{text}
-            +standard_button({size: "big", color: "blue", label: "add to calendar", dark: true, thin: true})
+            +standard_button({size: "big", color: "blue", label: "add to calendar", dark: true, thin: true, mixClass: "event__add-btn"})
