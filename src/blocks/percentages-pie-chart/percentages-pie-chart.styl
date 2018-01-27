@@ -1,6 +1,15 @@
 .percentages-pie-chart
   width: 588px
-  margin-bottom: 32px
+  margin-bottom: 36px
+
+  @media (max-width: 605px)
+    width: 493px
+
+  @media (max-width: 510px)
+    width: 398px
+
+  @media (max-width: 415px)
+    width: 100%
 
   &__title
     word-spacing: -0.1em
@@ -10,19 +19,14 @@
     justify-content: space-between
     margin-top: 23px
 
+    @media (max-width: 510px)
+      justify-content: space-around
 
-@media (max-width: 605px)
-  .percentages-pie-chart
-    width: 493px
-    .percentage:first-child
-      display: none
+    .percentage
+      @media (max-width: 605px)
+        &:first-child
+          display: none
 
-@media (max-width: 510px)
-  .percentages-pie-chart
-    width: 398px
-    .percentage:nth-child(2)
-      display: none
-
-@media (max-width: 415px)
-  .percentages-pie-chart
-    width: 100%
+      @media (max-width: 510px)
+        &:nth-child(2)
+          display: none
