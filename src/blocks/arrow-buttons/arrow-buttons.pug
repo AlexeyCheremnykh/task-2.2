@@ -5,10 +5,10 @@ section.arrow-buttons
     +elem_demo_title("Arrow buttons")
     .arrow-buttons__content
         .arrow-buttons__content-part
-            +arrow_button("left")
-            +arrow_button("right")
-            +arrow_button("left", "disabled")
+            +arrow_button({direction: "left"})
+            +arrow_button({direction: "right"})
+            +arrow_button({direction: "left", disabled: true})
         .arrow-buttons__content-part
-            +arrow_button("right", "disabled")
-            +arrow_button("left")
-            +arrow_button("right")
+            +arrow_button({direction: "right", disabled: true})
+            +arrow_button({direction: "left"})
+            +arrow_button({direction: "right"})
