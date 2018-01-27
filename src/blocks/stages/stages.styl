@@ -1,7 +1,9 @@
-@import "../../colors"
+$color-main = #e75735
+$color-label = #888888
+$color-disabled = #e5e5e5
 
-.stages    
-  width: 577px  
+.stages
+  width: 577px
 
   &__stage
     cursor: default
@@ -12,11 +14,11 @@
     font-weight: 900
     font-size: 14px
     text-align: center
-    line-height: 29px        
+    line-height: 29px
     width: 29px
     height: 29px
-    margin: 0 0 0 108px
-    cursor: pointer // может быть не стоит, конечно        
+    margin-left: 108px
+    cursor: pointer
 
     &::before
       content: ""
@@ -25,24 +27,24 @@
       top: 13px
       right: 29px
       height: 5px
-      width: 108px            
-    
+      width: 108px
+
     &:first-child
       margin-left: 0
-        
+
       &::before
-        display: none 
+        display: none
 
     &-active
-      background-color: main-red
+      background-color: $color-main
       color: white
 
       &::before
-        background-color: main-red  
+        background-color: $color-main
 
     &-inactive
-      background-color: disabled-grey
-      color: stages-label
+      background-color: $color-disabled
+      color: $color-label
 
       &::before
-        background-color: disabled-grey    
+        background-color: $color-disabled
