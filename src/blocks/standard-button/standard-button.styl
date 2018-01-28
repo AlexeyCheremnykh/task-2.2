@@ -21,36 +21,55 @@
   &_color_red
     color: #e34a26
     border: 1px solid #e75735
-
+    &:hover
+      background-color: #e75735
     &:focus
       border: 2px solid #bf3e1f
 
   &_color_red&_size_big
     box-shadow: 0 3px 0 0 #e75735
+    &:hover
+      box-shadow: 0 3px 0 0 #bf3e1f
+
   &_color_red&_size_small
     box-shadow: 0 2px 0 0 #e75735
+    &:hover
+      box-shadow: 0 2px 0 0 #bf3e1f
 
   &_color_blue
     color: #44ae9f
     border: 1px solid #4eb7a8
-
+    &:hover
+      background-color: #4eb7a8
     &:focus
       border: 2px solid #28a290
 
   &_color_blue&_size_big
     box-shadow: 0 3px 0 0 #4eb7a8
+    &:hover
+      box-shadow: 0 3px 0 0 #28a290
+
   &_color_blue&_size_small
     box-shadow: 0 2px 0 0 #4eb7a8
+    &:hover
+      box-shadow: 0 2px 0 0 #28a290
 
   &_color_blue&_filled
     background-color: #4eb7a8
     color: #ffffff
 
+    &:hover
+      background-color: #429e91
+
   &_color_blue&_filled&_size_big
     box-shadow: 0 3px 0 0 #28a290
+    &:hover
+      box-shadow: 0 3px 0 0 #34877b
 
-  &_color_blue&_dark&_size_big
+  &_color_blue&_dark-shadow&_size_big
     box-shadow: 0 3px 0 0 #379285
+    &:hover
+      background-color: #28a290
 
   &_thin
     width: 128px
@@ -67,23 +86,10 @@
     border: none
     color: #ffffff
 
-  &_color_red:hover
-    background-color: #e75735
-  &_color_red:hover&_size_big
-    box-shadow: 0 3px 0 0 #bf3e1f
-  &_color_red:hover&_size_small
-    box-shadow: 0 2px 0 0 #bf3e1f
-
-  &_color_blue:hover
-    background-color: #4eb7a8
-  &_color_blue:hover&_size_big
-    box-shadow: 0 3px 0 0 #28a290
-  &_color_blue:hover&_size_small
-    box-shadow: 0 2px 0 0 #28a290
-
   &:active&_size_big
     transform: translateY(3px)
     box-shadow: none
+
   &:active&_size_small
     transform: translateY(2px)
     box-shadow: none

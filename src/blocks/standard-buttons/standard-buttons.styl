@@ -2,12 +2,18 @@
   width: 465px
   margin-bottom: 36px
 
+  @media (max-width: 490px)
+    width: 232.5px
+
   &__content
     margin-top: 70px
     display: flex
     flex-wrap: wrap
     justify-content: space-between
     align-items: flex-end
+
+    @media (max-width: 490px)
+      margin-top: 35px
 
   &__content-part
     width: 219px
@@ -18,10 +24,3 @@
 
   &__button
     margin-bottom: 21px
-
-@media (max-width: 490px)
-  .standard-buttons
-    width: 232.5px
-
-    &__content
-      margin-top: 35px
