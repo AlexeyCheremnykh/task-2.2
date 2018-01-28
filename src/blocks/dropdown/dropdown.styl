@@ -8,7 +8,7 @@
   .selection
     .select2-selection
       box-sizing: border-box
-      outline-color: #888888
+      outline: none
       border: none
       height: 28px
       width: 288px
@@ -21,6 +21,9 @@
       font-style: normal
       font-stretch: normal
       font-size: 14px
+
+      &:focus
+        background-color: #d5d5d5
 
       .select2-selection__placeholder
         color: #888888
@@ -47,18 +50,22 @@
           top: 9px
           left: 15px
 
-.select2-dropdown
-  border: none
+  .select2-dropdown
+    border: none
 
-  .select2-results__options
-    color: #666666
-    font-family: "Source Sans Pro", "Arial", sans-serif
-    font-weight: 400
-    font-style: normal
-    font-stretch: normal
-    font-size: 14px
-    background-color: #e5e5e5
+    .select2-results__options
+      color: #ffffff
+      font-family: "Source Sans Pro", "Arial", sans-serif
+      font-weight: 400
+      font-style: normal
+      font-stretch: normal
+      font-size: 14px
+      background-color: #4eb7a8
+      border-radius: 2px
+      max-height: 132px
 
-  .select2-results__option
-    padding-left: 13px
-    border-bottom: 1px solid rgba(88, 88, 88, 0.3)
+    .select2-results__option
+      padding-left: 13px
+
+      &--highlighted
+        background-color: #5bc6b6
