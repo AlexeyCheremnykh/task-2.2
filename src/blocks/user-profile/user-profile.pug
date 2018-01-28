@@ -1,7 +1,7 @@
 mixin user_profile({color, name, profession, photo, mixClass = ""})
     - mixClass = mixClass ? " " + mixClass : mixClass;
     div(class="user-profile" + mixClass)
-        img(class="user-profile__photo" src=photo alt="user photo")
+        div(class="user-profile__photo" style=`background: url(${photo})`)
         div(class="user-profile__info user-profile__info_" + color)
             .user-profile__name #{name}
             .user-profile__profession #{profession}
