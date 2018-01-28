@@ -1,4 +1,5 @@
 mixin slider({type, min, max, step, mixClass = ""})
     - mixClass = mixClass ? " " + mixClass : mixClass;
     div(data-min=min data-max=max data-step=step class=`slider slider_${type}` + mixClass)
-        .slider__handle.ui-slider-handle
+        .slider__line
+            .slider__handle.ui-slider-handle
