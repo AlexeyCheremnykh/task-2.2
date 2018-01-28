@@ -1,7 +1,5 @@
-@import "../../colors"
-
 .search
-  width: 288px  
+  width: 288px
 
   &__field
     box-sizing: border-box
@@ -9,7 +7,7 @@
     border: none
     height: 28px
     width: 88.542%
-    background-color: search-background
+    background-color: #e5e5e5
     border-radius: 3px 0 0 3px
     padding-left: 13px
     padding-bottom: 4px
@@ -18,33 +16,33 @@
     font-style: normal
     font-stretch: normal
     font-size: 14px
-    letter-spacing: 0.01em        
-    color: search-text
+    letter-spacing: 0.01em
+    color: #666666
 
     &:focus
       border: 2px solid #888888
       padding-left: 11px
-      
+
     &::placeholder
       color: #888888
 
     &_not-found
-      background-color: main-red
-      
+      background-color: #e75735
+
       &::placeholder
-        color: white
+        color: #ffffff
 
   &__button
-    position: absolute      
+    position: absolute
     outline: none
     border: none
     height: 28px
     width: 33px
     border-radius: 0 3px 3px 0
-    background-color: main-red
-    color: white 
+    background-color: #e75735
+    color: #ffffff
     cursor: pointer
 
     &:hover,
     &:focus
-      background-color: search-btn-hover        
+      background-color: #c94d2f

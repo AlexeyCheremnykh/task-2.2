@@ -1,27 +1,20 @@
-$color-text = #666666
-$color-arrow-background = #4eb7a8
-$color-arrow = #ffffff
-$color-placeholder = $color-outline = #888888
-$color-main-background = #e5e5e5
-$color-options-underline = rgba(88, 88, 88, 0.3)
-
 .dropdown
   width: 288px
 
   &__option
-    background-color: $color-main-background
+    background-color: #e5e5e5
 
 .select2-container
   .selection
     .select2-selection
       box-sizing: border-box
-      outline-color: $color-outline
+      outline-color: #888888
       border: none
       height: 28px
       width: 288px
       padding-left: 6px
       padding-right: 33px
-      background-color: $color-main-background
+      background-color: #e5e5e5
       border-radius: 2px
       font-family: "Source Sans Pro", "Arial", sans-serif
       font-weight: 400
@@ -30,10 +23,10 @@ $color-options-underline = rgba(88, 88, 88, 0.3)
       font-size: 14px
 
       .select2-selection__placeholder
-        color: $color-placeholder
+        color: #888888
 
       .select2-selection__rendered
-        color: $color-text
+        color: #666666
 
       .select2-selection__arrow
         width: 33px
@@ -41,15 +34,15 @@ $color-options-underline = rgba(88, 88, 88, 0.3)
         border-radius: 0 3px 3px 0
         top: 0
         right: 0
-        background-color: $color-arrow-background
+        background-color: #4eb7a8
         padding: 0
 
         b
           width: 8px
           height: 8px
           border: none
-          border-left: 2px solid $color-arrow
-          border-top: 2px solid $color-arrow
+          border-left: 2px solid #ffffff
+          border-top: 2px solid #ffffff
           transform: rotate(-135deg)
           top: 9px
           left: 15px
@@ -58,14 +51,14 @@ $color-options-underline = rgba(88, 88, 88, 0.3)
   border: none
 
   .select2-results__options
-    color: $color-text
+    color: #666666
     font-family: "Source Sans Pro", "Arial", sans-serif
     font-weight: 400
     font-style: normal
     font-stretch: normal
     font-size: 14px
-    background-color: $color-main-background
+    background-color: #e5e5e5
 
   .select2-results__option
     padding-left: 13px
-    border-bottom: 1px solid $color-options-underline
+    border-bottom: 1px solid rgba(88, 88, 88, 0.3)

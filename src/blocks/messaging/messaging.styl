@@ -17,6 +17,7 @@
     &-upper
       height: 82px
       background-color: #4eb7a8
+      overflow: hidden
 
     &-lower
       height: 34px
@@ -31,7 +32,6 @@
     border-radius: 50%
     border: 4px solid #e5e5e5
     margin-right: 11px
-
 
   &__messages
     height: 313px
@@ -62,7 +62,8 @@
     margin-left: 22px
     margin-right: 23px
     background-color: #ffffff
-    padding: 18px
+    padding: 18px 18px 15px
+    overflow: auto
     font-weight: 600
     font-family: "Lato", "Arial", sans-serif
     font-size: 12.5px
@@ -86,7 +87,7 @@
     resize: none
     outline: none
     display: block
-    margin: 17px auto 15px auto
+    margin: 17px auto 15px
     padding: 16px
     height: 88px
     width: 244px
@@ -98,6 +99,9 @@
     font-size: 12.5px
     color: #777777
     letter-spacing: 0.05em
+
+    &:focus
+      background-color: #ececec
 
   &__reply
     display: block

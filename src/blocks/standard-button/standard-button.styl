@@ -1,16 +1,7 @@
-$main-red = #e75735
-$main-blue = #4eb7a8
-$red-shadow = #bf3e1f
-$blue-shadow = #28a290
-$blue-dark-shadow = #379285
-$red-text = #e34a26
-$blue-text = #44ae9f
-$filled-blue-shadow = #28a290
-
 .standard-button
   outline: none
   border-radius: 3px
-  background-color: #fff
+  background-color: #ffffff
   text-transform: uppercase
   font-family: "Lato", "Arial", sans-serif
   font-weight: 900
@@ -28,38 +19,38 @@ $filled-blue-shadow = #28a290
     font-size: 10px
 
   &_color_red
-    color: $red-text
-    border: 1px solid $main-red
+    color: #e34a26
+    border: 1px solid #e75735
 
     &:focus
-      border: 2px solid $red-shadow
+      border: 2px solid #bf3e1f
 
   &_color_red&_size_big
-    box-shadow: 0 3px 0 0 $main-red
+    box-shadow: 0 3px 0 0 #e75735
   &_color_red&_size_small
-    box-shadow: 0 2px 0 0 $main-red
+    box-shadow: 0 2px 0 0 #e75735
 
   &_color_blue
-    color: $blue-text
-    border: 1px solid $main-blue
+    color: #44ae9f
+    border: 1px solid #4eb7a8
 
     &:focus
-      border: 2px solid $blue-shadow
+      border: 2px solid #28a290
 
   &_color_blue&_size_big
-    box-shadow: 0 3px 0 0 $main-blue
+    box-shadow: 0 3px 0 0 #4eb7a8
   &_color_blue&_size_small
-    box-shadow: 0 2px 0 0 $main-blue
+    box-shadow: 0 2px 0 0 #4eb7a8
 
   &_color_blue&_filled
-    background-color: $main-blue
-    color: #fff
+    background-color: #4eb7a8
+    color: #ffffff
 
   &_color_blue&_filled&_size_big
-    box-shadow: 0 3px 0 0 $blue-shadow
+    box-shadow: 0 3px 0 0 #28a290
 
   &_color_blue&_dark&_size_big
-    box-shadow: 0 3px 0 0 $blue-dark-shadow
+    box-shadow: 0 3px 0 0 #379285
 
   &_thin
     width: 128px
@@ -74,21 +65,21 @@ $filled-blue-shadow = #28a290
 
   &:hover
     border: none
-    color: #fff
+    color: #ffffff
 
   &_color_red:hover
-    background-color: $main-red
+    background-color: #e75735
   &_color_red:hover&_size_big
-    box-shadow: 0 3px 0 0 $red-shadow
+    box-shadow: 0 3px 0 0 #bf3e1f
   &_color_red:hover&_size_small
-    box-shadow: 0 2px 0 0 $red-shadow
+    box-shadow: 0 2px 0 0 #bf3e1f
 
   &_color_blue:hover
-    background-color: $main-blue
+    background-color: #4eb7a8
   &_color_blue:hover&_size_big
-    box-shadow: 0 3px 0 0 $blue-shadow
+    box-shadow: 0 3px 0 0 #28a290
   &_color_blue:hover&_size_small
-    box-shadow: 0 2px 0 0 $blue-shadow
+    box-shadow: 0 2px 0 0 #28a290
 
   &:active&_size_big
     transform: translateY(3px)
