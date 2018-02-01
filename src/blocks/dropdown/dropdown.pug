@@ -3,5 +3,5 @@ mixin dropdown(options, mixClass = "")
     select(class="dropdown" + mixClass)
         option(value="")
         each opt in options
-            option(class="dropdown__option" value=opt) #{opt}
+            option(class="dropdown__option" value=opt)=opt
 

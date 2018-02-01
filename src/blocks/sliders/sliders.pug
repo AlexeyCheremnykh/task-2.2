@@ -5,8 +5,8 @@ section.sliders
     +elem-demo-title({title: "Sliders"})
     .sliders__content
         .sliders__first-example
-            - var optionsRed = {type: "type-a", min: 0, max: 100}
+            - const optionsRed = {type: "type-a", min: 0, max: 100};
             +slider(optionsRed)
         .sliders__second-example
-            - var optionsBlue = {type: "type-b", min: 0, max: 100, step: 25}
+            - const optionsBlue = {type: "type-b", min: 0, max: 100, step: 25};
             +slider(optionsBlue)

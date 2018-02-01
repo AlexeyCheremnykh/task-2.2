@@ -10,4 +10,4 @@ mixin send_message(mixClass = "")
             input(type="email" name="email" placeholder="Your Email" class="send-message__input-field send-message__email-field" required)
             .send-message__validation-message
         textarea(placeholder="Your Message" class="send-message__input-field send-message__message")
-        +standard_button({size: "big", color: "blue", label: "submit", filled: true, mixClass: "send-message__submit"})
+        +standard-button({size: "big", color: "blue", label: "submit", filled: true, mixClass: "send-message__submit"})

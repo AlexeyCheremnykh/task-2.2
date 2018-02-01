@@ -4,14 +4,14 @@ mixin messaging({name, message, mixClass = ""})
     - mixClass = mixClass ? " " + mixClass : mixClass;
     form(class="messaging" + mixClass)
         .messaging__person-name
-            .messaging__person-name-upper #{name}
+            .messaging__person-name-upper=name
             .messaging__person-name-lower
         .messaging__person-photo
         .messaging__messages
             .messaging__icons
-                .messaging__icon_chat.messaging__icon
-                .messaging__icon_camera.messaging__icon
+                .messaging__icon.messaging__icon_chat
+                .messaging__icon.messaging__icon_camera
             .messaging__input-message-wrapper
-                .messaging__input-message #{message}
+                .messaging__input-message=message
             textarea.messaging__output-message
-            +standard_button({size: "big", color: "blue", label: "reply", filled: true, long: true, mixClass: "messaging__reply"})
+            +standard-button({size: "big", color: "blue", label: "reply", filled: true, long: true, mixClass: "messaging__reply"})
