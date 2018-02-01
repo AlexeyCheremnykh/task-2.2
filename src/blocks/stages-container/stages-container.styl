@@ -8,35 +8,29 @@
     @media (max-width: 600px)
       width: 465px
 
-      &__stage
-        margin-left: 80px
-
-      &__stage::before
-        width: 80px
-
-    @media (max-width: 600px)
-      width: 465px
-
-      &__stage
-        margin-left: 80px
-
-      &__stage::before
-        width: 80px
-
     @media (max-width: 490px)
       width: 365px
-
-      &__stage
-        margin-left: 55px
-
-      &__stage::before
-        width: 55px
 
     @media (max-width: 385px)
       width: 305px
 
-      &__stage
+    &__stage
+      @media (max-width: 600px)
+        margin-left: 80px
+
+      @media (max-width: 490px)
+        margin-left: 55px
+
+      @media (max-width: 385px)
         margin-left: 40px
 
-      &__stage::before
+
+    &__stage::before
+      @media (max-width: 600px)
+        width: 80px
+
+      @media (max-width: 490px)
+        width: 55px
+
+      @media (max-width: 385px)
         width: 40px
