@@ -1,12 +1,12 @@
 $(document).ready(function(){
     $(".toggle").click(function() {
-        if ($(this).hasClass("toggle_on")) {            
-            $(this).addClass("toggle_off").removeClass("toggle_on");
+        if ($(this).hasClass("toggle_enabled")) {
+            $(this).addClass("toggle_disabled").removeClass("toggle_enabled");
             return
         }
-        if ($(this).hasClass("toggle_off")) {           
-            $(this).addClass("toggle_on").removeClass("toggle_off");
+        if ($(this).hasClass("toggle_disabled")) {
+            $(this).addClass("toggle_enabled").removeClass("toggle_disabled");
             return
-        }        
+        }
     })
 })
