@@ -1,5 +1,4 @@
-import "./fonts/Lato/lato.css";
-import "../node_modules/source-sans-pro/source-sans-pro.css";
+import "./fonts/fonts.styl";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 
 import "jquery";
