@@ -2,7 +2,7 @@ include ../send-message/send-message.pug
 include ../elem-demo-title/elem-demo-title.pug
 
 section.form-elements
-    +elem_demo_title("Form Elements")
+    +elem-demo-title({title: "Form Elements"})
     .form-elements__content
         .form-elements__send-msg
             +send_message()

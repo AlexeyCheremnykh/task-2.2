@@ -1,2 +1,5 @@
-mixin elem_demo_title(title)
-    h2.elem-demo-title&attributes(attributes) #{title}
+mixin elem-demo-title({title, shrunk=false})
+    if (!shrunk)
+        h2.elem-demo-title=title
+    else
+        h2.elem-demo-title.elem-demo-title_shrunk=title

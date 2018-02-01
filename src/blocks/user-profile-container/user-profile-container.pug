@@ -2,7 +2,7 @@ include ../user-profile/user-profile.pug
 include ../elem-demo-title/elem-demo-title.pug
 
 section.user-profile-container
-    +elem_demo_title("User profile")
+    +elem-demo-title({title: "User profile"})
     .user-profile-container__content
         - const manProfile = {
         -   color: "grey",

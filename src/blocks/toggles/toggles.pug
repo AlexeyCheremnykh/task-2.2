@@ -2,7 +2,7 @@ include ../toggle/toggle.pug
 include ../elem-demo-title/elem-demo-title.pug
 
 .toggles
-    +elem_demo_title("toggles")
+    +elem-demo-title({title: "toggles"})
     .toggles__content
         +toggle("off", "toggles__toggle")
         +toggle("on", "toggles__toggle")

@@ -4,11 +4,11 @@ include ../elem-demo-title/elem-demo-title.pug
 
 .calendar-messaging
     section.calendar-container
-        +elem_demo_title("Calendar")
+        +elem-demo-title({title: "Calendar"})
         .calendar-container__content
             +calendar()
 
     section.messaging-container
-        +elem_demo_title("Messaging")
+        +elem-demo-title({title: "Messaging"})
         .messaging-container__content
             +messaging({name: "Sarah Brown", message: "Hey! So are we cool to meet at the art gallery? Say 8pm"})
