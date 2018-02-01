@@ -1,6 +1,6 @@
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/entry.js',
@@ -15,15 +15,15 @@ module.exports = {
                 use: [
                     'style-loader',
                     'css-loader',
-                    'stylus-loader'
-                ]
+                    'stylus-loader',
+                ],
             },
             {
                 test: /\.css$/,
                 use: [
                     'style-loader',
-                    'css-loader'
-                ]
+                    'css-loader',
+                ],
             },
             {
                 test: /\.(png|jpg)$/,
@@ -31,37 +31,40 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options: {
-                            name: 'img/[name].[ext]'
-                        }
-                    }
-                ]
+                            name: 'img/[name].[ext]',
+                        },
+                    },
+                ],
             },
             {
-                test: /\.(eot|svg|ttf|woff|woff2|otf)$/,
+                test: /\.(svg|ttf|woff)$/,
                 use: [
                     {
                         loader: 'file-loader',
                         options: {
-                            name: 'fonts/[name].[ext]'
-                        }
-                    }
-                ]
+                            name: 'fonts/[name].[ext]',
+                        },
+                    },
+                ],
             },
             {
                 test: /\.pug$/,
-                use: ['html-loader', 'pug-html-loader']
-            }
-        ]
+                use: [
+                    'html-loader',
+                    'pug-html-loader',
+                ],
+            },
+        ],
     },
     plugins: [
-        new webpack.ProvidePlugin ({
-            $: "jquery",
-            jQuery: "jquery",
-            "window.jQuery": "jquery",
-            "window.$": "jquery"
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            'window.jQuery': 'jquery',
+            'window.$': 'jquery',
         }),
         new HtmlWebpackPlugin({
-            template: 'src/pages/index.pug'
-        })
-    ]
+            template: 'src/pages/index.pug',
+        }),
+    ],
 };
