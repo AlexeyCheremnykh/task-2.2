@@ -1,11 +1,19 @@
 .user-profile-container
   width: 50%
-  display: inline-block
-  vertical-align: top
+  float: right
+
+  @media (max-width: 637px)
+    width: 288px
+    float: none
+    margin-left: auto
+    margin-right: auto
 
   &__content
     padding-left: 28px
     margin-top: 29px
+
+    @media (max-width: 637px)
+      padding: 0
 
   &__profile
     margin-bottom: 26px
