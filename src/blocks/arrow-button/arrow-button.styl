@@ -8,15 +8,6 @@
   background-color: #ffffff
   cursor: pointer
 
-  &::after
-    content: ""
-    position: absolute
-    top: 14px
-    width: 13px
-    height: 13px
-    border-top: 4px solid #4eb7a8
-    border-right: 4px solid #4eb7a8
-
   &_right::after
     transform: rotate(45deg)
     right: 16px
@@ -43,3 +34,12 @@
 
   &:focus
     outline: 2px solid #e5e5e5
+
+  &::after
+    content: ""
+    position: absolute
+    top: 14px
+    width: 13px
+    height: 13px
+    border-top: 4px solid #4eb7a8
+    border-right: 4px solid #4eb7a8
