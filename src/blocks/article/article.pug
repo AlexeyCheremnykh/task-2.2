@@ -1,8 +1,0 @@
-mixin article({title, date, content, mixClass = ""})
-    - mixClass = mixClass ? " " + mixClass : mixClass;
-    div(class="article" + mixClass)
-        .article__image
-        .article__text
-            .article__title=title
-            .article__date=date
-            .article__content=content
