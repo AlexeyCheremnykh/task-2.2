@@ -1,6 +1,6 @@
 mixin search({placeholder, notFound = false, mixClass = ""})
 	- mixClass = mixClass ? " " + mixClass : mixClass;
-	form(class="search js-search" + mixClass)
+	form(class="search" + mixClass)
 		if (notFound)
 			input(type="text" placeholder=placeholder class="search__field search__field_not-found")
 		else
