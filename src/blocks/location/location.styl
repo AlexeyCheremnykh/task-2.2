@@ -25,10 +25,16 @@
     justify-content: space-between
     align-items: flex-end
 
+    @media (max-width: 450px)
+      margin-left: 23px
+
   &__title
     font-weight: 300
     font-size: 30px
     word-spacing: -0.09em
+
+    @media (max-width: 450px)
+      font-size: 25px
 
   &__address
     font-weight: 900
@@ -37,11 +43,20 @@
     text-transform: uppercase
     width: 143px
 
+    @media (max-width: 450px)
+      font-size: 11px
+
+    @media (max-width: 390px)
+      display: none
+
   &__footer-buttons
     width: 79px
     padding: 20px 13px 20px 0
     display: flex
     justify-content: space-between
+
+    @media (max-width: 390px)
+      width: 90px
 
   &__footer-button
     width: 30px
