@@ -1,0 +1,7 @@
+include ../messaging/messaging.pug
+include ../elem-demo-title/elem-demo-title.pug
+
+section.messaging-container
+    +elem-demo-title({title: "Messaging"})
+    .messaging-container__content
+        +messaging({name: "Sarah Brown", message: "Hey! So are we cool to meet at the art gallery? Say 8pm"})
