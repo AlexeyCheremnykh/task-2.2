@@ -1,6 +1,9 @@
-mixin search(placeholder, mixClass = "")
+mixin search({placeholder, notFound = false, mixClass = ""})
 	- mixClass = mixClass ? " " + mixClass : mixClass;
-	form(class="search" + mixClass)
-		input(type="text" placeholder=placeholder class="search__field")
+	form(class="search js-search" + mixClass)
+		if (notFound)
+			input(type="text" placeholder=placeholder class="search__field search__field_not-found")
+		else
+			input(type="text" placeholder=placeholder class="search__field")
 		button(class="search__button")
 			i(class="fa fa-search search__icon" aria-hidden="true")

@@ -42,7 +42,6 @@ import "./blocks/send-message/send-message.styl";
 import "./blocks/send-message/send-message.js";
 import "./blocks/form-elements/form-elements.styl";
 import "./blocks/search-user-profile/search-user-profile.styl";
-import "./blocks/search-dropdown/search-dropdown.js";
 import "./blocks/search-dropdown/search-dropdown.styl";
 import "./blocks/search/search.styl";
 import "./blocks/dropdown/dropdown.styl";

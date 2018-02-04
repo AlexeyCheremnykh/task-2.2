@@ -5,6 +5,6 @@ include ../elem-demo-title/elem-demo-title.pug
 section.search-dropdown
     +elem-demo-title({title: "Search / Drop Down", shrunk: true})
     .search-dropdown__content
-        +search("Search", "search-dropdown__search")
-        +search("I've not found what I'm looking for...", "search-dropdown__search")
+        +search({placeholder: "Search", mixClass: "search-dropdown__search"})
+        +search({placeholder: "I've not found what I'm looking for...", mixClass: "search-dropdown__search", notFound: true})
         +dropdown(["opt1", "opt2", "opt3", "opt3", "opt4", "opt5"])
