@@ -5,8 +5,8 @@ include ../elem-demo-title/elem-demo-title.pug
 section.percentages-pie-chart
     +elem-demo-title({title: "Percentages / Pie Chart", shrunk: true})
     .percentages-pie-chart__content
-        +percentage(0)
-        +percentage(38)
-        +percentage(62)
-        +percentage(89)
+        +percentage(0, 'percentages-pie-chart__percentage')
+        +percentage(38, 'percentages-pie-chart__percentage')
+        +percentage(62, 'percentages-pie-chart__percentage')
+        +percentage(89, 'percentages-pie-chart__percentage')
         +pie_chart({val1: 6, val2: 12, val3: 26, val4: 30})
