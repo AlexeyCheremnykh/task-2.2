@@ -1,25 +1,19 @@
 .tick-box
   cursor: pointer
-  user-select: none
   display: block
   padding-left: 28px
   height: 23px
+  line-height: 23px
   position: relative
-  font-size: 17px
+  font-size: 15px
   font-family: "Lato", "Arial", sans-serif
+  font-weight: 400
 
   &_not-labeled
     padding-left: 23px
 
   &__auxiliary-checkbox
     display: none
-
-  &__auxiliary-checkbox:checked + &__checkmark
-    background-color: #4eb7a8
-
-    &::after
-      border-left: 2px solid #ffffff
-      border-bottom: 2px solid #ffffff
 
   &__checkmark
     position: absolute
@@ -41,3 +35,10 @@
       right: 6px
       border-left: 2px solid #cecece
       border-bottom: 2px solid #cecece
+
+  &__auxiliary-checkbox:checked + &__checkmark
+    background-color: #4eb7a8
+
+    &::after
+      border-left: 2px solid #ffffff
+      border-bottom: 2px solid #ffffff
