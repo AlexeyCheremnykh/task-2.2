@@ -1,9 +1,9 @@
 include ../percentage/percentage.pug
 include ../pie-chart/pie-chart.pug
-include ../elem-demo-title/elem-demo-title.pug
+include ../ui-kit-title/ui-kit-title.pug
 
 section.percentages-pie-chart
-    +elem-demo-title({title: "Percentages / Pie Chart", shrunk: true})
+    +ui-kit-title({title: "Percentages / Pie Chart", shrunk: true})
     .percentages-pie-chart__content
         +percentage(0, 'percentages-pie-chart__percentage')
         +percentage(38, 'percentages-pie-chart__percentage')
