@@ -15,6 +15,8 @@ class Percentage {
       startAngle: -Math.PI / 2,
       insertMode: 'prepend',
     });
+
+    return this;
   }
 }
 

@@ -9,6 +9,8 @@ class Dropdown {
       placeholder: 'Choose An Option',
       minimumResultsForSearch: -1,
     });
+
+    return this;
   }
 }
 

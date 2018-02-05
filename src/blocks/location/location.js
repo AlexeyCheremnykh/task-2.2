@@ -20,6 +20,8 @@ class Map {
         },
         draggable: true,
       });
+
+    return this;
   }
 }
 

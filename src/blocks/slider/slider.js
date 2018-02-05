@@ -25,6 +25,7 @@ class Slider {
           rest: 'label',
         });
     }
+
     return this;
   }
 }

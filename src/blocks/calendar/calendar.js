@@ -25,7 +25,7 @@ class Calendar {
     return this;
   }
 
-  initEventHandlers() {
+  initEventListeners() {
     const self = this;
 
     function setTodaysDate() {
@@ -42,6 +42,6 @@ const $calendar = $('.calendar');
 let id = 0;
 $calendar.each((index, elem) => {
   const calendar = new Calendar(elem, id);
-  calendar.initElement().initEventHandlers();
+  calendar.initElement().initEventListeners();
   id += 1;
 });
