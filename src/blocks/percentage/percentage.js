@@ -2,7 +2,7 @@ class Percentage {
   constructor(elem, id) {
     this._id = id;
     this._$percentage = $(elem);
-    this._$value = $(elem).children('.percentage__value');
+    this._$value = $(elem).children('.js-percentage__value');
   }
 
   initElement() {
@@ -20,7 +20,7 @@ class Percentage {
   }
 }
 
-const $percentage = $('.percentage');
+const $percentage = $('.js-percentage');
 let id = 0;
 $percentage.each((index, elem) => {
   const percentage = new Percentage(elem, id);

@@ -1,7 +1,7 @@
 mixin location({address, title, mixClass=""})
     - mixClass = mixClass ? " " + mixClass : mixClass;
     div(class="location" + mixClass)
-        div(class="location__map" data-address=address)
+        div(class="location__map js-location__map" data-address=address)
         .location__footer
             .location__footer-info
                 .location__title=title

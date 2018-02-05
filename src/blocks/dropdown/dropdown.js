@@ -14,7 +14,7 @@ class Dropdown {
   }
 }
 
-const $dropdown = $('.dropdown');
+const $dropdown = $('.js-dropdown');
 let id = 0;
 $dropdown.each((index, elem) => {
   const dropdown = new Dropdown(elem, id);

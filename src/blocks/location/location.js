@@ -25,7 +25,7 @@ class Map {
   }
 }
 
-const $map = $('.location__map');
+const $map = $('.js-location__map');
 let id = 0;
 $map.each((index, elem) => {
   const map = new Map(elem, id);

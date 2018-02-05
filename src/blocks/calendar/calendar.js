@@ -2,9 +2,9 @@ class Calendar {
   constructor(elem, id) {
     this._id = id;
     this._$calendar = $(elem);
-    this._$datepicker = $(elem).children('.calendar__datepicker');
-    this._$day = $(elem).children('.calendar__day');
-    this._$todayBtn = $(elem).children('.calendar__today');
+    this._$datepicker = $(elem).children('.js-calendar__datepicker');
+    this._$day = $(elem).children('.js-calendar__day');
+    this._$todayBtn = $(elem).children('.js-calendar__today');
   }
 
   initElement() {
@@ -38,7 +38,7 @@ class Calendar {
   }
 }
 
-const $calendar = $('.calendar');
+const $calendar = $('.js-calendar');
 let id = 0;
 $calendar.each((index, elem) => {
   const calendar = new Calendar(elem, id);
