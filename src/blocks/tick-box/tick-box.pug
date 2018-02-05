@@ -3,8 +3,8 @@ mixin tick-box({checked=false, label="", mixClass = ""})
     - const tickboxClass = label ? "tick-box" : "tick-box tick-box_not-labeled";
     label(class=tickboxClass + mixClass)=label
         if (checked)
-            input(type="checkbox" class="tick-box__default-checkbox" checked)
+            input(type="checkbox" class="tick-box__auxiliary-checkbox" checked)
             .tick-box__checkmark
         else
-            input(type="checkbox" class="tick-box__default-checkbox")
+            input(type="checkbox" class="tick-box__auxiliary-checkbox")
             .tick-box__checkmark

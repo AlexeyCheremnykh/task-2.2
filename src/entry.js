@@ -34,7 +34,6 @@ import "./blocks/stages/stages.styl";
 import "./blocks/stages/stages.js";
 import "./blocks/toggles/toggles.styl";
 import "./blocks/toggle/toggle.styl";
-import "./blocks/toggle/toggle.js";
 import "./blocks/tick-box/tick-box.styl";
 import "./blocks/tick-boxes/tick-boxes.styl";
 import "./blocks/send-message/send-message.styl";
