@@ -4,5 +4,5 @@ include ../elem-demo-title/elem-demo-title.pug
 section.toggles
     +elem-demo-title({title: "toggles"})
     .toggles__content
-        +toggle("disabled", "toggles__toggle")
-        +toggle("enabled", "toggles__toggle")
+        +toggle({mixClass: "toggles__toggle"})
+        +toggle({enabled: true, mixClass: "toggles__toggle"})
