@@ -4,10 +4,10 @@ mixin send_message(mixClass = "")
     - mixClass = mixClass ? " " + mixClass : mixClass;
     form(class="send-message" + mixClass)
         .send-message__name
-            input(type="text" name="name" placeholder="Your Name" class="send-message__input-field send-message__name-field" required)
-            .send-message__validation-message
+            input(type="text" name="name" placeholder="Your Name" class="send-message__input-field send-message__name-field")
+            .send-message__validation-message.send-message__validation-message_error Error
         .send-message__email
-            input(type="email" name="email" placeholder="Your Email" class="send-message__input-field send-message__email-field" required)
-            .send-message__validation-message
+            input(type="email" name="email" placeholder="Your Email" class="send-message__input-field send-message__email-field")
+            .send-message__validation-message Thanks!
         textarea(placeholder="Your Message" class="send-message__input-field send-message__message")
         +standard-button({size: "big", color: "blue", label: "submit", filled: true, mixClass: "send-message__submit"})

@@ -37,7 +37,6 @@ import "./blocks/toggles/toggles.styl";
 import "./blocks/tick-box/tick-box.styl";
 import "./blocks/tick-boxes/tick-boxes.styl";
 import "./blocks/send-message/send-message.styl";
-import "./blocks/send-message/send-message.js";
 import "./blocks/form-elements/form-elements.styl";
 import "./blocks/search-user-profile/search-user-profile.styl";
 import "./blocks/search-dropdown/search-dropdown.styl";
