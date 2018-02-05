@@ -62,7 +62,7 @@ import "./blocks/calendar/calendar.styl";
 import "./blocks/calendar/calendar.js";
 import "./blocks/messaging/messaging.styl";
 import "./blocks/messaging/img/messaging-woman.jpg";
-import "./blocks/video-container/video-container.styl";
 import "./blocks/video/video.styl";
+import "./blocks/video-container/video-container.styl";
 import "./blocks/calendar-container/calendar-container.styl";
 import "./blocks/messaging-container/messaging-container.styl";
