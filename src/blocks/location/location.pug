@@ -1,4 +1,4 @@
-mixin location({localAddress, globalAddress, title, mixClass=""})
+mixin location({localAddress, globalAddress, title, mixClass = ""})
     - mixClass = mixClass ? " " + mixClass : mixClass;
     - const address = `${localAddress} ${globalAddress}`;
     div(class="location" + mixClass)
