@@ -5,8 +5,12 @@ include ../ui-kit-title/ui-kit-title.pug
 section.percentages-pie-chart
     +ui-kit-title({title: "Percentages / Pie Chart", shrunk: true})
     .percentages-pie-chart__content
-        +percentage(0, 'percentages-pie-chart__percentage')
-        +percentage(38, 'percentages-pie-chart__percentage')
-        +percentage(62, 'percentages-pie-chart__percentage')
-        +percentage(89, 'percentages-pie-chart__percentage')
+        .percentages-pie-chart__percentage
+            +percentage(0)
+        .percentages-pie-chart__percentage
+            +percentage(38)
+        .percentages-pie-chart__percentage
+            +percentage(62)
+        .percentages-pie-chart__percentage
+            +percentage(89)
         +pie_chart({val1: 6, val2: 12, val3: 26, val4: 30})

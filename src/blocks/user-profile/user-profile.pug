@@ -1,6 +1,5 @@
-mixin user-profile({color, name, profession, photo, mixClass = ""})
-    - mixClass = mixClass ? " " + mixClass : mixClass;
-    div(class="user-profile" + mixClass)
+mixin user-profile({color, name, profession, photo})
+    div(class="user-profile")
         div(class="user-profile__photo" style=`background: url(${photo})`)
         div(class="user-profile__info user-profile__info_" + color)
             .user-profile__name #{name}

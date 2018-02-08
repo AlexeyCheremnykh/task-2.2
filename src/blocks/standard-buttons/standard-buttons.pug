@@ -5,14 +5,18 @@ section.standard-buttons
     +ui-kit-title({title: "Standard buttons"})
     .standard-buttons__content
         .standard-buttons__content-part
-            - const smallBlue = {size: "small", color: "blue", label: "button", mixClass: "standard-buttons__button"};
-            - const bigBlue = {size: "big", color: "blue", label: "button", mixClass: "standard-buttons__button"};
+            - const smallBlue = {size: "small", color: "blue", label: "button"};
+            - const bigBlue = {size: "big", color: "blue", label: "button"};
             - for (let i = 0; i < 3; i++)
-                +standard-button(smallBlue)
-                +standard-button(bigBlue)
+                .standard-buttons__button
+                    +standard-button(smallBlue)
+                .standard-buttons__button
+                    +standard-button(bigBlue)
         .standard-buttons__content-part
-            - const smallRed = {size: "small", color: "red", label: "button", mixClass: "standard-buttons__button"};
-            - const bigRed = {size: "big", color: "red", label: "button", mixClass: "standard-buttons__button"};
+            - const smallRed = {size: "small", color: "red", label: "button"};
+            - const bigRed = {size: "big", color: "red", label: "button"};
             - for (let i = 0; i < 3; i++)
-                +standard-button(bigRed)
-                +standard-button(smallRed)
+                .standard-buttons__button
+                    +standard-button(bigRed)
+                .standard-buttons__button
+                    +standard-button(smallRed)

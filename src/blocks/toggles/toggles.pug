@@ -4,5 +4,7 @@ include ../ui-kit-title/ui-kit-title.pug
 section.toggles
     +ui-kit-title({title: "toggles"})
     .toggles__content
-        +toggle({mixClass: "toggles__toggle"})
-        +toggle({enabled: true, mixClass: "toggles__toggle"})
+        .toggles__toggle
+            +toggle({enabled: false})
+        .toggles__toggle
+            +toggle({enabled: true})

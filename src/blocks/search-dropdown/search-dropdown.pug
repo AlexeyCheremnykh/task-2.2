@@ -5,6 +5,8 @@ include ../ui-kit-title/ui-kit-title.pug
 section.search-dropdown
     +ui-kit-title({title: "Search / Drop Down", shrunk: true})
     .search-dropdown__content
-        +search({placeholder: "Search", mixClass: "search-dropdown__search"})
-        +search({placeholder: "I've not found what I'm looking for...", mixClass: "search-dropdown__search", notFound: true})
+        .search-dropdown__search
+            +search({placeholder: "Search"})
+        .search-dropdown__search
+            +search({placeholder: "I've not found what I'm looking for...", notFound: true})
         +dropdown(["opt1", "opt2", "opt3", "opt3", "opt4", "opt5"])

@@ -4,5 +4,7 @@ include ../ui-kit-title/ui-kit-title.pug
 section.tick-boxes
     +ui-kit-title({title: "Tick Boxes"})
     .tick-boxes__content
-        +tick-box({checked: true, mixClass: "tick-boxes__tick-box"})
-        +tick-box({mixClass: "tick-boxes__tick-box"})
+        .tick-boxes__tick-box
+            +tick-box({checked: true})
+        .tick-boxes__tick-box
+            +tick-box({checked: false})
