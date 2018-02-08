@@ -1,5 +1,5 @@
 mixin dropdown(options)
-    select(class="dropdown js-dropdown")
+    select.dropdown.js-dropdown
         option(value="")
         each opt in options
             option(class="dropdown__option" value=opt)=opt

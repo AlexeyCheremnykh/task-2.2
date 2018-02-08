@@ -3,7 +3,7 @@ mixin news-article-preview({title, articleAddress, dateString, content})
     - const newsMonth = newsDate.toLocaleString("en", { month: "long" });
     - const newsDay = newsDate.toLocaleString("en", { day: "numeric" });
     - const newsYear = newsDate.toLocaleString("en", { year: "numeric" });
-    article(class="news-article-preview")
+    article.news-article-preview
         .news-article-preview__image
         .news-article-preview__main
             header.news-article-preview__header
