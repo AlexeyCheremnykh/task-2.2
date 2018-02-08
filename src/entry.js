@@ -65,3 +65,4 @@ import './blocks/video/video.styl';
 import './blocks/video-container/video-container.styl';
 import './blocks/calendar-container/calendar-container.styl';
 import './blocks/messaging-container/messaging-container.styl';
+import './blocks/ui-kit/ui-kit.styl';
