@@ -16,19 +16,15 @@
 
   &__first-example
     float: left
-    width: 280px
-
-    @media (max-width: 660px)
-      margin: 0 auto
-      float: none
-      display: block
 
   &__second-example
     float: right
+
+  &__first-example,
+  &__second-example
     width: 280px
 
     @media (max-width: 660px)
       margin: 0 auto
-      transform: translateX(9px)
       float: none
       display: block
