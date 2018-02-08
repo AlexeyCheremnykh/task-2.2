@@ -13,4 +13,5 @@ mixin messaging({name, message})
             .messaging__input-message-wrapper
                 .messaging__input-message=message
             textarea.messaging__output-message
-            +standard-button({size: "big", color: "blue", label: "reply", filled: true, long: true, mixClass: "messaging__reply"})
+            .messaging__reply
+                +standard-button({size: "big", color: "blue", label: "reply", filled: true, long: true})

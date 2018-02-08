@@ -13,4 +13,5 @@ mixin event({dateString, title, content})
                     span.event__month=eventMonth
                 h2.event__title=title
             p.event__content=content
-            +standard-button({size: "big", color: "blue", label: "add to calendar", darkShadow: true, thin: true, mixClass: "event__add-btn"})
+            .event__add-btn
+                +standard-button({size: "big", color: "blue", label: "add to calendar", darkShadow: true, thin: true})
