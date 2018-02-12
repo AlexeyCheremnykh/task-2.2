@@ -1,4 +1,5 @@
 import './fonts/fonts.styl';
+import './favicons/favicons';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 import 'jquery';
