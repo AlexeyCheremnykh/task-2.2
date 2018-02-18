@@ -3,11 +3,11 @@ include ../standard-button/standard-button.pug
 mixin send_message
     form.send-message
         .send-message__name
-            input(type="text" name="name" placeholder="Your Name" class="send-message__input-field send-message__name-field")
+            input.send-message__input-field.send-message__name-field(type="text" name="name" placeholder="Your Name")
             .send-message__validation-message.send-message__validation-message_error Error
         .send-message__email
-            input(type="email" name="email" placeholder="Your Email" class="send-message__input-field send-message__email-field")
+            input.send-message__input-field.send-message__email-field(type="email" name="email" placeholder="Your Email")
             .send-message__validation-message Thanks!
-        textarea(placeholder="Your Message" class="send-message__input-field send-message__message")
+        textarea.send-message__input-field.send-message__message(placeholder="Your Message")
         .send-message__submit
             +standard-button({size: "big", color: "blue", label: "submit", filled: true})
