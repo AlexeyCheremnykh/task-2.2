@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .standard-button
   outline: none
   border-radius: 3px
@@ -20,19 +22,19 @@
 
   &_color_red
     color: #e34a26
-    border: 1px solid #e75735
+    border: 1px solid $main-red
     &:hover
-      background-color: #e75735
+      background-color: $main-red
     &:focus
       border: 2px solid #bf3e1f
 
   &_color_red&_size_big
-    box-shadow: 0 3px 0 0 #e75735
+    box-shadow: 0 3px 0 0 $main-red
     &:hover
       box-shadow: 0 3px 0 0 #bf3e1f
 
   &_color_red&_size_small
-    box-shadow: 0 2px 0 0 #e75735
+    box-shadow: 0 2px 0 0 $main-red
     &:hover
       box-shadow: 0 2px 0 0 #bf3e1f
 

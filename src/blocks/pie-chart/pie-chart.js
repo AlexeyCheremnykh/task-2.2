@@ -1,6 +1,13 @@
 /*  global Chart */
 /*  eslint no-unused-vars: 0 */
 
+const colors = {
+  red: '#e75735',
+  darkGrey: '#747474',
+  lightGrey: '#e5e5e5',
+  blue: '#4eb7a8',
+};
+
 
 class PieChart {
   constructor(elem, id) {
@@ -22,10 +29,10 @@ class PieChart {
             this._$pieChart.data('val4'),
           ],
           backgroundColor: [
-            '#747474',
-            '#e75735',
-            '#4eb7a8',
-            '#e5e5e5',
+            colors.darkGrey,
+            colors.red,
+            colors.blue,
+            colors.lightGrey,
           ],
           borderWidth: 0,
         }],
