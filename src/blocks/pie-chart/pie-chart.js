@@ -5,7 +5,7 @@ const colors = {
   red: '#e75735',
   darkGrey: '#747474',
   lightGrey: '#e5e5e5',
-  blue: '#4eb7a8',
+  cyan: '#4eb7a8',
 };
 
 
@@ -31,7 +31,7 @@ class PieChart {
           backgroundColor: [
             colors.darkGrey,
             colors.red,
-            colors.blue,
+            colors.cyan,
             colors.lightGrey,
           ],
           borderWidth: 0,
