@@ -11,11 +11,11 @@
   cursor: pointer
 
   &_right::after
-    transform: rotate(45deg)
+    transform: translateY(-50%) rotate(45deg)
     right: 16px
 
   &_left::after
-    transform: rotate(-135deg)
+    transform: translateY(-50%) rotate(-135deg)
     left: 16px
 
   &:hover
@@ -40,7 +40,7 @@
   &::after
     content: ""
     position: absolute
-    top: 14px
+    top: 50%
     width: 13px
     height: 13px
     border-top: 4px solid $main-blue
