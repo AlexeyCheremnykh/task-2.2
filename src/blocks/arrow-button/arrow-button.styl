@@ -1,10 +1,12 @@
+@import "../../colors"
+
 .arrow-button
   outline: none
   position: relative
   width: 50px
   height: 50px
   border-radius: 50%
-  border: 3px solid #4eb7a8
+  border: 3px solid $main-blue
   background-color: #ffffff
   cursor: pointer
 
@@ -17,11 +19,11 @@
     left: 16px
 
   &:hover
-    background-color: #4eb7a8
+    background-color: $main-blue
 
     &::after
       border-color: #ffffff
-      background-color: #4eb7a8
+      background-color: $main-blue
 
   &:disabled
     background-color: #e5e5e5
@@ -41,5 +43,5 @@
     top: 14px
     width: 13px
     height: 13px
-    border-top: 4px solid #4eb7a8
-    border-right: 4px solid #4eb7a8
+    border-top: 4px solid $main-blue
+    border-right: 4px solid $main-blue
