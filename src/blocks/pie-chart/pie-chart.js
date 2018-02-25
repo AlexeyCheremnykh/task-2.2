@@ -22,12 +22,7 @@ class PieChart {
       showTooltips: false,
       data: {
         datasets: [{
-          data: [
-            this._$pieChart.data('val1'),
-            this._$pieChart.data('val2'),
-            this._$pieChart.data('val3'),
-            this._$pieChart.data('val4'),
-          ],
+          data: Object.values(this._$pieChart.data()).reverse(),
           backgroundColor: [
             colors.darkGrey,
             colors.red,
