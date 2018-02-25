@@ -17,9 +17,12 @@
   &__info
     align-self: flex-end
     position: relative
+    box-sizing: border-box
     width: 163px
-    height: 93px
+    padding: 8px 10px 10px
     border-radius: 8px
+    text-align: center
+    font-family: "Lato", "Arial", sans-serif
 
     &::before
       position: absolute
@@ -31,20 +34,21 @@
       border-width: 6px 6px 6px 0
 
   &__name
-    font-family: "Lato", "Arial", sans-serif
     font-weight: 400
     font-size: 18px
-    text-align: center
-    margin-top: 8px
+    max-height: 22px
+    overflow: hidden
+    text-overflow: ellipsis
+    margin-bottom: 1px
     word-spacing: -0.05em
 
   &__profession
-    font-family: "Lato", "Arial", sans-serif
     font-weight: 900
     font-size: 11px
     text-transform: uppercase
-    text-align: center
-    margin-top: 1px
+    max-height: 13px
+    overflow: hidden
+    text-overflow: ellipsis
     word-spacing: 2px
     letter-spacing: 0.05em
 
@@ -59,7 +63,6 @@
     margin-top: 6px
     margin-left: 5px
     margin-right: 5px
-
 
   &__info_cyan
     background-color: $main-cyan
