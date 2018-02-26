@@ -1,4 +1,4 @@
-mixin dropdown(options)
+mixin dropdown({options = []} = {})
     select.dropdown.js-dropdown
         option(value="")
         each opt in options

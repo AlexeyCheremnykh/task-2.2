@@ -1,6 +1,6 @@
 include ../standard-button/standard-button.pug
 
-mixin event({dateString, title, content, image})
+mixin event({dateString = "2006-06-06", title = "No title", content = "No content", image = "img/event-sample.jpg"} = {})
     - const eventDate = new Date(dateString);
     - const eventMonth = eventDate.toLocaleString("en", { month: "short" });
     - const eventDay = eventDate.toLocaleString("en", { day: "numeric" });
