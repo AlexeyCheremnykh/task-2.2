@@ -1,3 +1,7 @@
+const constants = {
+  WEEK_DAYS: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
+};
+
 class Calendar {
   constructor(elem, id) {
     this._id = id;
@@ -11,7 +15,7 @@ class Calendar {
     let currentDate;
 
     this._$datepicker.datepicker({
-      dayNamesMin: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
+      dayNamesMin: constants.WEEK_DAYS,
       firstDay: 1,
       showOtherMonths: true,
       onSelect: () => {
