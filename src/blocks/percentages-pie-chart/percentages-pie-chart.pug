@@ -6,11 +6,11 @@ section.percentages-pie-chart
     +ui-kit-title({title: "Percentages / Pie Chart", shrunk: true})
     .percentages-pie-chart__content
         .percentages-pie-chart__percentage
-            +percentage(0)
+            +percentage({value: 0})
         .percentages-pie-chart__percentage
-            +percentage(38)
+            +percentage({value: 38})
         .percentages-pie-chart__percentage
-            +percentage(62)
+            +percentage({value: 62})
         .percentages-pie-chart__percentage
-            +percentage(89)
+            +percentage({value: 89})
         +pie-chart({values: [6, 26, 12, 30]})

@@ -1,4 +1,4 @@
-mixin search({placeholder, notFound = false})
+mixin search({placeholder = "Search", notFound = false} = {})
     form.search
         if (notFound)
             input.search__field.search__field_not-found(type="text" placeholder=placeholder)

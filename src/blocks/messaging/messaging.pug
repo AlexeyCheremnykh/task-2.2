@@ -1,6 +1,6 @@
 include ../standard-button/standard-button.pug
 
-mixin messaging({name, message, photo})
+mixin messaging({name = "Name", message = "Message", photo = "img/messaging-woman.jpg"} = {})
     form.messaging
         .messaging__person-name
             .messaging__person-name-upper=name
