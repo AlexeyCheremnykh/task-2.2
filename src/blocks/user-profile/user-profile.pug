@@ -1,10 +1,14 @@
 mixin user-profile({color = "grey", name = "Name", profession = "Profession", photo = "img/user-profile-man.jpg", social} = {})
-    - if (!social) {
+    - if (typeof(social) !== "object") {
     -   social = {
     -     facebook: "/mock-address/",
     -     twitter: "/mock-address/",
     -     dribbble: "/mock-address/",
     -   };
+    - } else {
+    -   if (social.facebook === undefined) social.facebook = "/mock-address/";
+    -   if (social.twitter === undefined) social.twitter = "/mock-address/";
+    -   if (social.dribbble === undefined) social.dribbble = "/mock-address/";
     - }
     .user-profile
         .user-profile__photo(style=`background-image: url(${photo})`)
