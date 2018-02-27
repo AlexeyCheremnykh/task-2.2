@@ -26,7 +26,7 @@ class Stages {
       }
     };
 
-    this._$stages.on('click', updateStages);
+    this._$stages.on(`click.stages:${this._id}`, updateStages);
     return this;
   }
 }
