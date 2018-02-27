@@ -1,4 +1,4 @@
-mixin toggle({enabled, label = ""})
+mixin toggle({enabled = true, label = ""} = {})
     - const toggleClass = label ? "toggle" : "toggle toggle_not-labeled";
     label(class=toggleClass)=label
         if (enabled)

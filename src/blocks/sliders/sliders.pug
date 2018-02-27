@@ -5,8 +5,6 @@ section.sliders
     +ui-kit-title({title: "Sliders"})
     .sliders__content
         .sliders__first-example
-            - const optionsRed = {type: "red", min: 0, max: 100};
-            +slider(optionsRed)
+            +slider({type: "red", min: 0, max: 100, step: 1})
         .sliders__second-example
-            - const optionsCyan = {type: "cyan", min: 0, max: 100, step: 25};
-            +slider(optionsCyan)
+            +slider({type: "cyan", min: 0, max: 100, step: 25})
