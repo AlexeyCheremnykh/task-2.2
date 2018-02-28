@@ -1,73 +1,73 @@
 @import "../../colors"
 
 .stages
-  width: 36.0625rem
+  width 36.0625rem
 
-  @media (max-width: 600px)
-    width: 29.0625rem
+  @media (max-width 600px)
+    width 29.0625rem
 
-  @media (max-width: 490px)
-    width: 22.8125rem
+  @media (max-width 490px)
+    width 22.8125rem
 
-  @media (max-width: 385px)
-    width: 19.0625rem
+  @media (max-width 385px)
+    width 19.0625rem
 
   &__stage
-    font-family: "Lato", "Arial", sans-serif
-    font-weight: 900
-    font-size: 0.875rem
-    position: relative
-    display: inline-block
-    border-radius: 50%
-    text-align: center
-    line-height: 1.8125rem
-    width: 1.8125rem
-    margin-left: 6.75rem
-    cursor: pointer
+    font-family "Lato", "Arial", sans-serif
+    font-weight 900
+    font-size 0.875rem
+    position relative
+    display inline-block
+    border-radius 50%
+    text-align center
+    line-height 1.8125rem
+    width 1.8125rem
+    margin-left 6.75rem
+    cursor pointer
 
-    @media (max-width: 600px)
-      margin-left: 5rem
+    @media (max-width 600px)
+      margin-left 5rem
 
-    @media (max-width: 490px)
-      margin-left: 3.4375rem
+    @media (max-width 490px)
+      margin-left 3.4375rem
 
-    @media (max-width: 385px)
-      margin-left: 2.5rem
+    @media (max-width 385px)
+      margin-left 2.5rem
 
     &::before
-      content: ""
-      display: block
-      position: absolute
-      top: 0.8125rem
-      right: 1.8125rem
-      height: 0.3125rem
-      width: 6.75rem
+      content ""
+      display block
+      position absolute
+      top 0.8125rem
+      right 1.8125rem
+      height 0.3125rem
+      width 6.75rem
 
-      @media (max-width: 600px)
-        width: 5rem
+      @media (max-width 600px)
+        width 5rem
 
-      @media (max-width: 490px)
-        width: 3.4375rem
+      @media (max-width 490px)
+        width 3.4375rem
 
-      @media (max-width: 385px)
-        width: 2.5rem
+      @media (max-width 385px)
+        width 2.5rem
 
     &:first-child
-      margin-left: 0
+      margin-left 0
 
       &::before
-        display: none
+        display none
 
     &_active
-      background-color: $main-red
-      color: white
+      background-color $main-red
+      color white
 
       &::before
-        background-color: $main-red
+        background-color $main-red
 
     &_inactive
-      background-color: $grey-e5
-      color: $grey-88
+      background-color $grey-e5
+      color $grey-88
 
       &::before
-        background-color: $grey-e5
+        background-color $grey-e5
