@@ -2,5 +2,10 @@
     "color": "cyan",
     "name": "Sarah Brown",
     "profession": "Developer",
-    "photo": "img/user-profile-woman.jpg"
+    "photo": "img/user-profile-woman.jpg",
+    "social": {
+        "facebook": "/mock-address/",
+        "twitter": "/mock-address/",
+        "dribbble": "/mock-address/"
+    }
 }

@@ -1,4 +1,4 @@
-mixin news-article-preview({title = "Title", articleAddress = "/mock-address/", dateString = "2018-06-06", content = "content", image = "img/news-article-preview-sample.jpg"} = {})
+mixin news-article-preview({title, articleAddress, dateString = "2018-06-06", content, image} = {})
     - const newsDate = new Date(dateString);
     - const newsMonth = newsDate.toLocaleString("en", { month: "long" });
     - const newsDay = newsDate.toLocaleString("en", { day: "numeric" });
