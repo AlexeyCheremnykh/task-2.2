@@ -4,21 +4,10 @@ include ../ui-kit-title/ui-kit-title.pug
 
 section.news-events
     +ui-kit-title({title: "News & Events"})
+    - const newsEventsDataPath = "src/blocks/news-events/block-data/";
+    - const newsArticle = JSON.parse(fs.readFileSync(`${newsEventsDataPath}news.json`, "utf8"));
+    - const event = JSON.parse(fs.readFileSync(`${newsEventsDataPath}event.json`, "utf8"));
     .news-events__content
-        - const newsArticle = {
-        -   title: "It's all going downhill",
-        -   dateString: "2013-08-24",
-        -   articleAddress: "/mock-address/",
-        -   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum aliquet venenatis. Etiam a nisi nunc, a tincidunt eros.",
-        -   image: "img/news-article-preview-sample.jpg",
-        - };
         +news-article-preview(newsArticle)
-
-        - const event = {
-        -   dateString: "2018-08-24",
-        -   title: "This is the title",
-        -   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        -   image: "img/event-sample.jpg",
-        - };
         .news-events__event
             +event(event)
