@@ -1,10 +1,11 @@
 include ../tick-box/tick-box.pug
 include ../ui-kit-title/ui-kit-title.pug
 
-section.tick-boxes
-    +ui-kit-title({title: "Tick Boxes"})
-    .tick-boxes__content
-        .tick-boxes__tick-box
-            +tick-box
-        .tick-boxes__tick-box
-            +tick-box({checked: false})
+mixin tick-boxes
+    section.tick-boxes
+        +ui-kit-title({title: "Tick Boxes"})
+        .tick-boxes__content
+            .tick-boxes__tick-box
+                +tick-box
+            .tick-boxes__tick-box
+                +tick-box({checked: false})

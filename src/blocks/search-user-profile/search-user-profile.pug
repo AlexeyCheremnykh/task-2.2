@@ -1,3 +1,7 @@
-.search-user-profile
-    include ../search-dropdown/search-dropdown.pug
-    include ../user-profile-container/user-profile-container.pug
+include ../search-dropdown/search-dropdown.pug
+include ../user-profile-container/user-profile-container.pug
+
+mixin search-user-profile
+    .search-user-profile
+        +search-dropdown
+        +user-profile-container

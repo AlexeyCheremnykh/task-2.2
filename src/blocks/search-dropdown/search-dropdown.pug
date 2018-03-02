@@ -2,11 +2,12 @@ include ../search/search.pug
 include ../dropdown/dropdown.pug
 include ../ui-kit-title/ui-kit-title.pug
 
-section.search-dropdown
-    +ui-kit-title({title: "Search / Drop Down", shrunk: true})
-    .search-dropdown__content
-        .search-dropdown__search
-            +search
-        .search-dropdown__search
-            +search({placeholder: "I've not found what I'm looking for...", notFound: true})
-        +dropdown({options: ["opt1", "opt2", "opt3", "opt3", "opt4", "opt5"]})
+mixin search-dropdown
+    section.search-dropdown
+        +ui-kit-title({title: "Search / Drop Down", shrunk: true})
+        .search-dropdown__content
+            .search-dropdown__search
+                +search
+            .search-dropdown__search
+                +search({placeholder: "I've not found what I'm looking for...", notFound: true})
+            +dropdown({options: ["opt1", "opt2", "opt3", "opt3", "opt4", "opt5"]})

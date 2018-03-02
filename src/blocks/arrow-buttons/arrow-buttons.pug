@@ -1,14 +1,15 @@
 include ../arrow-button/arrow-button.pug
 include ../ui-kit-title/ui-kit-title.pug
 
-section.arrow-buttons
-    +ui-kit-title({title: "Arrow buttons"})
-    .arrow-buttons__content
-        .arrow-buttons__content-part
-            +arrow-button({direction: "left"})
-            +arrow-button({direction: "right"})
-            +arrow-button({direction: "left", disabled: true})
-        .arrow-buttons__content-part
-            +arrow-button({direction: "right", disabled: true})
-            +arrow-button({direction: "left"})
-            +arrow-button({direction: "right"})
+mixin arrow-buttons
+    section.arrow-buttons
+        +ui-kit-title({title: "Arrow buttons"})
+        .arrow-buttons__content
+            .arrow-buttons__content-part
+                +arrow-button({direction: "left"})
+                +arrow-button({direction: "right"})
+                +arrow-button({direction: "left", disabled: true})
+            .arrow-buttons__content-part
+                +arrow-button({direction: "right", disabled: true})
+                +arrow-button({direction: "left"})
+                +arrow-button({direction: "right"})

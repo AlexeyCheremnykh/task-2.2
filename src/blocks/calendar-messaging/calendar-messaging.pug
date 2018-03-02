@@ -1,3 +1,7 @@
-.calendar-messaging
-    include ../calendar-container/calendar-container.pug
-    include ../messaging-container/messaging-container.pug
+include ../calendar-container/calendar-container.pug
+include ../messaging-container/messaging-container.pug
+
+mixin calendar-messaging
+    .calendar-messaging
+        +calendar-container
+        +messaging-container

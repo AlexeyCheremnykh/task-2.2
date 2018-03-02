@@ -2,15 +2,16 @@ include ../percentage/percentage.pug
 include ../pie-chart/pie-chart.pug
 include ../ui-kit-title/ui-kit-title.pug
 
-section.percentages-pie-chart
-    +ui-kit-title({title: "Percentages / Pie Chart", shrunk: true})
-    .percentages-pie-chart__content
-        .percentages-pie-chart__percentage
-            +percentage({value: 0})
-        .percentages-pie-chart__percentage
-            +percentage({value: 38})
-        .percentages-pie-chart__percentage
-            +percentage({value: 62})
-        .percentages-pie-chart__percentage
-            +percentage({value: 89})
-        +pie-chart({values: [6, 26, 12, 30]})
+mixin percentages-pie-chart
+    section.percentages-pie-chart
+        +ui-kit-title({title: "Percentages / Pie Chart", shrunk: true})
+        .percentages-pie-chart__content
+            .percentages-pie-chart__percentage
+                +percentage({value: 0})
+            .percentages-pie-chart__percentage
+                +percentage({value: 38})
+            .percentages-pie-chart__percentage
+                +percentage({value: 62})
+            .percentages-pie-chart__percentage
+                +percentage({value: 89})
+            +pie-chart({values: [6, 26, 12, 30]})

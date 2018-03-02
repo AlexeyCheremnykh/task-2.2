@@ -1,10 +1,11 @@
 include ../toggle/toggle.pug
 include ../ui-kit-title/ui-kit-title.pug
 
-section.toggles
-    +ui-kit-title({title: "toggles"})
-    .toggles__content
-        .toggles__toggle
-            +toggle({enabled: false})
-        .toggles__toggle
-            +toggle
+mixin toggles
+    section.toggles
+        +ui-kit-title({title: "toggles"})
+        .toggles__content
+            .toggles__toggle
+                +toggle({enabled: false})
+            .toggles__toggle
+                +toggle
