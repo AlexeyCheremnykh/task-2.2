@@ -5,9 +5,8 @@ include ../ui-kit-title/ui-kit-title.pug
 mixin news-events
     section.news-events
         +ui-kit-title({title: "News & Events"})
-        - const newsEventsDataPath = "src/blocks/news-events/block-data/";
-        - const newsArticle = JSON.parse(fs.readFileSync(`${newsEventsDataPath}news.json`, "utf8"));
-        - const event = JSON.parse(fs.readFileSync(`${newsEventsDataPath}event.json`, "utf8"));
+        - const newsArticle = require("../blocks/news-events/block-data/news.json");
+        - const event = require("../blocks/news-events/block-data/event.json");
         .news-events__content
             +news-article-preview(newsArticle)
             .news-events__event

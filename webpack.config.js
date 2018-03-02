@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const fs = require('fs');
 
 module.exports = {
   entry: './src/entry.js',
@@ -51,13 +50,7 @@ module.exports = {
       {
         test: /\.pug$/,
         use: [
-          { loader: 'html-loader' },
-          {
-            loader: 'pug-html-loader',
-            options: {
-              data: { fs },
-            },
-          },
+          'pug-loader',
         ],
       },
     ],

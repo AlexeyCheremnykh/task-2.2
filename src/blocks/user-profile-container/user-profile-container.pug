@@ -5,9 +5,8 @@ mixin user-profile-container
     section.user-profile-container
         +ui-kit-title({title: "User profile"})
         .user-profile-container__content
-            - const userProfileDataPath = "src/blocks/user-profile-container/block-data/";
-            - const manProfile = JSON.parse(fs.readFileSync(`${userProfileDataPath}man-profile.json`, "utf8"));
-            - const womanProfile = JSON.parse(fs.readFileSync(`${userProfileDataPath}woman-profile.json`, "utf8"));
+            - const manProfile = require("../blocks/user-profile-container/block-data/man-profile.json");
+            - const womanProfile = require("../blocks/user-profile-container/block-data/woman-profile.json");
             .user-profile-container__profile
                 +user-profile(manProfile)
             .user-profile-container__profile

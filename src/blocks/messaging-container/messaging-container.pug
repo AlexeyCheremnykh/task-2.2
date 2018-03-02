@@ -5,5 +5,5 @@ mixin messaging-container
     section.messaging-container
         +ui-kit-title({title: "Messaging"})
         .messaging-container__content
-            - const messaging = JSON.parse(fs.readFileSync("src/blocks/messaging-container/block-data/messaging.json", "utf8"));
+            - const messaging = require("../blocks/messaging-container/block-data/messaging.json");
             +messaging(messaging)
