@@ -1,10 +1,10 @@
 include ../percentage/percentage.pug
 include ../pie-chart/pie-chart.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 
 mixin percentages-pie-chart
     section.percentages-pie-chart
-        +ui-kit-title({title: "Percentages / Pie Chart", shrunk: true})
+        +section-title({title: "Percentages / Pie Chart", shrunk: true})
         .percentages-pie-chart__content
             .percentages-pie-chart__percentage
                 +percentage({value: 0})

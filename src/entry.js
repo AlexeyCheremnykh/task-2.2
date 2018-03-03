@@ -17,7 +17,7 @@ import 'select2/dist/css/select2.min.css';
 import 'gmap3';
 
 import './pages/index.styl';
-import './blocks/ui-kit-title/ui-kit-title.styl';
+import './blocks/section-title/section-title.styl';
 import './blocks/standard-button/standard-button.styl';
 import './blocks/standard-buttons/standard-buttons.styl';
 import './blocks/arrow-button/arrow-button.styl';

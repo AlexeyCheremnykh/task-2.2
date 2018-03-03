@@ -1,8 +1,8 @@
 include ../calendar/calendar.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 
 mixin calendar-container
     section.calendar-container
-        +ui-kit-title({title: "Calendar"})
+        +section-title({title: "Calendar"})
         .calendar-container__content
             +calendar

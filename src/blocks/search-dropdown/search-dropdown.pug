@@ -1,10 +1,10 @@
 include ../search/search.pug
 include ../dropdown/dropdown.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 
 mixin search-dropdown
     section.search-dropdown
-        +ui-kit-title({title: "Search / Drop Down", shrunk: true})
+        +section-title({title: "Search / Drop Down", shrunk: true})
         .search-dropdown__content
             .search-dropdown__search
                 +search

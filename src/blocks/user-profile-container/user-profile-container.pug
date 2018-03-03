@@ -1,9 +1,9 @@
 include ../user-profile/user-profile.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 
 mixin user-profile-container
     section.user-profile-container
-        +ui-kit-title({title: "User profile"})
+        +section-title({title: "User profile"})
         .user-profile-container__content
             - const manProfile = require("../blocks/user-profile-container/block-data/man-profile.json");
             - const womanProfile = require("../blocks/user-profile-container/block-data/woman-profile.json");

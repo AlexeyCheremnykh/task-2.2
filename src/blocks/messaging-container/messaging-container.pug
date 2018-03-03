@@ -1,9 +1,9 @@
 include ../messaging/messaging.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 
 mixin messaging-container
     section.messaging-container
-        +ui-kit-title({title: "Messaging"})
+        +section-title({title: "Messaging"})
         .messaging-container__content
             - const messagingData = require("../blocks/messaging-container/block-data/messaging.json");
             +messaging(messagingData)

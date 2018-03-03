@@ -1,10 +1,10 @@
 include ../news-article-preview/news-article-preview.pug
 include ../event/event.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 
 mixin news-events
     section.news-events
-        +ui-kit-title({title: "News & Events"})
+        +section-title({title: "News & Events"})
         - const newsData = require("../blocks/news-events/block-data/news.json");
         - const eventData = require("../blocks/news-events/block-data/event.json");
         .news-events__content

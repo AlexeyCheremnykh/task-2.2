@@ -1,9 +1,9 @@
 include ../slider/slider.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 
 mixin sliders
     section.sliders
-        +ui-kit-title({title: "Sliders"})
+        +section-title({title: "Sliders"})
         .sliders__content
             .sliders__first-example
                 +slider({type: "red", min: 0, max: 100, step: 1})

@@ -1,9 +1,9 @@
 include ../toggle/toggle.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 
 mixin toggles
     section.toggles
-        +ui-kit-title({title: "toggles"})
+        +section-title({title: "toggles"})
         .toggles__content
             .toggles__toggle
                 +toggle({enabled: false})

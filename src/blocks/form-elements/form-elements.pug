@@ -1,11 +1,11 @@
 include ../send-message/send-message.pug
-include ../ui-kit-title/ui-kit-title.pug
+include ../section-title/section-title.pug
 include ../toggles/toggles.pug
 include ../tick-boxes/tick-boxes.pug
 
 mixin form-elements
     section.form-elements
-        +ui-kit-title({title: "Form Elements"})
+        +section-title({title: "Form Elements"})
         .form-elements__content
             .form-elements__send-message
                 +send_message
