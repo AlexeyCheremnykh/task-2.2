@@ -45,6 +45,7 @@ import './blocks/search/search.styl';
 import './blocks/dropdown/dropdown.styl';
 import './blocks/dropdown/dropdown';
 import './blocks/search-dropdown/search-dropdown.styl';
+import './blocks/user-avatar/user-avatar.styl';
 import './blocks/user-profile-container/user-profile-container.styl';
 import './blocks/user-profile/user-profile.styl';
 import './blocks/user-profile/img/user-profile-man.jpg';

@@ -1,6 +1,9 @@
-mixin user-profile({color = "grey", name, profession, photo, social = {}} = {})
+include ../user-avatar/user-avatar.pug
+
+mixin user-profile({color = "grey", name, profession, avatar, social = {}} = {})
     .user-profile
-        .user-profile__photo(style=`background-image: url(${photo})`)
+        .user-profile__avatar
+            +user-avatar({imgPath: avatar})
         div(class="user-profile__info user-profile__info_" + color)
             .user-profile__name=name
             .user-profile__profession=profession

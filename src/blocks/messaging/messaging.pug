@@ -1,12 +1,14 @@
 include ../standard-button/standard-button.pug
 include ../text-field/text-field.pug
+include ../user-avatar/user-avatar.pug
 
-mixin messaging({name, message, photo} = {})
+mixin messaging({name, message, avatar} = {})
     form.messaging
         .messaging__person-name
             .messaging__person-name-upper=name
             .messaging__person-name-lower
-        .messaging__person-photo(style=`background-image: url(${photo})`)
+        .messaging__avatar
+            +user-avatar({imgPath: avatar})
         .messaging__messages
             .messaging__icons
                 .messaging__icon.messaging__icon_chat

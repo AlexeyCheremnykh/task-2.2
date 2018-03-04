@@ -2,7 +2,7 @@
     "color": "grey",
     "name": "John Smith",
     "profession": "Ux Designer",
-    "photo": "img/user-profile-man.jpg",
+    "avatar": "img/user-profile-man.jpg",
     "social": {
         "facebook": "/mock-address/",
         "twitter": "/mock-address/",
