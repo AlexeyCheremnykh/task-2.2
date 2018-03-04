@@ -3,7 +3,7 @@
     "name": "Sarah Brown",
     "profession": "Developer",
     "avatar": "img/user-profile-woman.jpg",
-    "social": {
+    "socials": {
         "facebook": "/mock-address/",
         "twitter": "/mock-address/",
         "dribbble": "/mock-address/"

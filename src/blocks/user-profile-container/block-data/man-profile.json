@@ -3,7 +3,7 @@
     "name": "John Smith",
     "profession": "Ux Designer",
     "avatar": "img/user-profile-man.jpg",
-    "social": {
+    "socials": {
         "facebook": "/mock-address/",
         "twitter": "/mock-address/",
         "dribbble": "/mock-address/"
