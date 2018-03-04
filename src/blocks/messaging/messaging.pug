@@ -1,4 +1,5 @@
 include ../standard-button/standard-button.pug
+include ../text-field/text-field.pug
 
 mixin messaging({name, message, photo} = {})
     form.messaging
@@ -12,6 +13,7 @@ mixin messaging({name, message, photo} = {})
                 .messaging__icon.messaging__icon_camera
             .messaging__input-message-wrapper
                 .messaging__input-message=message
-            textarea.messaging__output-message
+            .messaging__output-message
+                +text-field({outlined: true})
             .messaging__reply
                 +standard-button({size: "big", color: "cyan", label: "reply", filled: true, long: true})
