@@ -14,34 +14,30 @@
     color $white
     display flex
     justify-content space-between
+    padding-left 1.6875rem
+    padding-right 0.8125rem
 
-  &__footer-info
+  &__info
     font-family "Lato", "Arial", sans-serif
-    margin-left 1.6875rem
     display flex
     align-items center
-
-    @media (max-width 475px)
-      margin-left 1.4375rem
 
   &__title
     font-weight 300
     font-size 1.875rem
     word-spacing -0.09em
-    display inline-block
     margin-right 1.625rem
-    padding-bottom 0.625rem
+    margin-bottom 0.625rem
 
     @media (max-width 475px)
       font-size 1.5625rem
-      padding-bottom 0
+      margin-bottom 0.3rem
 
   &__address
     font-weight 900
     font-size 0.7813rem
     letter-spacing 0.05em
     text-transform uppercase
-    display inline-block
     max-width 18.75rem
 
     @media (max-width 475px)
@@ -50,18 +46,17 @@
     @media (max-width 435px)
       display none
 
-  &__address-local,
-  &__address-global
+  &__address-part
     max-height 1.875rem
     overflow hidden
 
-  &__footer-buttons
+  &__buttons
     width 4.9375rem
-    padding 1.25rem 0.8125rem 1.25rem 0
     display flex
     justify-content space-between
+    align-items center
 
-  &__footer-button
+  &__button
     width 1.875rem
     height 1.875rem
 

@@ -11,7 +11,7 @@ mixin event({dateString, title, content, image} = {})
                 time.event__date(date=dateString)
                     span.event__day=eventDay
                     span.event__month=eventMonth
-                h2.event__title=title
+                h3.event__title=title
             p.event__content=content
-            .event__add-btn
+            .event__add-to-calendar
                 +standard-button({size: "big", color: "cyan", label: "add to calendar", darkShadow: true, thin: true})

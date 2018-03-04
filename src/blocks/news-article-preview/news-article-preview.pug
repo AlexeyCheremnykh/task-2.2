@@ -7,7 +7,7 @@ mixin news-article-preview({title, articleAddress, dateString = "2018-06-06", co
         .news-article-preview__image(style=`background-image: url(${image})`)
         .news-article-preview__main
             header.news-article-preview__header
-                h2.news-article-preview__title
+                h3.news-article-preview__title
                     a.news-article-preview__link(href=articleAddress)=title
                 time.news-article-preview__date(date=dateString)=`${newsDay} ${newsMonth} ${newsYear}`
             p.news-article-preview__content=content

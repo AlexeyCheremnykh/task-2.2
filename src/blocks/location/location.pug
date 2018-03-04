@@ -1,13 +1,12 @@
 mixin location({localAddress, globalAddress, title} = {})
-    - const address = `${localAddress} ${globalAddress}`;
     .location
-        .location__map.js-location__map(data-address=address)
+        .location__map.js-location__map(data-address=`${localAddress} ${globalAddress}`)
         .location__footer
-            .location__footer-info
+            .location__info
                 .location__title=title
                 .location__address
-                    .location__address-local=localAddress
-                    .location__address-global=globalAddress
-            .location__footer-buttons
-                .location__my-location.location__footer-button
-                .location__pin.location__footer-button
+                    .location__address-part=localAddress
+                    .location__address-part=globalAddress
+            .location__buttons
+                .location__button.location__my-location
+                .location__button.location__pin

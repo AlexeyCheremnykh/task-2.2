@@ -5,7 +5,7 @@ mixin standard-buttons
     section.standard-buttons
         +section-title({title: "Standard buttons"})
         .standard-buttons__content
-            .standard-buttons__content-part
+            .standard-buttons__column
                 - const smallCyan = {size: "small", color: "cyan", label: "button"};
                 - const bigCyan = {size: "big", color: "cyan", label: "button"};
                 - for (let i = 0; i < 3; i++)
@@ -13,7 +13,7 @@ mixin standard-buttons
                         +standard-button(smallCyan)
                     .standard-buttons__button
                         +standard-button(bigCyan)
-            .standard-buttons__content-part
+            .standard-buttons__column
                 - const smallRed = {size: "small", color: "red", label: "button"};
                 - const bigRed = {size: "big", color: "red", label: "button"};
                 - for (let i = 0; i < 3; i++)
