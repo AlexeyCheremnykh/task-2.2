@@ -1,5 +1,2 @@
-mixin section-title({title = "Title", shrunk} = {})
-    if (!shrunk)
-        h2.section-title=title
-    else
-        h2.section-title.section-title_shrunk=title
+mixin section-title({title = "Title", shrunk = false} = {})
+    h2(class=shrunk ? "section-title section-title_shrunk" : "section-title")=title

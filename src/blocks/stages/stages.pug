@@ -1,4 +1,4 @@
 mixin stages({numOfStages = 5} = {})
     .stages
-        - for (var i = 1; i <= numOfStages; i++)
+        - for (let i = 1; i <= numOfStages; i++)
             .stages__stage.stages__stage_inactive=i
