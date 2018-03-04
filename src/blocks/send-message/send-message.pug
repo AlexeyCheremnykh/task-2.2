@@ -1,17 +1,20 @@
 include ../standard-button/standard-button.pug
 include ../input-field/input-field.pug
+include ../validation-message/validation-message.pug
 include ../text-field/text-field.pug
 
 mixin send_message
     form.send-message
         .send-message__name
-            .send-message__name-field
+            .send-message__input-field
                 +input-field({type: "text", name: "name", placeholder: "Your Name"})
-            .send-message__validation-message.send-message__validation-message_error Error
+            .send-message__validation-message
+                +validation-message({valid: false, message: "Error!"})
         .send-message__email
-            .send-message__email-field
+            .send-message__input-field
                 +input-field({type: "email", name: "email", placeholder: "Your Email"})
-            .send-message__validation-message Thanks!
+            .send-message__validation-message
+                +validation-message({message: "Thanks!"})
         .send-message__message
             +text-field({placeholder: "Your Message"})
         .send-message__submit

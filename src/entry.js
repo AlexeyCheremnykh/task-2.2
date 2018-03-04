@@ -39,6 +39,7 @@ import './blocks/tick-box/tick-box.styl';
 import './blocks/tick-boxes/tick-boxes.styl';
 import './blocks/input-field/input-field.styl';
 import './blocks/text-field/text-field.styl';
+import './blocks/validation-message/validation-message.styl';
 import './blocks/send-message/send-message.styl';
 import './blocks/form-elements/form-elements.styl';
 import './blocks/search/search.styl';
