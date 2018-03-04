@@ -6,40 +6,30 @@
   overflow hidden
   position relative
 
-  &__person-name
+  &__sender-name
     font-family "Source Sans Pro", "Arial", sans-serif
     font-weight 300
     text-align center
     line-height 4.8125rem
+    height 5.125rem
     font-size 2.125rem
     letter-spacing -0.03em
     color $white
+    background-color $main-cyan
+    overflow hidden
+    border-bottom 2.125rem solid $cyan
 
-    &-upper
-      height 5.125rem
-      background-color $main-cyan
-      overflow hidden
-
-    &-lower
-      height 2.125rem
-      background-color $cyan
-
-  &__avatar
+  &__sender-avatar
     position absolute
     top 4.4375rem
     left 5.875rem
-    height 5.25rem
-    width 5.25rem
-    margin-right 0.6875rem
 
-  &__messages
-    padding-bottom 1.8125rem
+  &__main-container
+    padding 1.3125rem 1.375rem 1.8125rem
     background-color $grey-f2
 
   &__icons
-    box-sizing border-box
-    height 3.875rem
-    padding 1.3125rem 1.375rem 0.75rem 1.375rem
+    margin-bottom 0.6875rem
     display flex
     justify-content space-between
 
@@ -53,38 +43,7 @@
     &_camera
       background url("img/messaging-camera-icon.png") no-repeat
 
-  &__input-message-wrapper
-    position relative
-    width 15.1875rem
-    height 4.3125rem
-    margin-left 1.375rem
-    margin-right 1.4375rem
-    background-color $white
-    font-family "Lato", "Arial", sans-serif
-    font-size 0.7813rem
-    color $grey-86
-    letter-spacing 0.05em
-    border-radius 0.4375rem
-
-    &::before
-      content ""
-      display block
-      position absolute
-      width 0.125rem
-      top -0.375rem
-      left 7rem
-      border-style solid
-      border-width 0 0.3125rem 0.375rem 0.3125rem
-      border-color transparent transparent $white transparent
-
-  &__input-message
-    box-sizing border-box
-    overflow auto
-    padding 1.0625rem 1.3rem 0.9375rem
-    height 100%
-    width 100%
-
-  &__output-message
+  &__outgoing-message
     margin 1.0625rem auto 0.9375rem
     height 5.5rem
     width 15.25rem

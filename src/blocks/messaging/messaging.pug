@@ -1,21 +1,20 @@
 include ../standard-button/standard-button.pug
 include ../text-field/text-field.pug
 include ../user-avatar/user-avatar.pug
+include ../incomming-message/incomming-message.pug
 
-mixin messaging({name, message, avatar} = {})
+mixin messaging({senderName, incommingMessage, senderAvatar} = {})
     form.messaging
-        .messaging__person-name
-            .messaging__person-name-upper=name
-            .messaging__person-name-lower
-        .messaging__avatar
-            +user-avatar({imgPath: avatar})
-        .messaging__messages
+        .messaging__sender-name=senderName
+        .messaging__sender-avatar
+            +user-avatar({imgPath: senderAvatar})
+        .messaging__main-container
             .messaging__icons
                 .messaging__icon.messaging__icon_chat
                 .messaging__icon.messaging__icon_camera
-            .messaging__input-message-wrapper
-                .messaging__input-message=message
-            .messaging__output-message
+            .messaging__incomming-message
+                +incomming-message({message: incommingMessage})
+            .messaging__outgoing-message
                 +text-field({outlined: true})
             .messaging__reply
                 +standard-button({size: "big", color: "cyan", label: "reply", filled: true, long: true})

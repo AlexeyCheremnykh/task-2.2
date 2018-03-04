@@ -1,5 +1,5 @@
 {
-    "name": "Sarah Brown",
-    "message": "Hey! So are we cool to meet at the art gallery? Say 8pm",
-    "avatar": "img/messaging-woman.jpg"
+    "senderName": "Sarah Brown",
+    "incommingMessage": "Hey! So are we cool to meet at the art gallery? Say 8pm",
+    "senderAvatar": "img/messaging-woman.jpg"
 }

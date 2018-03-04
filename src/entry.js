@@ -64,6 +64,7 @@ import './blocks/location-container/location-container.styl';
 import './blocks/calendar-messaging/calendar-messaging.styl';
 import './blocks/calendar/calendar.styl';
 import './blocks/calendar/calendar';
+import './blocks/incomming-message/incomming-message.styl';
 import './blocks/messaging/messaging.styl';
 import './blocks/messaging/img/messaging-woman.jpg';
 import './blocks/video/video.styl';
