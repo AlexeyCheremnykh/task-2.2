@@ -3,30 +3,15 @@
 .send-message
   width 18rem
 
-  &__input-field
-    box-sizing border-box
-    background-color $grey-e5
-    outline-color $grey-66
-    border none
-    border-radius 0.25rem
-    color $grey-66
-    font-size 0.875rem
-    padding-left 0.8125rem
-    font-family "Source Sans Pro", "Arial", sans-serif
-    letter-spacing 0.01em
-    font-style normal
-    font-stretch normal
-
-    &::placeholder
-      color $grey-88
+  &__name,
+  &__email
+    margin-bottom 0.75rem
 
   &__name-field,
   &__email-field
-    padding-bottom 0.1875rem
-    padding-right 0.3125rem
     width 72.22222%
     height 1.75rem
-    margin-bottom 0.75rem
+    display inline-block
 
   &__validation-message
     position relative
@@ -35,11 +20,11 @@
     height 1.75rem
     border-radius 0.25rem
     font-family "Lato", "Arial", sans-serif
-    text-transform uppercase
     font-weight 900
+    font-size 0.625rem
+    text-transform uppercase
     letter-spacing 0.05em
     color white
-    font-size 0.625rem
     text-align center
     line-height 1.75rem
     background-color $main-cyan
@@ -62,11 +47,8 @@
         border-right-color $main-red
 
   &__message
-    padding-top 0.5625rem
-    width 100%
     height 5.5rem
-    resize none
-    margin-bottom 0.4375rem
+    margin-bottom 0.625rem
 
   &__submit
     float right

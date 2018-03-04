@@ -1,13 +1,18 @@
 include ../standard-button/standard-button.pug
+include ../input-field/input-field.pug
+include ../text-field/text-field.pug
 
 mixin send_message
     form.send-message
         .send-message__name
-            input.send-message__input-field.send-message__name-field(type="text" name="name" placeholder="Your Name")
+            .send-message__name-field
+                +input-field({type: "text", name: "name", placeholder: "Your Name"})
             .send-message__validation-message.send-message__validation-message_error Error
         .send-message__email
-            input.send-message__input-field.send-message__email-field(type="email" name="email" placeholder="Your Email")
+            .send-message__email-field
+                +input-field({type: "email", name: "email", placeholder: "Your Email"})
             .send-message__validation-message Thanks!
-        textarea.send-message__input-field.send-message__message(placeholder="Your Message")
+        .send-message__message
+            +text-field({placeholder: "Your Message"})
         .send-message__submit
             +standard-button({size: "big", color: "cyan", label: "submit", filled: true})
