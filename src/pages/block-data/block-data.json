@@ -1,0 +1,44 @@
+{
+    "userProfile": {
+        "man": {
+            "color": "grey",
+            "name": "John Smith",
+            "profession": "Ux Designer",
+            "avatar": "img/user-profile-man.jpg",
+            "socials": {
+                "facebook": "/mock-address/",
+                "twitter": "/mock-address/",
+                "dribbble": "/mock-address/"
+            }
+        },
+        "woman": {
+            "color": "cyan",
+            "name": "Sarah Brown",
+            "profession": "Developer",
+            "avatar": "img/user-profile-woman.jpg",
+            "socials": {
+                "facebook": "/mock-address/",
+                "twitter": "/mock-address/",
+                "dribbble": "/mock-address/"
+            }
+        }
+    },
+    "event": {
+        "dateString": "2018-08-24",
+        "title": "This is the title",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "img/event-sample.jpg"
+    },
+    "news": {
+        "title": "It's all going downhill",
+        "dateString": "2013-08-24",
+        "articleAddress": "/mock-address/",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum aliquet venenatis. Etiam a nisi nunc, a tincidunt eros.",
+        "image": "img/news-article-preview-sample.jpg"
+    },
+    "messaging": {
+        "senderName": "Sarah Brown",
+        "incommingMessage": "Hey! So are we cool to meet at the art gallery? Say 8pm",
+        "senderAvatar": "img/messaging-woman.jpg"
+    }
+}

@@ -5,9 +5,7 @@ include ../section-title/section-title.pug
 mixin news-events
     section.news-events
         +section-title({title: "News & Events"})
-        - const newsData = require("../blocks/news-events/block-data/news.json");
-        - const eventData = require("../blocks/news-events/block-data/event.json");
         .news-events__content
-            +news-article-preview(newsData)
+            +news-article-preview(data.news)
             .news-events__event
-                +event(eventData)
+                +event(data.event)

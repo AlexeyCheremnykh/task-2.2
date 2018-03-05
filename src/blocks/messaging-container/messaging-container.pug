@@ -5,5 +5,4 @@ mixin messaging-container
     section.messaging-container
         +section-title({title: "Messaging"})
         .messaging-container__content
-            - const messagingData = require("../blocks/messaging-container/block-data/messaging.json");
-            +messaging(messagingData)
+            +messaging(data.messaging)
