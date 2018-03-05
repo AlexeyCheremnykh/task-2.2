@@ -12,7 +12,7 @@ import 'jquery-ui-slider-pips';
 import 'jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css';
 import 'css-ripple-effect/dist/ripple.min.css';
 import 'jquery-steps/build/jquery.steps.min';
-import 'select2';
+import 'select2/dist/js/select2.full';
 import 'select2/dist/css/select2.min.css';
 import 'gmap3';
 

@@ -1,5 +1,6 @@
 mixin dropdown({options = []} = {})
-    select.dropdown.js-dropdown
-        option(value="")
-        each opt in options
-            option.dropdown__option(value=opt)=opt
+    .dropdown
+        select.dropdown__select.js-dropdown__select(style="width: 100%")
+            option(value="")
+            each opt in options
+                option.dropdown__option(value=opt)=opt
