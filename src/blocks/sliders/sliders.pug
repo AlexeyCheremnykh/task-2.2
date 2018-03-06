@@ -6,6 +6,6 @@ mixin sliders
         +section-title({title: "Sliders"})
         .sliders__content
             .sliders__first-example
-                +slider({type: "red", min: 0, max: 100, step: 1})
+                +slider({type: "not-labeled", color: "red", min: 0, max: 100, step: 1})
             .sliders__second-example
-                +slider({type: "cyan", min: 0, max: 100, step: 25})
+                +slider({type: "labeled", color: "cyan", min: 0, max: 100, step: 25})
