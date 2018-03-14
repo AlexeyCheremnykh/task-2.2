@@ -12,15 +12,25 @@ include ../video-container/video-container.pug
 
 mixin ui-kit
     .ui-kit
-        +standard-buttons
-        +arrow-buttons
-        +percentages-pie-chart
-        +sliders
-        +stages-container
-        +form-elements
-        +search-user-profile
-        +news-events
-        +location-container
-        +calendar-messaging
+        .ui-kit__standard-buttons
+            +standard-buttons
+        .ui-kit__arrow-buttons
+            +arrow-buttons
+        .ui-kit__percentages-pie-chart
+            +percentages-pie-chart
+        .ui-kit__sliders
+            +sliders
+        .ui-kit__stages
+            +stages-container
+        .ui-kit__form-elements
+            +form-elements
+        .ui-kit__search-user-profile
+            +search-user-profile
+        .ui-kit__news-events
+            +news-events
+        .ui-kit__location
+            +location-container
+        .ui-kit__calendar-messaging
+            +calendar-messaging
         +video-container
         script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")

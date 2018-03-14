@@ -1,8 +1,31 @@
 .search-user-profile
   width 100%
-  margin-bottom 4.1875rem
 
   &::after
     content ""
     display block
     clear both
+
+  &__search-dropdown
+    box-sizing border-box
+    width 50%
+    padding-left 1.3125rem
+    float left
+
+    @media (max-width 637px)
+      width 18rem
+      padding 0
+      margin-bottom 3.4375rem
+      float none
+      margin-left auto
+      margin-right auto
+
+  &__user-profile
+    width 50%
+    float right
+
+    @media (max-width 637px)
+      width 18rem
+      float none
+      margin-left auto
+      margin-right auto

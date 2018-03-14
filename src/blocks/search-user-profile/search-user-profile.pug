@@ -3,5 +3,7 @@ include ../user-profile-container/user-profile-container.pug
 
 mixin search-user-profile
     .search-user-profile
-        +search-dropdown
-        +user-profile-container
+        .search-user-profile__search-dropdown
+            +search-dropdown
+        .search-user-profile__user-profile
+            +user-profile-container
