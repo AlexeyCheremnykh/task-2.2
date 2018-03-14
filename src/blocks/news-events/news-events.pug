@@ -2,10 +2,10 @@ include ../news-article-preview/news-article-preview.pug
 include ../event/event.pug
 include ../section-title/section-title.pug
 
-mixin news-events
+mixin news-events({newsData = {}, eventData = {}} = {})
     section.news-events
         +section-title({title: "News & Events"})
         .news-events__content
-            +news-article-preview(data.news)
+            +news-article-preview(newsData)
             .news-events__event
-                +event(data.event)
+                +event(eventData)

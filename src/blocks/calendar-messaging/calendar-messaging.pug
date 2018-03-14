@@ -1,7 +1,7 @@
 include ../calendar-container/calendar-container.pug
 include ../messaging-container/messaging-container.pug
 
-mixin calendar-messaging
+mixin calendar-messaging({messageData = {}} = {})
     .calendar-messaging
         +calendar-container
-        +messaging-container
+        +messaging-container({messageData: messageData})

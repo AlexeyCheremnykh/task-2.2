@@ -1,11 +1,11 @@
 include ../user-profile/user-profile.pug
 include ../section-title/section-title.pug
 
-mixin user-profile-container
+mixin user-profile-container({profileData = {}} = {})
     section.user-profile-container
         +section-title({title: "User profile"})
         .user-profile-container__content
             .user-profile-container__profile
-                +user-profile(data.userProfile.man)
+                +user-profile(profileData.man)
             .user-profile-container__profile
-                +user-profile(data.userProfile.woman)
+                +user-profile(profileData.woman)
