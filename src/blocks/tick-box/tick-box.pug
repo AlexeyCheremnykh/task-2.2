@@ -1,8 +1,4 @@
 mixin tick-box({checked = true, label = ""} = {})
     label(class=label ? "tick-box" : "tick-box tick-box_not-labeled")=label
-        if (checked)
-            input.tick-box__auxiliary-checkbox(type="checkbox" checked)
-            .tick-box__checkmark
-        else
-            input.tick-box__auxiliary-checkbox(type="checkbox")
-            .tick-box__checkmark
+        input.tick-box__auxiliary-checkbox(type="checkbox" checked=checked)
+        .tick-box__checkmark
