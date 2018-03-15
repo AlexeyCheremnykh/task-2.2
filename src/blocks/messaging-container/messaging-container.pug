@@ -1,7 +1,7 @@
 include ../messaging/messaging.pug
 include ../section-title/section-title.pug
 
-mixin messaging-container({messageData = {}} = {})
+mixin messaging-container(messageData = {})
     section.messaging-container
         +section-title({title: "Messaging"})
         .messaging-container__content

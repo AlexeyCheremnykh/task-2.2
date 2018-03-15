@@ -25,12 +25,12 @@ mixin ui-kit(blockData)
         .ui-kit__form-elements
             +form-elements
         .ui-kit__search-user-profile
-            +search-user-profile({profileData: blockData.userProfile})
+            +search-user-profile(blockData.userProfile)
         .ui-kit__news-events
             +news-events({newsData: blockData.news, eventData: blockData.event})
         .ui-kit__location
             +location-container
         .ui-kit__calendar-messaging
-            +calendar-messaging({messageData: blockData.messaging})
+            +calendar-messaging(blockData.messaging)
         +video-container
         script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")
