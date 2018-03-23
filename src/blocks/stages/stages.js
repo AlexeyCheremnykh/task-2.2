@@ -1,7 +1,7 @@
 class Stages {
   constructor(elem, id) {
     this._id = id;
-    this._$stages = $(elem);
+    this._$block = $(elem);
   }
 
   initEventListeners() {
@@ -26,7 +26,7 @@ class Stages {
       }
     };
 
-    this._$stages.on(`click.stages:${this._id}`, updateStages);
+    this._$block.on(`click.stages:${this._id}`, updateStages);
     return this;
   }
 }

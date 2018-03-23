@@ -5,16 +5,16 @@ const constants = {
 class Percentage {
   constructor(elem, id) {
     this._id = id;
-    this._$percentage = $(elem);
-    this._$value = $(elem).children('.js-percentage__value');
+    this._$block = $(elem);
+    this._$value = this._$block.children('.js-percentage__value');
   }
 
   initElement() {
     const percentageValue = parseInt(this._$value.text(), 10) / 100;
-    const percentageSize = parseInt(this._$percentage.css('height'), 10);
+    const percentageSize = parseInt(this._$block.css('height'), 10);
     const percentageThickness = percentageSize / constants.SIZE_THICKNESS_RATIO;
 
-    this._$percentage.circleProgress({
+    this._$block.circleProgress({
       value: percentageValue,
       size: percentageSize,
       fill: '#e75735',

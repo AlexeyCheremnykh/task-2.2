@@ -4,8 +4,8 @@
 class PieChart {
   constructor(elem, id) {
     this._id = id;
-    this._$pieChart = $(elem);
-    this._$canvas = $(elem).children('.js-pie-chart__canvas');
+    this._$block = $(elem);
+    this._$canvas = this._$block.children('.js-pie-chart__canvas');
   }
 
   initElement() {
@@ -14,7 +14,7 @@ class PieChart {
       showTooltips: false,
       data: {
         datasets: [{
-          data: this._$pieChart.data('values'),
+          data: this._$block.data('values'),
           backgroundColor: [
             '#747474',
             '#e75735',
